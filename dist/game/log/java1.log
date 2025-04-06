@@ -1,0 +1,1047 @@
+2025.04.06 20:48:07,688	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: ipconfig.xml doesn't exist using automatic configuration...
+2025.04.06 20:48:07,920	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.1.0/24 address: 192.168.1.114
+2025.04.06 20:48:07,920	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2025.04.06 20:48:07,921	INFO	3	org.l2jmobius.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 212.125.10.24
+2025.04.06 20:48:07,944	INFO	3	org.l2jmobius.Config	Loaded 6 Filter Words.
+2025.04.06 20:48:07,963	INFO	3	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Database ]
+2025.04.06 20:48:08,158	INFO	3	org.l2jmobius.commons.database.DatabaseFactory	Database: Initialized.
+2025.04.06 20:48:08,158	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2025.04.06 20:48:08,159	INFO	3	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Initialized
+2025.04.06 20:48:08,160	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 16 high priority threads.
+2025.04.06 20:48:08,163	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...scheduled pool executor with 64 total threads.
+2025.04.06 20:48:08,163	INFO	3	org.l2jmobius.commons.threads.ThreadPool	...instant pool executor with 32 total threads.
+2025.04.06 20:48:08,170	INFO	3	org.l2jmobius.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2025.04.06 20:48:08,173	INFO	3	org.l2jmobius.gameserver.instancemanager.IdManager	Updated characters online status.
+2025.04.06 20:48:08,205	INFO	3	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 elements from database in 0 seconds.
+2025.04.06 20:48:08,209	INFO	3	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 expired timestamps from database.
+2025.04.06 20:48:08,227	INFO	3	org.l2jmobius.gameserver.instancemanager.IdManager	IdManager: 1646592 id's available.
+2025.04.06 20:48:08,228	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2025.04.06 20:48:08,388	INFO	3	org.l2jmobius.gameserver.scripting.ScriptEngineManager	Loaded 417 files to exclude.
+2025.04.06 20:48:08,388	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ World ]
+2025.04.06 20:48:08,397	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Multiverse Instance created.
+2025.04.06 20:48:08,398	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Universe Instance created.
+2025.04.06 20:48:08,411	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 171 instance names.
+2025.04.06 20:48:08,725	INFO	3	org.l2jmobius.commons.util.IXmlReader	InstanceManager: Loaded 138 instance templates.
+2025.04.06 20:48:08,785	INFO	3	org.l2jmobius.commons.util.IXmlReader	MapRegionManager: Loaded 57 map regions.
+2025.04.06 20:48:08,803	INFO	3	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 15 variables.
+2025.04.06 20:48:08,803	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2025.04.06 20:48:08,826	INFO	3	org.l2jmobius.gameserver.data.xml.CategoryData	CategoryData: Loaded 180 categories.
+2025.04.06 20:48:08,835	INFO	3	org.l2jmobius.commons.util.IXmlReader	SecondaryAuthData: Loaded 328 forbidden passwords.
+2025.04.06 20:48:08,835	INFO	3	org.l2jmobius.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2025.04.06 20:48:10,199	INFO	3	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 162 effect handlers.
+2025.04.06 20:48:10,215	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantSkillGroupsData: Loaded 4 groups and 90 routes.
+2025.04.06 20:48:10,516	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 17176 Class Skills for 103 class skill trees.
+2025.04.06 20:48:10,516	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 76 sub-class skills.
+2025.04.06 20:48:10,516	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 77 transfer skills for 3 transfer skill trees.
+2025.04.06 20:48:10,516	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 117 fishing skills, 8 Dwarven only fishing skills.
+2025.04.06 20:48:10,516	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 3 collect skills.
+2025.04.06 20:48:10,520	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 74 clan skills, 44 for clan and 30 residential.
+2025.04.06 20:48:10,520	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 18 sub-pledge skills.
+2025.04.06 20:48:10,520	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 32 transform skills.
+2025.04.06 20:48:10,520	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 8 noble skills.
+2025.04.06 20:48:10,520	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 5 hero skills.
+2025.04.06 20:48:10,521	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master skills.
+2025.04.06 20:48:10,521	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillTreeData: Loaded 46 game master aura skills.
+2025.04.06 20:48:12,765	INFO	3	org.l2jmobius.gameserver.data.xml.SkillData	SkillData: Loaded 67039 Skill templates from XML files.
+2025.04.06 20:48:12,811	INFO	3	org.l2jmobius.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 881 skills.
+2025.04.06 20:48:12,811	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2025.04.06 20:48:13,218	INFO	3	org.l2jmobius.gameserver.model.item.ItemTemplate	> Max amount < Min amount in 57,27000000,3300000,100.00000, item Drop Box Of Zaken(56951)
+2025.04.06 20:48:13,286	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Highest item id used: 62611
+2025.04.06 20:48:13,289	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 19295 etc items.
+2025.04.06 20:48:13,289	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 4097 armor items.
+2025.04.06 20:48:13,289	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 4250 weapon items.
+2025.04.06 20:48:13,289	INFO	3	org.l2jmobius.gameserver.data.xml.ItemData	ItemData: Loaded 27642 items in total.
+2025.04.06 20:48:13,293	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 4 item group templates.
+2025.04.06 20:48:13,293	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2025.04.06 20:48:13,293	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max weapon enchant is set to 16.
+2025.04.06 20:48:13,293	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max armor enchant is set to 16.
+2025.04.06 20:48:13,293	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemGroupsData: Max accessory enchant is set to 16.
+2025.04.06 20:48:13,297	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 63 enchant scrolls.
+2025.04.06 20:48:13,297	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemData: Loaded 20 support items.
+2025.04.06 20:48:13,740	INFO	3	org.l2jmobius.gameserver.data.xml.OptionData	OptionData: Loaded 24985 options.
+2025.04.06 20:48:13,745	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemOptionsData: Loaded 23 items and 1093 options.
+2025.04.06 20:48:13,750	INFO	3	org.l2jmobius.commons.util.IXmlReader	ElementalAttributeData: Loaded 30 elemental attribute items.
+2025.04.06 20:48:13,754	INFO	3	org.l2jmobius.commons.util.IXmlReader	EnchantItemHPBonusData: Loaded 6 enchant HP bonuses.
+2025.04.06 20:48:13,757	INFO	3	org.l2jmobius.gameserver.data.MerchantPriceConfigTable	MerchantPriceConfigTable: Loaded 28 merchant price configs.
+2025.04.06 20:48:14,415	WARNING	3	org.l2jmobius.commons.util.IXmlReader	Folder F:\Server Live\Server\game\data\buylists\custom doesn't exist!
+2025.04.06 20:48:14,415	INFO	3	org.l2jmobius.gameserver.data.xml.BuyListData	BuyListData: Loaded 760 buyLists.
+2025.04.06 20:48:14,704	INFO	3	org.l2jmobius.commons.util.IXmlReader	MultisellData: Loaded 220 multisell lists.
+2025.04.06 20:48:14,722	INFO	3	org.l2jmobius.commons.util.IXmlReader	RecipeData: Loaded 1002 recipes.
+2025.04.06 20:48:14,745	INFO	3	org.l2jmobius.commons.util.IXmlReader	ArmorSetData: Loaded 204 armor sets.
+2025.04.06 20:48:14,749	INFO	3	org.l2jmobius.commons.util.IXmlReader	FishData: Loaded 278 fishes.
+2025.04.06 20:48:14,751	INFO	3	org.l2jmobius.commons.util.IXmlReader	FishingMonstersData: Loaded 8 fishing monsters.
+2025.04.06 20:48:14,752	INFO	3	org.l2jmobius.commons.util.IXmlReader	FishingRodsData: Loaded 6 fishing rods.
+2025.04.06 20:48:14,762	INFO	3	org.l2jmobius.commons.util.IXmlReader	HennaData: Loaded 180 henna data.
+2025.04.06 20:48:14,765	INFO	3	org.l2jmobius.gameserver.data.xml.PrimeShopData	PrimeShopData: Loaded 203 products.
+2025.04.06 20:48:14,765	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2025.04.06 20:48:14,768	INFO	3	org.l2jmobius.commons.util.IXmlReader	ClassListData: Loaded 103 class data.
+2025.04.06 20:48:14,770	INFO	3	org.l2jmobius.commons.util.IXmlReader	InitialEquipmentData: Loaded 11 initial equipment data.
+2025.04.06 20:48:14,772	INFO	3	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 5 initial global shortcut data.
+2025.04.06 20:48:14,772	INFO	3	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 4 initial shortcut data.
+2025.04.06 20:48:14,772	INFO	3	org.l2jmobius.commons.util.IXmlReader	InitialShortcutData: Loaded 0 macro presets.
+2025.04.06 20:48:14,773	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 86 levels.
+2025.04.06 20:48:14,773	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 85.
+2025.04.06 20:48:14,773	INFO	3	org.l2jmobius.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 85.
+2025.04.06 20:48:14,776	INFO	3	org.l2jmobius.commons.util.IXmlReader	KarmaData: Loaded 85 karma modifiers.
+2025.04.06 20:48:14,777	INFO	3	org.l2jmobius.commons.util.IXmlReader	HitConditionBonusData: Loaded hit condition bonuses.
+2025.04.06 20:48:14,925	INFO	3	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 103 character templates.
+2025.04.06 20:48:14,925	INFO	3	org.l2jmobius.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 52530 level up gain records.
+2025.04.06 20:48:14,927	INFO	3	org.l2jmobius.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 406 char names.
+2025.04.06 20:48:14,930	INFO	3	org.l2jmobius.commons.util.IXmlReader	AdminData: Loaded 10 access levels.
+2025.04.06 20:48:14,933	INFO	3	org.l2jmobius.commons.util.IXmlReader	AdminData: Loaded 465 access commands.
+2025.04.06 20:48:14,934	INFO	3	org.l2jmobius.gameserver.instancemanager.RaidBossPointsManager	RaidBossPointsManager: Loaded 3 Characters Raid Points.
+2025.04.06 20:48:15,076	INFO	3	org.l2jmobius.commons.util.IXmlReader	PetDataTable: Loaded 49 pets.
+2025.04.06 20:48:15,079	INFO	3	org.l2jmobius.gameserver.GameServer	PremiumManager: Premium system is enabled.
+2025.04.06 20:48:15,080	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2025.04.06 20:48:15,084	INFO	3	org.l2jmobius.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 10 forums. Last forum id used: 10
+2025.04.06 20:48:15,126	INFO	3	org.l2jmobius.gameserver.data.sql.ClanTable	ClanTable: Restored 9 clans from the database.
+2025.04.06 20:48:15,130	INFO	3	org.l2jmobius.gameserver.instancemanager.CHSiegeManager	CHSiegeManager: Loaded 6 conquerable clan halls.
+2025.04.06 20:48:15,141	INFO	3	org.l2jmobius.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Loaded 35 auction(s)
+2025.04.06 20:48:15,143	INFO	3	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 3 clan halls
+2025.04.06 20:48:15,143	INFO	3	org.l2jmobius.gameserver.data.sql.ClanHallTable	ClanHallTable: Loaded 35 free clan halls
+2025.04.06 20:48:15,143	INFO	3	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2025.04.06 20:48:15,155	INFO	3	org.l2jmobius.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 0 regions.
+2025.04.06 20:48:15,156	INFO	3	org.l2jmobius.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2025.04.06 20:48:15,173	INFO	3	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager 17 by 18 Zone Region Grid set up.
+2025.04.06 20:48:16,147	INFO	3	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 10506 NPCs.
+2025.04.06 20:48:16,162	INFO	3	org.l2jmobius.commons.util.IXmlReader	NpcData: Loaded 21 custom NPCs.
+2025.04.06 20:48:16,165	INFO	3	org.l2jmobius.commons.util.IXmlReader	SkillLearnData: Loaded 256 skill learn data.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Gigantic Chaos Golem(25512) status is 0.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 0.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2025.04.06 20:48:16,169	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2025.04.06 20:48:16,170	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Beleth(29118) status is 0.
+2025.04.06 20:48:16,170	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 8 Instances
+2025.04.06 20:48:16,259	INFO	3	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 30 zone classes and 2859 zones.
+2025.04.06 20:48:16,262	INFO	3	org.l2jmobius.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 200105.
+2025.04.06 20:48:16,300	INFO	3	org.l2jmobius.commons.util.IXmlReader	DoorData: Loaded 1301 doors.
+2025.04.06 20:48:16,309	INFO	3	FenceData	FenceData: Loaded 1 fences.
+2025.04.06 20:48:16,316	INFO	3	org.l2jmobius.gameserver.data.xml.FakePlayerData	FakePlayerData: Loaded 2 templates.
+2025.04.06 20:48:16,320	INFO	3	org.l2jmobius.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Loaded 19 chat templates.
+2025.04.06 20:48:16,862	INFO	3	org.l2jmobius.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 123 walking routes.
+2025.04.06 20:48:16,868	INFO	3	org.l2jmobius.commons.util.IXmlReader	StaticObjectData: Loaded 51 static object templates.
+2025.04.06 20:48:16,874	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32320.
+2025.04.06 20:48:16,876	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 33 on 17:00:00 11.04.25 for instance 32320
+2025.04.06 20:48:16,877	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32321.
+2025.04.06 20:48:16,878	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 34 on 17:00:00 07.04.25 for instance 32321
+2025.04.06 20:48:16,878	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Loaded 82 item(s) and registered 1 auction(s) for instance 32322.
+2025.04.06 20:48:16,878	INFO	3	org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance	ItemAuctionInstance: Schedule next auction 35 on 17:00:00 09.04.25 for instance 32322
+2025.04.06 20:48:16,879	INFO	3	org.l2jmobius.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Loaded 3 instance(s).
+2025.04.06 20:48:16,883	INFO	3	org.l2jmobius.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles
+2025.04.06 20:48:16,887	INFO	3	org.l2jmobius.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 0 players schemes and 60 available buffs.
+2025.04.06 20:48:16,888	INFO	3	org.l2jmobius.gameserver.instancemanager.GrandBossManager	GrandBossManager: Initialized 12 Grand Boss Zones
+2025.04.06 20:48:16,888	INFO	3	org.l2jmobius.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2025.04.06 20:48:16,891	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2025.04.06 20:48:16,891	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2025.04.06 20:48:16,891	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: 24 days, 15 hours and 11 mins until period ends.
+2025.04.06 20:48:16,891	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 6 days, 16 hours and 51 mins.
+2025.04.06 20:48:16,891	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2025.04.06 20:48:16,892	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 0 hours and 0 mins.
+2025.04.06 20:48:16,905	INFO	3	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Sun Apr 06 18:00:16 GMT+03:00 2025
+2025.04.06 20:48:16,906	INFO	3	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2025.04.06 20:48:16,907	INFO	3	org.l2jmobius.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2025.04.06 20:48:16,907	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------=[ Seven Signs ]
+2025.04.06 20:48:16,908	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Currently in the Seal Validation period!
+2025.04.06 20:48:16,908	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2025.04.06 20:48:16,908	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2025.04.06 20:48:16,908	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2025.04.06 20:48:16,908	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: The competition ended with a tie last week.
+2025.04.06 20:48:16,908	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change set to Mon Apr 07 18:00:16 GMT+03:00 2025
+2025.04.06 20:48:16,909	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period begins in 0 days, 21 hours and 11 mins.
+2025.04.06 20:48:16,909	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2025.04.06 20:48:16,909	INFO	3	org.l2jmobius.gameserver.cache.HtmCache	Cache[HTML]: Running lazy cache.
+2025.04.06 20:48:16,910	INFO	3	org.l2jmobius.gameserver.data.sql.CrestTable	CrestTable: Loaded 6 Crests.
+2025.04.06 20:48:16,912	INFO	3	org.l2jmobius.gameserver.data.sql.TeleportLocationTable	TeleportLocationTable: Loaded 957 teleport location templates.
+2025.04.06 20:48:16,915	INFO	3	org.l2jmobius.gameserver.data.xml.UIData	UIData: Loaded 4 keys 5 categories.
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 0
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 1
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 2
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 3
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 4
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 5
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 6
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 7
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 8
+2025.04.06 20:48:16,924	INFO	3	org.l2jmobius.gameserver.data.AugmentationData	AugmentationData: Loaded 17 blue, 107 purple and 54 red skills for lifeStoneLevel 9
+2025.04.06 20:48:16,926	INFO	3	org.l2jmobius.gameserver.instancemanager.CursedWeaponsManager	CursedWeaponsManager: Loaded : 2 cursed weapon(s).
+2025.04.06 20:48:17,082	INFO	53	org.l2jmobius.gameserver.model.olympiad.Olympiad	Olympiad System: Olympiad Games have started.
+2025.04.06 20:48:17,108	INFO	3	org.l2jmobius.commons.util.IXmlReader	TransformData: Loaded 111 transform templates.
+2025.04.06 20:48:17,115	INFO	3	org.l2jmobius.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2025.04.06 20:48:17,120	INFO	3	org.l2jmobius.gameserver.instancemanager.SellBuffsManager	SellBuffsManager: Loaded 128 allowed buffs.
+2025.04.06 20:48:17,120	INFO	3	org.l2jmobius.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2025.04.06 20:48:17,127	INFO	3	org.l2jmobius.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2025.04.06 20:48:17,128	INFO	3	org.l2jmobius.gameserver.instancemanager.SoDManager	Seed of Destruction Manager: Loaded. Current stage is: 1
+2025.04.06 20:48:17,129	INFO	3	org.l2jmobius.gameserver.instancemanager.SoIManager	Seed of Infinity Manager: Loaded. Current stage is: 1
+2025.04.06 20:48:17,129	INFO	3	org.l2jmobius.gameserver.GameServer	Loading server scripts...
+2025.04.06 20:48:17,218	INFO	53	org.l2jmobius.gameserver.model.olympiad.OlympiadGameManager	Olympiad System: Loaded 160 stadiums.
+2025.04.06 20:48:18,563	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Attempting to directly initialize AdminRealFakePlayer handler...
+2025.04.06 20:48:18,563	WARNING	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	AdminRealFakePlayer not found at handlers.admincommandhandlers.AdminRealFakePlayer
+2025.04.06 20:48:18,563	WARNING	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	AdminRealFakePlayer not found at org.l2jmobius.gameserver.handler.admincommandhandlers.AdminRealFakePlayer
+2025.04.06 20:48:18,563	WARNING	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Could not find AdminRealFakePlayer class in any package
+2025.04.06 20:48:18,690	INFO	3	handlers.MasterHandler	Loading Handlers...
+2025.04.06 20:48:18,694	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 22 admin commands from AdminAdmin
+2025.04.06 20:48:18,694	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 4 admin commands from AdminAnnouncements
+2025.04.06 20:48:18,695	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminBBS
+2025.04.06 20:48:18,695	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 7 admin commands from AdminBuffs
+2025.04.06 20:48:18,695	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminCamera
+2025.04.06 20:48:18,695	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminChangeAccessLevel
+2025.04.06 20:48:18,695	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 9 admin commands from AdminCHSiege
+2025.04.06 20:48:18,696	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 4 admin commands from AdminClan
+2025.04.06 20:48:18,696	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminPcCondOverride
+2025.04.06 20:48:18,696	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminCreateItem
+2025.04.06 20:48:18,696	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 6 admin commands from AdminCursedWeapons
+2025.04.06 20:48:18,696	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminDebug
+2025.04.06 20:48:18,697	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminDelete
+2025.04.06 20:48:18,697	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 4 admin commands from AdminDestroyItems
+2025.04.06 20:48:18,697	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminDisconnect
+2025.04.06 20:48:18,697	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminDoorControl
+2025.04.06 20:48:18,698	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 35 admin commands from AdminEditChar
+2025.04.06 20:48:18,698	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 35 admin commands from AdminEffects
+2025.04.06 20:48:18,698	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 7 admin commands from AdminElement
+2025.04.06 20:48:18,699	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 16 admin commands from AdminEnchant
+2025.04.06 20:48:18,699	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 6 admin commands from AdminEvents
+2025.04.06 20:48:18,699	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminExpSp
+2025.04.06 20:48:18,699	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminFakePlayers
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminFence
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminFightCalculator
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 9 admin commands from AdminFortSiege
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminGamePoints
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 27 admin commands from AdminGeodata
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminGm
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminGmChat
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminGmSpeed
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 4 admin commands from AdminGraciaSeeds
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminGrandBoss
+2025.04.06 20:48:18,700	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminHeal
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminHide
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminHtml
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 6 admin commands from AdminInstance
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminInstanceZone
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminInvul
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminKick
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminKill
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminLevel
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 6 admin commands from AdminLogin
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminMammon
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminManor
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 10 admin commands from AdminMenu
+2025.04.06 20:48:18,701	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminMessages
+2025.04.06 20:48:18,702	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 17 admin commands from AdminMobGroup
+2025.04.06 20:48:18,702	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminOnline
+2025.04.06 20:48:18,702	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminPathNode
+2025.04.06 20:48:18,702	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminPcCafePoints
+2025.04.06 20:48:18,703	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 6 admin commands from AdminPetition
+2025.04.06 20:48:18,703	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminPForge
+2025.04.06 20:48:18,703	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminPledge
+2025.04.06 20:48:18,713	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminZones
+2025.04.06 20:48:18,713	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 6 admin commands from AdminPremium
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 13 admin commands from AdminPunishment
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminQuest
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminReload
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminRepairChar
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminRes
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 9 admin commands from AdminRide
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminScan
+2025.04.06 20:48:18,714	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminSearch
+2025.04.06 20:48:18,715	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminServerInfo
+2025.04.06 20:48:18,716	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminShop
+2025.04.06 20:48:18,717	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminShowQuests
+2025.04.06 20:48:18,717	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminShutdown
+2025.04.06 20:48:18,717	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 19 admin commands from AdminSiege
+2025.04.06 20:48:18,718	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 15 admin commands from AdminSkill
+2025.04.06 20:48:18,718	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 20 admin commands from AdminSpawn
+2025.04.06 20:48:18,718	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminSummon
+2025.04.06 20:48:18,718	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 4 admin commands from AdminSuperHaste
+2025.04.06 20:48:18,718	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminTarget
+2025.04.06 20:48:18,719	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminTargetSay
+2025.04.06 20:48:18,719	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 22 admin commands from AdminTeleport
+2025.04.06 20:48:18,719	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminTerritoryWar
+2025.04.06 20:48:18,720	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 1 admin commands from AdminTest
+2025.04.06 20:48:18,720	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminTransform
+2025.04.06 20:48:18,720	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 5 admin commands from AdminVitality
+2025.04.06 20:48:18,720	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 3 admin commands from AdminZone
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	AdminCommandHandler: Loaded 464 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	BypassHandler: Loaded 47 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	CommunityBoardHandler: Loaded 19 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	ItemHandler: Loaded 30 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	UserCommandHandler: Loaded 17 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	VoicedCommandHandler: Loaded 17 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	TargetHandler: Loaded 34 handlers.
+2025.04.06 20:48:18,783	INFO	3	handlers.MasterHandler	Handlers Loaded...
+2025.04.06 20:48:24,379	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Handy's Block Checker Event is enabled
+2025.04.06 20:48:24,384	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Fantasy Isle: Parade starting at 2025/04/06 21:20 and is scheduled each next 1 hours.
+2025.04.06 20:48:24,387	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Fantasy Isle: MC show script starting at 07/04/2025 13:28:24 and is scheduled each next 4 hours.
+2025.04.06 20:48:24,420	INFO	3	ai.areas.Gracia.GraciaLoader	GraciaLoader: Loading Gracia related scripts.
+2025.04.06 20:48:24,501	INFO	3	ai.areas.Hellbound.HellboundLoader	HellboundLoader: Loading Hellbound related scripts:
+2025.04.06 20:48:24,503	INFO	3	org.l2jmobius.commons.util.IXmlReader	HellboundPointData: Loaded 47 trust point reward data.
+2025.04.06 20:48:24,516	INFO	3	org.l2jmobius.commons.util.IXmlReader	HellboundSpawns: Loaded 598 Hellbound spawns.
+2025.04.06 20:48:24,517	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Level: 11
+2025.04.06 20:48:24,517	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Trust: 4000000
+2025.04.06 20:48:24,517	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Status: unlocked.
+2025.04.06 20:48:24,517	INFO	3	org.l2jmobius.gameserver.handler.AdminCommandHandler	Registered 2 admin commands from AdminHellbound
+2025.04.06 20:48:24,574	INFO	3	org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Loaded 187 Instances
+2025.04.06 20:48:24,575	INFO	3	org.l2jmobius.gameserver.instancemanager.RaidBossSpawnManager	RaidBossSpawnManager: Scheduled 0 Instances
+2025.04.06 20:48:24,693	INFO	3	org.l2jmobius.commons.util.IXmlReader	NpcBuffersData: Loaded 33 buffers data.
+2025.04.06 20:48:24,721	CONFIG	3	conquerablehalls.BanditStronghold.BanditStronghold	Bandit StrongHold siege scheduled for Sun Apr 20 12:00:00 GMT+03:00 2025.
+2025.04.06 20:48:24,722	CONFIG	3	conquerablehalls.DevastatedCastle.DevastatedCastle	Devastated Castle siege scheduled for Sun Apr 20 12:00:00 GMT+03:00 2025.
+2025.04.06 20:48:24,723	CONFIG	3	conquerablehalls.FortressOfResistance.FortressOfResistance	Fortress of Resistance siege scheduled for Sun Apr 20 12:00:00 GMT+03:00 2025.
+2025.04.06 20:48:24,728	CONFIG	3	conquerablehalls.FortressOfTheDead.FortressOfTheDead	Fortress of the Dead siege scheduled for Sun Apr 20 12:00:00 GMT+03:00 2025.
+2025.04.06 20:48:24,729	CONFIG	3	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	Rainbow Springs siege scheduled for Sun Apr 20 12:00:00 GMT+03:00 2025.
+2025.04.06 20:48:24,731	CONFIG	3	conquerablehalls.WildBeastReserve.WildBeastReserve	Beast Farm siege scheduled for Sun Apr 20 12:00:00 GMT+03:00 2025.
+2025.04.06 20:48:24,778	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Freya Celebration has passed... Ignored 
+2025.04.06 20:48:24,780	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Gift of Vitality has passed... Ignored 
+2025.04.06 20:48:24,785	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Heavy Medal active till Sun Feb 28 00:00:00 GMT+03:00 2027
+2025.04.06 20:48:24,787	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event L2 Day has passed... Ignored 
+2025.04.06 20:48:24,789	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Love Your Gatekeeper has passed... Ignored 
+2025.04.06 20:48:24,790	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Master of Enchanting has passed... Ignored 
+2025.04.06 20:48:24,793	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Saving Santa has passed... Ignored 
+2025.04.06 20:48:24,794	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Valentine Event has passed... Ignored 
+2025.04.06 20:48:24,797	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	Event Watermelon Ninja has passed... Ignored 
+2025.04.06 20:48:24,818	INFO	3	instances.CustomInstance.CustomInstance	(-------------------------------------------------=[ Monster Realm Instance ]
+2025.04.06 20:48:24,819	INFO	3	instances.CustomInstance.CustomInstance	(-------------------------------------------------=[ Monster Realm Instance ]
+2025.04.06 20:48:24,827	INFO	3	instances.FinalEmperialTomb.FinalEmperialTomb	[Final Emperial Tomb] Loaded 26 spawn zones data.
+2025.04.06 20:48:24,827	INFO	3	instances.FinalEmperialTomb.FinalEmperialTomb	[Final Emperial Tomb] Loaded 94 spawns data.
+2025.04.06 20:48:25,114	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	[EnhanceYourWeapon] Loaded 54 Soul Crystal data.
+2025.04.06 20:48:25,114	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	[EnhanceYourWeapon] Loaded 240 npc Leveling info data.
+2025.04.06 20:48:25,157	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	-------------------------------------------------=[ Monster Hunter Quest ]
+2025.04.06 20:48:25,225	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Loaded total monsters: 4499
+2025.04.06 20:48:25,225	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	=== STARTING MISSED RESETS CHECK ===
+2025.04.06 20:48:25,225	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Current Server Time: 2025-04-06 20:48:25
+2025.04.06 20:48:25,226	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Checking today's reset and reward status...
+2025.04.06 20:48:25,226	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Last Daily Reset Time: 2025-04-06 20:00:00
+2025.04.06 20:48:25,226	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Today's reset time check passed. Checking for unclaimed rewards...
+2025.04.06 20:48:25,226	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Current Rankings:
+2025.04.06 20:48:25,226	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	No unclaimed rewards found.
+2025.04.06 20:48:25,226	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Checking for missed daily reset...
+2025.04.06 20:48:25,227	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Last Daily Reset: 2025-04-06 20:00:00
+2025.04.06 20:48:25,227	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Next Expected Reset: 2025-04-07 20:00:00
+2025.04.06 20:48:25,227	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Checking for missed weekly reset...
+2025.04.06 20:48:25,227	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Last Weekly Reset: 2025-03-31 20:00:00
+2025.04.06 20:48:25,227	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Next Expected Weekly Reset: 2025-04-07 20:00:00
+2025.04.06 20:48:25,227	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Checking and initializing reset times...
+2025.04.06 20:48:25,228	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	=== MISSED RESETS CHECK COMPLETED ===
+2025.04.06 20:48:25,232	INFO	3	quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization	Weekly reset scheduled. Next reset in 23h 11m 34s
+2025.04.06 20:48:25,247	INFO	3	org.l2jmobius.gameserver.model.events.AbstractScript	TerritoryWarSuperClass: Siege date: Sun Apr 06 22:00:00 GMT+03:00 2025
+2025.04.06 20:48:25,262	INFO	3	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: Initializing spawns...
+2025.04.06 20:48:25,278	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:147867 Y:-6948 Z:-4372
+2025.04.06 20:48:25,278	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:147927 Y:-6902 Z:-4372
+2025.04.06 20:48:25,278	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:148017 Y:-6874 Z:-4372
+2025.04.06 20:48:25,278	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:147971 Y:-7019 Z:-4372
+2025.04.06 20:48:25,278	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:147900 Y:-6955 Z:-4372
+2025.04.06 20:48:25,289	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:177817 Y:15609 Z:-3176
+2025.04.06 20:48:25,289	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:177813 Y:15489 Z:-3176
+2025.04.06 20:48:25,289	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:177856 Y:15440 Z:-3176
+2025.04.06 20:48:25,289	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:177881 Y:15432 Z:-3176
+2025.04.06 20:48:25,289	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:177883 Y:15579 Z:-3176
+2025.04.06 20:48:25,317	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:190591 Y:53030 Z:-4284
+2025.04.06 20:48:25,317	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:190498 Y:53056 Z:-4284
+2025.04.06 20:48:25,317	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:190608 Y:52994 Z:-4284
+2025.04.06 20:48:25,317	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:190509 Y:53069 Z:-4284
+2025.04.06 20:48:25,317	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:190532 Y:53082 Z:-4284
+2025.04.06 20:48:25,326	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:133812 Y:4416 Z:-3900
+2025.04.06 20:48:25,326	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:133827 Y:4453 Z:-3900
+2025.04.06 20:48:25,327	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:133859 Y:4391 Z:-3900
+2025.04.06 20:48:25,327	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:133808 Y:4406 Z:-3900
+2025.04.06 20:48:25,327	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:133769 Y:4379 Z:-3900
+2025.04.06 20:48:25,328	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:132304 Y:8767 Z:-4112
+2025.04.06 20:48:25,328	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:132345 Y:8915 Z:-4112
+2025.04.06 20:48:25,328	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:132356 Y:8897 Z:-4112
+2025.04.06 20:48:25,328	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:132283 Y:8942 Z:-4112
+2025.04.06 20:48:25,328	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:132254 Y:8797 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:132787 Y:11061 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:132760 Y:11168 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:132683 Y:11066 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:132817 Y:11181 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:132651 Y:11028 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:135471 Y:7326 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:135444 Y:7180 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:135474 Y:7140 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:135486 Y:7172 Z:-4112
+2025.04.06 20:48:25,329	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:135496 Y:7203 Z:-4112
+2025.04.06 20:48:25,339	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:186677 Y:47883 Z:-5866
+2025.04.06 20:48:25,339	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:186671 Y:47908 Z:-5866
+2025.04.06 20:48:25,339	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:186677 Y:47885 Z:-5866
+2025.04.06 20:48:25,339	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:186614 Y:48018 Z:-5866
+2025.04.06 20:48:25,339	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:186639 Y:47850 Z:-5866
+2025.04.06 20:48:25,350	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:113282 Y:15548 Z:-3564
+2025.04.06 20:48:25,350	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:113139 Y:15516 Z:-3564
+2025.04.06 20:48:25,350	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:113195 Y:15575 Z:-3564
+2025.04.06 20:48:25,350	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:113139 Y:15518 Z:-3564
+2025.04.06 20:48:25,350	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:113123 Y:15519 Z:-3564
+2025.04.06 20:48:25,355	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:114046 Y:14176 Z:996
+2025.04.06 20:48:25,355	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:114013 Y:14080 Z:996
+2025.04.06 20:48:25,355	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:113972 Y:14083 Z:996
+2025.04.06 20:48:25,355	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:114003 Y:14065 Z:996
+2025.04.06 20:48:25,355	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:113929 Y:14158 Z:996
+2025.04.06 20:48:25,366	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:159311 Y:1149 Z:-4190
+2025.04.06 20:48:25,366	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:159251 Y:1023 Z:-4190
+2025.04.06 20:48:25,367	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:159288 Y:1161 Z:-4190
+2025.04.06 20:48:25,367	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:159203 Y:1008 Z:-4190
+2025.04.06 20:48:25,367	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:159341 Y:1113 Z:-4190
+2025.04.06 20:48:25,447	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:9871 Y:181665 Z:-3050
+2025.04.06 20:48:25,447	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:9863 Y:181486 Z:-3050
+2025.04.06 20:48:25,447	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:9857 Y:181513 Z:-3050
+2025.04.06 20:48:25,447	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:9948 Y:181628 Z:-3050
+2025.04.06 20:48:25,447	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:9919 Y:181479 Z:-3050
+2025.04.06 20:48:25,466	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:125391 Y:-200902 Z:-3552
+2025.04.06 20:48:25,467	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:125484 Y:-200912 Z:-3552
+2025.04.06 20:48:25,467	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:125354 Y:-200886 Z:-3552
+2025.04.06 20:48:25,467	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:125401 Y:-200922 Z:-3552
+2025.04.06 20:48:25,467	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:125451 Y:-200919 Z:-3552
+2025.04.06 20:48:25,468	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:138923 Y:-198237 Z:-3560
+2025.04.06 20:48:25,468	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:139002 Y:-198075 Z:-3560
+2025.04.06 20:48:25,468	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:138863 Y:-198224 Z:-3560
+2025.04.06 20:48:25,468	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:138951 Y:-198243 Z:-3560
+2025.04.06 20:48:25,468	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:138816 Y:-198226 Z:-3560
+2025.04.06 20:48:25,472	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:159511 Y:-219054 Z:-3568
+2025.04.06 20:48:25,472	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:159633 Y:-218917 Z:-3568
+2025.04.06 20:48:25,472	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:159484 Y:-218894 Z:-3568
+2025.04.06 20:48:25,472	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:159489 Y:-218896 Z:-3568
+2025.04.06 20:48:25,472	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:159557 Y:-218881 Z:-3568
+2025.04.06 20:48:25,473	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:167901 Y:-202887 Z:-3592
+2025.04.06 20:48:25,473	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:167906 Y:-202859 Z:-3592
+2025.04.06 20:48:25,473	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:168060 Y:-203007 Z:-3592
+2025.04.06 20:48:25,473	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:168005 Y:-203003 Z:-3592
+2025.04.06 20:48:25,473	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:167905 Y:-202911 Z:-3592
+2025.04.06 20:48:25,474	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:175882 Y:-211209 Z:-3572
+2025.04.06 20:48:25,474	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:175787 Y:-211321 Z:-3572
+2025.04.06 20:48:25,474	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:175891 Y:-211181 Z:-3572
+2025.04.06 20:48:25,474	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:175955 Y:-211235 Z:-3572
+2025.04.06 20:48:25,474	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:175942 Y:-211180 Z:-3572
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:187277 Y:-209563 Z:-3398
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:187170 Y:-209652 Z:-3398
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:187259 Y:-209584 Z:-3398
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:187177 Y:-209634 Z:-3398
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:187218 Y:-209642 Z:-3398
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:183518 Y:-197372 Z:-2484
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:183550 Y:-197202 Z:-2484
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:183474 Y:-197369 Z:-2484
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:183413 Y:-197360 Z:-2484
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:183452 Y:-197346 Z:-2484
+2025.04.06 20:48:25,477	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:167808 Y:-192316 Z:-3320
+2025.04.06 20:48:25,478	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:167879 Y:-192362 Z:-3320
+2025.04.06 20:48:25,478	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:167774 Y:-192346 Z:-3320
+2025.04.06 20:48:25,478	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:167773 Y:-192178 Z:-3320
+2025.04.06 20:48:25,478	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:167849 Y:-192278 Z:-3320
+2025.04.06 20:48:25,483	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:45146 Y:42937 Z:-3602
+2025.04.06 20:48:25,483	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:45222 Y:42970 Z:-3602
+2025.04.06 20:48:25,483	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:45121 Y:42987 Z:-3602
+2025.04.06 20:48:25,483	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:45181 Y:42948 Z:-3602
+2025.04.06 20:48:25,483	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:45232 Y:42946 Z:-3602
+2025.04.06 20:48:25,484	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:43633 Y:33488 Z:-3634
+2025.04.06 20:48:25,484	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:43601 Y:33422 Z:-3634
+2025.04.06 20:48:25,484	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:43700 Y:33517 Z:-3634
+2025.04.06 20:48:25,484	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:43602 Y:33530 Z:-3634
+2025.04.06 20:48:25,484	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:43770 Y:33530 Z:-3634
+2025.04.06 20:48:25,520	INFO	101	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-17262 Y:251452 Z:-3410
+2025.04.06 20:48:25,520	INFO	101	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-17349 Y:251359 Z:-3410
+2025.04.06 20:48:25,520	INFO	101	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-17312 Y:251380 Z:-3410
+2025.04.06 20:48:25,520	INFO	101	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-17286 Y:251462 Z:-3410
+2025.04.06 20:48:25,520	INFO	101	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-17286 Y:251471 Z:-3410
+2025.04.06 20:48:25,523	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:50425 Y:210194 Z:-3680
+2025.04.06 20:48:25,523	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:50287 Y:210274 Z:-3680
+2025.04.06 20:48:25,524	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:50258 Y:210117 Z:-3680
+2025.04.06 20:48:25,524	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:50244 Y:210197 Z:-3680
+2025.04.06 20:48:25,524	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:50283 Y:210114 Z:-3680
+2025.04.06 20:48:25,524	INFO	101	org.l2jmobius.gameserver.model.events.AbstractScript	HellboundEngine: Spawned 424 NPCs.
+2025.04.06 20:48:25,529	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:46167 Y:214618 Z:-3700
+2025.04.06 20:48:25,529	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:46051 Y:214527 Z:-3700
+2025.04.06 20:48:25,529	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:46098 Y:214556 Z:-3700
+2025.04.06 20:48:25,529	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:46119 Y:214578 Z:-3700
+2025.04.06 20:48:25,529	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:46096 Y:214516 Z:-3700
+2025.04.06 20:48:25,534	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:49110 Y:214010 Z:-3372
+2025.04.06 20:48:25,534	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:49167 Y:214149 Z:-3372
+2025.04.06 20:48:25,534	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:49128 Y:214093 Z:-3372
+2025.04.06 20:48:25,534	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:49097 Y:214003 Z:-3372
+2025.04.06 20:48:25,534	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:49179 Y:214120 Z:-3372
+2025.04.06 20:48:25,577	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-41710 Y:177613 Z:-3454
+2025.04.06 20:48:25,577	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-41818 Y:177517 Z:-3454
+2025.04.06 20:48:25,577	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-41821 Y:177572 Z:-3454
+2025.04.06 20:48:25,577	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-41767 Y:177561 Z:-3454
+2025.04.06 20:48:25,577	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-41822 Y:177554 Z:-3454
+2025.04.06 20:48:25,578	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-34629 Y:172005 Z:-3757
+2025.04.06 20:48:25,578	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-34647 Y:172143 Z:-3757
+2025.04.06 20:48:25,578	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-34639 Y:172021 Z:-3757
+2025.04.06 20:48:25,578	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-34691 Y:172054 Z:-3757
+2025.04.06 20:48:25,578	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-34636 Y:171961 Z:-3757
+2025.04.06 20:48:25,600	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:154114 Y:-46227 Z:-3801
+2025.04.06 20:48:25,600	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:154161 Y:-46253 Z:-3801
+2025.04.06 20:48:25,600	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:154141 Y:-46198 Z:-3801
+2025.04.06 20:48:25,600	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:154151 Y:-46143 Z:-3801
+2025.04.06 20:48:25,600	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:154130 Y:-46218 Z:-3801
+2025.04.06 20:48:25,607	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:152143 Y:-114323 Z:-1600
+2025.04.06 20:48:25,607	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:152113 Y:-114146 Z:-1600
+2025.04.06 20:48:25,607	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:152230 Y:-114240 Z:-1600
+2025.04.06 20:48:25,607	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:152271 Y:-114156 Z:-1600
+2025.04.06 20:48:25,607	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:152161 Y:-114228 Z:-1600
+2025.04.06 20:48:25,616	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:177844 Y:-81207 Z:-3922
+2025.04.06 20:48:25,616	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:177868 Y:-81126 Z:-3922
+2025.04.06 20:48:25,616	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:178039 Y:-81178 Z:-3922
+2025.04.06 20:48:25,616	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:177960 Y:-81202 Z:-3922
+2025.04.06 20:48:25,616	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:177973 Y:-81122 Z:-3922
+2025.04.06 20:48:25,638	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:141323 Y:-75190 Z:-4594
+2025.04.06 20:48:25,638	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:141379 Y:-75275 Z:-4594
+2025.04.06 20:48:25,638	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:141440 Y:-75281 Z:-4594
+2025.04.06 20:48:25,638	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:141318 Y:-75207 Z:-4594
+2025.04.06 20:48:25,639	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:141420 Y:-75246 Z:-4594
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:121442 Y:-53967 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:121359 Y:-53998 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:121373 Y:-54088 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:121350 Y:-54021 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:121382 Y:-54161 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:121264 Y:-54076 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:121205 Y:-53952 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:121219 Y:-54000 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:121307 Y:-53952 Z:-2394
+2025.04.06 20:48:25,646	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:121273 Y:-53990 Z:-2394
+2025.04.06 20:48:25,653	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:182593 Y:-49216 Z:-3038
+2025.04.06 20:48:25,654	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:182486 Y:-49237 Z:-3038
+2025.04.06 20:48:25,654	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:182568 Y:-49332 Z:-3038
+2025.04.06 20:48:25,654	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:182437 Y:-49187 Z:-3038
+2025.04.06 20:48:25,654	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:182498 Y:-49258 Z:-3038
+2025.04.06 20:48:25,657	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:192760 Y:-48978 Z:-2807
+2025.04.06 20:48:25,657	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:192759 Y:-48832 Z:-2807
+2025.04.06 20:48:25,657	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:192696 Y:-48852 Z:-2807
+2025.04.06 20:48:25,657	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:192607 Y:-48908 Z:-2807
+2025.04.06 20:48:25,657	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:192778 Y:-48833 Z:-2807
+2025.04.06 20:48:25,667	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-185456 Y:178683 Z:-10352
+2025.04.06 20:48:25,667	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-185473 Y:178635 Z:-10352
+2025.04.06 20:48:25,667	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-185511 Y:178628 Z:-10352
+2025.04.06 20:48:25,667	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-185341 Y:178604 Z:-10352
+2025.04.06 20:48:25,668	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-185520 Y:178673 Z:-10352
+2025.04.06 20:48:25,677	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-18832 Y:279510 Z:-13376
+2025.04.06 20:48:25,677	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-18785 Y:279479 Z:-13376
+2025.04.06 20:48:25,677	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-18920 Y:279378 Z:-13376
+2025.04.06 20:48:25,677	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-18768 Y:279345 Z:-13376
+2025.04.06 20:48:25,677	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-18955 Y:279352 Z:-13376
+2025.04.06 20:48:25,744	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-48539 Y:109967 Z:-3562
+2025.04.06 20:48:25,744	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-48487 Y:110091 Z:-3562
+2025.04.06 20:48:25,744	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-48549 Y:110040 Z:-3562
+2025.04.06 20:48:25,744	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-48505 Y:110051 Z:-3562
+2025.04.06 20:48:25,744	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-48589 Y:110142 Z:-3562
+2025.04.06 20:48:25,746	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-47045 Y:-242815 Z:-7935
+2025.04.06 20:48:25,746	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-47046 Y:-242840 Z:-7935
+2025.04.06 20:48:25,747	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-47039 Y:-242796 Z:-7935
+2025.04.06 20:48:25,747	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-46950 Y:-242853 Z:-7935
+2025.04.06 20:48:25,747	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-46909 Y:-242812 Z:-7935
+2025.04.06 20:48:25,753	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-35575 Y:137014 Z:-3604
+2025.04.06 20:48:25,753	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-35553 Y:136886 Z:-3604
+2025.04.06 20:48:25,753	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-35618 Y:137019 Z:-3604
+2025.04.06 20:48:25,753	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-35609 Y:137004 Z:-3604
+2025.04.06 20:48:25,753	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-35536 Y:136987 Z:-3604
+2025.04.06 20:48:25,763	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-21183 Y:140937 Z:-3896
+2025.04.06 20:48:25,763	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-21153 Y:140946 Z:-3896
+2025.04.06 20:48:25,763	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-21250 Y:140779 Z:-3896
+2025.04.06 20:48:25,763	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-21252 Y:140919 Z:-3896
+2025.04.06 20:48:25,763	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-21153 Y:140943 Z:-3896
+2025.04.06 20:48:25,768	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-17959 Y:80720 Z:-5168
+2025.04.06 20:48:25,769	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-17967 Y:80647 Z:-5168
+2025.04.06 20:48:25,769	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-17958 Y:80682 Z:-5168
+2025.04.06 20:48:25,769	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-17925 Y:80645 Z:-5168
+2025.04.06 20:48:25,769	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-18026 Y:80709 Z:-5168
+2025.04.06 20:48:25,779	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-12268 Y:20571 Z:-4906
+2025.04.06 20:48:25,779	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-12213 Y:20509 Z:-4906
+2025.04.06 20:48:25,779	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-12197 Y:20619 Z:-4906
+2025.04.06 20:48:25,779	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-12204 Y:20659 Z:-4906
+2025.04.06 20:48:25,779	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-12212 Y:20579 Z:-4906
+2025.04.06 20:48:25,845	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:89587 Y:111167 Z:-3656
+2025.04.06 20:48:25,846	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:89633 Y:111152 Z:-3656
+2025.04.06 20:48:25,846	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:89764 Y:111077 Z:-3656
+2025.04.06 20:48:25,846	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:89623 Y:111107 Z:-3656
+2025.04.06 20:48:25,846	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:89675 Y:111048 Z:-3656
+2025.04.06 20:48:25,878	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:129712 Y:-7882 Z:-3872
+2025.04.06 20:48:25,878	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:129727 Y:-7747 Z:-3872
+2025.04.06 20:48:25,878	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:129735 Y:-7764 Z:-3872
+2025.04.06 20:48:25,878	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:129775 Y:-7780 Z:-3872
+2025.04.06 20:48:25,878	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:129840 Y:-7801 Z:-3872
+2025.04.06 20:48:25,883	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:142743 Y:82304 Z:-5432
+2025.04.06 20:48:25,883	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:142780 Y:82472 Z:-5432
+2025.04.06 20:48:25,883	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:142807 Y:82398 Z:-5432
+2025.04.06 20:48:25,883	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:142876 Y:82454 Z:-5432
+2025.04.06 20:48:25,883	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:142891 Y:82405 Z:-5432
+2025.04.06 20:48:25,906	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:173912 Y:-178667 Z:2046
+2025.04.06 20:48:25,906	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:173930 Y:-178676 Z:2046
+2025.04.06 20:48:25,906	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:174008 Y:-178759 Z:2046
+2025.04.06 20:48:25,906	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:174054 Y:-178682 Z:2046
+2025.04.06 20:48:25,906	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:173896 Y:-178728 Z:2046
+2025.04.06 20:48:25,910	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:180085 Y:-175315 Z:505
+2025.04.06 20:48:25,910	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:180107 Y:-175254 Z:505
+2025.04.06 20:48:25,910	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:180069 Y:-175217 Z:505
+2025.04.06 20:48:25,910	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:180110 Y:-175239 Z:505
+2025.04.06 20:48:25,910	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:180026 Y:-175140 Z:505
+2025.04.06 20:48:25,912	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:181965 Y:-112201 Z:-3671
+2025.04.06 20:48:25,912	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:181840 Y:-112228 Z:-3671
+2025.04.06 20:48:25,912	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:181928 Y:-112307 Z:-3671
+2025.04.06 20:48:25,912	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:181947 Y:-112272 Z:-3671
+2025.04.06 20:48:25,912	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:181919 Y:-112167 Z:-3671
+2025.04.06 20:48:25,914	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:184081 Y:38332 Z:-3837
+2025.04.06 20:48:25,914	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:183887 Y:38441 Z:-3837
+2025.04.06 20:48:25,914	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:184019 Y:38461 Z:-3837
+2025.04.06 20:48:25,914	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:184069 Y:38324 Z:-3837
+2025.04.06 20:48:25,914	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:184023 Y:38423 Z:-3837
+2025.04.06 20:48:25,926	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:119827 Y:47197 Z:-3792
+2025.04.06 20:48:25,926	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:119836 Y:47266 Z:-3792
+2025.04.06 20:48:25,926	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:119942 Y:47314 Z:-3792
+2025.04.06 20:48:25,926	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:119876 Y:47318 Z:-3792
+2025.04.06 20:48:25,926	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:119945 Y:47195 Z:-3792
+2025.04.06 20:48:25,934	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:107923 Y:184968 Z:-3540
+2025.04.06 20:48:25,934	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:108011 Y:185071 Z:-3540
+2025.04.06 20:48:25,934	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:108014 Y:184996 Z:-3540
+2025.04.06 20:48:25,934	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:108005 Y:185047 Z:-3540
+2025.04.06 20:48:25,934	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:107849 Y:185097 Z:-3540
+2025.04.06 20:48:25,957	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:82009 Y:246266 Z:-9253
+2025.04.06 20:48:25,957	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:82037 Y:246385 Z:-9253
+2025.04.06 20:48:25,957	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:81999 Y:246237 Z:-9253
+2025.04.06 20:48:25,957	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:81989 Y:246341 Z:-9253
+2025.04.06 20:48:25,957	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:81951 Y:246263 Z:-9253
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:14691 Y:-130140 Z:-1587
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:14666 Y:-130023 Z:-1587
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:14771 Y:-130111 Z:-1587
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:14767 Y:-130104 Z:-1587
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:14779 Y:-130100 Z:-1587
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:4965 Y:-129902 Z:-3178
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:4841 Y:-129873 Z:-3178
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:4884 Y:-129767 Z:-3178
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:4863 Y:-129950 Z:-3178
+2025.04.06 20:48:25,992	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:4835 Y:-129789 Z:-3178
+2025.04.06 20:48:25,993	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:23306 Y:-125014 Z:-681
+2025.04.06 20:48:25,993	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:23206 Y:-125092 Z:-681
+2025.04.06 20:48:25,993	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:23267 Y:-125071 Z:-681
+2025.04.06 20:48:25,993	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:23292 Y:-125123 Z:-681
+2025.04.06 20:48:25,993	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:23244 Y:-125134 Z:-681
+2025.04.06 20:48:25,995	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-3746 Y:-117115 Z:-2626
+2025.04.06 20:48:25,995	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-3625 Y:-117253 Z:-2626
+2025.04.06 20:48:25,995	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-3709 Y:-117191 Z:-2626
+2025.04.06 20:48:25,995	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-3652 Y:-117159 Z:-2626
+2025.04.06 20:48:25,995	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-3727 Y:-117095 Z:-2626
+2025.04.06 20:48:25,997	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-577 Y:-76380 Z:-2554
+2025.04.06 20:48:25,997	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-514 Y:-76509 Z:-2554
+2025.04.06 20:48:25,997	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-478 Y:-76375 Z:-2554
+2025.04.06 20:48:25,997	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-467 Y:-76488 Z:-2554
+2025.04.06 20:48:25,997	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-541 Y:-76365 Z:-2554
+2025.04.06 20:48:26,017	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:78356 Y:6995 Z:-3314
+2025.04.06 20:48:26,017	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:78280 Y:6900 Z:-3314
+2025.04.06 20:48:26,017	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:78381 Y:6881 Z:-3314
+2025.04.06 20:48:26,017	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:78383 Y:6886 Z:-3314
+2025.04.06 20:48:26,017	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:78355 Y:6930 Z:-3314
+2025.04.06 20:48:26,021	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:97977 Y:-14677 Z:-2964
+2025.04.06 20:48:26,021	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:97999 Y:-14701 Z:-2964
+2025.04.06 20:48:26,021	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:98135 Y:-14621 Z:-2964
+2025.04.06 20:48:26,021	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:98049 Y:-14725 Z:-2964
+2025.04.06 20:48:26,021	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:97975 Y:-14578 Z:-2964
+2025.04.06 20:48:26,058	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:71113 Y:62946 Z:-3468
+2025.04.06 20:48:26,058	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:71180 Y:62954 Z:-3468
+2025.04.06 20:48:26,058	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:71231 Y:62969 Z:-3468
+2025.04.06 20:48:26,058	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:71108 Y:62879 Z:-3468
+2025.04.06 20:48:26,058	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:71207 Y:62915 Z:-3468
+2025.04.06 20:48:26,111	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-80405 Y:-12058 Z:-8250
+2025.04.06 20:48:26,111	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-80523 Y:-12061 Z:-8250
+2025.04.06 20:48:26,111	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-80414 Y:-12075 Z:-8250
+2025.04.06 20:48:26,111	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-80488 Y:-11962 Z:-8250
+2025.04.06 20:48:26,111	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-80510 Y:-11905 Z:-8250
+2025.04.06 20:48:26,119	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-83516 Y:-84037 Z:-8298
+2025.04.06 20:48:26,119	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-83379 Y:-83905 Z:-8298
+2025.04.06 20:48:26,119	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-83406 Y:-83950 Z:-8298
+2025.04.06 20:48:26,119	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-83356 Y:-83992 Z:-8298
+2025.04.06 20:48:26,119	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-83413 Y:-83928 Z:-8298
+2025.04.06 20:48:26,122	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-78498 Y:-83464 Z:-8306
+2025.04.06 20:48:26,122	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-78481 Y:-83433 Z:-8306
+2025.04.06 20:48:26,122	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-78436 Y:-83459 Z:-8306
+2025.04.06 20:48:26,122	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-78510 Y:-83444 Z:-8306
+2025.04.06 20:48:26,122	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-78488 Y:-83536 Z:-8306
+2025.04.06 20:48:26,189	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:116231 Y:18356 Z:6056
+2025.04.06 20:48:26,189	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:116213 Y:18322 Z:6056
+2025.04.06 20:48:26,189	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:116292 Y:18263 Z:6056
+2025.04.06 20:48:26,189	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:116255 Y:18226 Z:6056
+2025.04.06 20:48:26,189	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:116243 Y:18174 Z:6056
+2025.04.06 20:48:26,194	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:113116 Y:15251 Z:-2056
+2025.04.06 20:48:26,194	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:113095 Y:15281 Z:-2056
+2025.04.06 20:48:26,194	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:113024 Y:15353 Z:-2056
+2025.04.06 20:48:26,194	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:113147 Y:15347 Z:-2056
+2025.04.06 20:48:26,194	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:113150 Y:15342 Z:-2056
+2025.04.06 20:48:26,205	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:57003 Y:105976 Z:-1427
+2025.04.06 20:48:26,205	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:57161 Y:106019 Z:-1427
+2025.04.06 20:48:26,205	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:57075 Y:105913 Z:-1427
+2025.04.06 20:48:26,205	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:57040 Y:105848 Z:-1427
+2025.04.06 20:48:26,205	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:57161 Y:105890 Z:-1427
+2025.04.06 20:48:26,244	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:95690 Y:-90367 Z:-2596
+2025.04.06 20:48:26,244	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:95752 Y:-90397 Z:-2596
+2025.04.06 20:48:26,244	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:95683 Y:-90350 Z:-2596
+2025.04.06 20:48:26,244	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:95739 Y:-90349 Z:-2596
+2025.04.06 20:48:26,244	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:95817 Y:-90497 Z:-2596
+2025.04.06 20:48:26,264	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:5168 Y:-12414 Z:-3594
+2025.04.06 20:48:26,264	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:5184 Y:-12338 Z:-3594
+2025.04.06 20:48:26,264	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:5102 Y:-12466 Z:-3594
+2025.04.06 20:48:26,264	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:5141 Y:-12511 Z:-3594
+2025.04.06 20:48:26,264	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:5191 Y:-12487 Z:-3594
+2025.04.06 20:48:26,270	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:22797 Y:-19454 Z:-2550
+2025.04.06 20:48:26,270	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:22884 Y:-19524 Z:-2550
+2025.04.06 20:48:26,270	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:22935 Y:-19640 Z:-2550
+2025.04.06 20:48:26,270	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:22881 Y:-19531 Z:-2550
+2025.04.06 20:48:26,270	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:22789 Y:-19487 Z:-2550
+2025.04.06 20:48:26,292	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:84188 Y:-62231 Z:-2295
+2025.04.06 20:48:26,292	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:84135 Y:-62079 Z:-2295
+2025.04.06 20:48:26,292	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:84241 Y:-62221 Z:-2295
+2025.04.06 20:48:26,292	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:84312 Y:-62230 Z:-2295
+2025.04.06 20:48:26,292	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:84224 Y:-62154 Z:-2295
+2025.04.06 20:48:26,293	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:78390 Y:-62759 Z:-2257
+2025.04.06 20:48:26,293	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:78342 Y:-62780 Z:-2257
+2025.04.06 20:48:26,293	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:78313 Y:-62648 Z:-2257
+2025.04.06 20:48:26,293	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:78306 Y:-62811 Z:-2257
+2025.04.06 20:48:26,293	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:78308 Y:-62653 Z:-2257
+2025.04.06 20:48:26,300	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:68981 Y:-75661 Z:-3736
+2025.04.06 20:48:26,300	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:68985 Y:-75542 Z:-3736
+2025.04.06 20:48:26,300	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:69062 Y:-75581 Z:-3736
+2025.04.06 20:48:26,300	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:68978 Y:-75542 Z:-3736
+2025.04.06 20:48:26,300	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:69111 Y:-75593 Z:-3736
+2025.04.06 20:48:26,303	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:81755 Y:-79679 Z:-3850
+2025.04.06 20:48:26,303	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:81711 Y:-79650 Z:-3850
+2025.04.06 20:48:26,303	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:81686 Y:-79564 Z:-3850
+2025.04.06 20:48:26,303	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:81655 Y:-79511 Z:-3850
+2025.04.06 20:48:26,303	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:81600 Y:-79529 Z:-3850
+2025.04.06 20:48:26,304	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:92402 Y:-83476 Z:-2706
+2025.04.06 20:48:26,304	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:92399 Y:-83577 Z:-2706
+2025.04.06 20:48:26,304	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:92304 Y:-83544 Z:-2706
+2025.04.06 20:48:26,304	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:92331 Y:-83474 Z:-2706
+2025.04.06 20:48:26,304	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:92348 Y:-83547 Z:-2706
+2025.04.06 20:48:26,305	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:91788 Y:-91811 Z:-2593
+2025.04.06 20:48:26,305	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:91842 Y:-91854 Z:-2593
+2025.04.06 20:48:26,305	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:91854 Y:-91809 Z:-2593
+2025.04.06 20:48:26,305	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:91851 Y:-91899 Z:-2593
+2025.04.06 20:48:26,305	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:91823 Y:-91852 Z:-2593
+2025.04.06 20:48:26,313	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-101441 Y:227374 Z:-3489
+2025.04.06 20:48:26,313	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-101464 Y:227410 Z:-3489
+2025.04.06 20:48:26,313	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-101438 Y:227358 Z:-3489
+2025.04.06 20:48:26,313	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-101462 Y:227384 Z:-3489
+2025.04.06 20:48:26,314	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-101364 Y:227398 Z:-3489
+2025.04.06 20:48:26,315	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:-115702 Y:226462 Z:-2686
+2025.04.06 20:48:26,315	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:-115769 Y:226378 Z:-2686
+2025.04.06 20:48:26,315	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:-115583 Y:226457 Z:-2686
+2025.04.06 20:48:26,315	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:-115638 Y:226456 Z:-2686
+2025.04.06 20:48:26,315	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:-115714 Y:226525 Z:-2686
+2025.04.06 20:48:26,318	INFO	3	org.l2jmobius.gameserver.data.SpawnTable	SpawnTable: 81720 spawns have been initialized!
+2025.04.06 20:48:26,318	INFO	3	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Removed 0 day creatures
+2025.04.06 20:48:26,319	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 1 at X:49584 Y:-38413 Z:-2094
+2025.04.06 20:48:26,319	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 2 at X:49529 Y:-38428 Z:-2094
+2025.04.06 20:48:26,319	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 3 at X:49437 Y:-38279 Z:-2094
+2025.04.06 20:48:26,319	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 4 at X:49547 Y:-38418 Z:-2094
+2025.04.06 20:48:26,319	INFO	3	org.l2jmobius.gameserver.model.Spawn	Spawned Boss Champion follower Type: 5 at X:49548 Y:-38411 Z:-2094
+2025.04.06 20:48:26,325	INFO	3	org.l2jmobius.gameserver.instancemanager.DayNightSpawnManager	DayNightSpawnManager: Spawned 895 night creatures
+2025.04.06 20:48:26,328	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 20 Mysterious-Box spawns.
+2025.04.06 20:48:26,339	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Physical type monsters spawns.
+2025.04.06 20:48:26,350	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 716 Magical type monsters spawns.
+2025.04.06 20:48:26,352	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 92 Church of duke monsters spawns.
+2025.04.06 20:48:26,354	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: loaded 68 Emperor's grave NPC spawns.
+2025.04.06 20:48:26,354	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Conquerors' Sepulcher Manager
+2025.04.06 20:48:26,354	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Emperors' Sepulcher Manager
+2025.04.06 20:48:26,354	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Great Sages' Sepulcher Manager
+2025.04.06 20:48:26,354	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: spawned Judges' Sepulcher Manager
+2025.04.06 20:48:26,355	INFO	3	org.l2jmobius.gameserver.instancemanager.FourSepulchersManager	FourSepulchersManager: Beginning in Attack time
+2025.04.06 20:48:26,358	INFO	3	org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2025.04.06 20:48:26,362	INFO	3	org.l2jmobius.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 678 dimensional rift spawns, 0 errors.
+2025.04.06 20:48:26,362	INFO	3	org.l2jmobius.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2025.04.06 20:48:26,377	INFO	3	org.l2jmobius.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2025.04.06 20:48:26,377	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Gludio: Sun Apr 20 16:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,378	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Dion: Sun Apr 20 20:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,378	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Giran: Sun Apr 20 16:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,378	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Oren: Sun Apr 20 20:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,379	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Aden: Sun Apr 20 16:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,379	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Innadril: Sun Apr 20 20:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,379	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Goddard: Sun Apr 20 16:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,379	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Rune: Sun Apr 20 20:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,379	INFO	3	org.l2jmobius.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Apr 20 16:00:00 GMT+03:00 2025
+2025.04.06 20:48:26,418	INFO	3	org.l2jmobius.gameserver.instancemanager.FortManager	FortManager: Loaded 21 fortress
+2025.04.06 20:48:26,457	INFO	3	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Loaded 258 seeds.
+2025.04.06 20:48:26,460	INFO	3	org.l2jmobius.commons.util.IXmlReader	CastleManorManager: Manor data loaded.
+2025.04.06 20:48:26,461	INFO	3	org.l2jmobius.gameserver.instancemanager.MercTicketManager	MercTicketManager: Loaded 0 Mercenary Tickets
+2025.04.06 20:48:26,461	INFO	3	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 528 quests.
+2025.04.06 20:48:26,461	INFO	3	org.l2jmobius.gameserver.instancemanager.QuestManager	QuestManager: Loaded 299 scripts.
+2025.04.06 20:48:26,464	INFO	3	org.l2jmobius.gameserver.instancemanager.ItemsOnGroundManager	ItemsOnGroundManager: Loaded 1256 items.
+2025.04.06 20:48:26,466	INFO	3	org.l2jmobius.gameserver.instancemanager.games.MonsterRaceManager	MonsterRace: loaded 2477 records, currently on race #2478
+2025.04.06 20:48:26,486	INFO	3	org.l2jmobius.gameserver.model.sevensigns.SevenSignsFestival	SevenSignsFestival: Initialization bypassed due to Seal Validation in effect.
+2025.04.06 20:48:26,486	INFO	3	org.l2jmobius.gameserver.GameServer	AutoSpawnHandler: Loaded 129 handlers in total.
+2025.04.06 20:48:26,490	INFO	3	org.l2jmobius.gameserver.instancemanager.games.KrateisCubeManager	KrateisCubeManager: Loaded 3 arena templates.
+2025.04.06 20:48:26,494	INFO	3	org.l2jmobius.gameserver.instancemanager.games.UndergroundColiseumManager	UndergroundColiseumManager: Loaded 5 coliseum arenas.
+2025.04.06 20:48:26,494	INFO	3	org.l2jmobius.gameserver.instancemanager.games.UndergroundColiseumManager	UndergroundColiseumManager: Starts at 06/04/2025 21:00:00
+2025.04.06 20:48:26,499	INFO	3	org.l2jmobius.gameserver.taskmanager.TaskManager	TaskManager: Loaded 12 Tasks.
+2025.04.06 20:48:26,500	INFO	3	org.l2jmobius.gameserver.instancemanager.MailManager	MailManager: Loaded 0 messages.
+2025.04.06 20:48:26,501	INFO	3	org.l2jmobius.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2025.04.06 20:48:26,502	INFO	3	org.l2jmobius.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1878934422
+2025.04.06 20:48:26,503	INFO	3	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2025.04.06 20:48:26,524	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer1! Just a warning to be careful ;)
+2025.04.06 20:48:26,546	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger1! Just a warning to be careful ;)
+2025.04.06 20:48:26,737	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer2! Just a warning to be careful ;)
+2025.04.06 20:48:26,744	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer3! Just a warning to be careful ;)
+2025.04.06 20:48:26,750	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer4! Just a warning to be careful ;)
+2025.04.06 20:48:26,757	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer5! Just a warning to be careful ;)
+2025.04.06 20:48:26,762	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer6! Just a warning to be careful ;)
+2025.04.06 20:48:26,769	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer7! Just a warning to be careful ;)
+2025.04.06 20:48:26,776	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer8! Just a warning to be careful ;)
+2025.04.06 20:48:26,782	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer9! Just a warning to be careful ;)
+2025.04.06 20:48:26,788	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer10! Just a warning to be careful ;)
+2025.04.06 20:48:26,795	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer11! Just a warning to be careful ;)
+2025.04.06 20:48:26,802	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer12! Just a warning to be careful ;)
+2025.04.06 20:48:26,808	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer13! Just a warning to be careful ;)
+2025.04.06 20:48:26,819	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer14! Just a warning to be careful ;)
+2025.04.06 20:48:26,826	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer15! Just a warning to be careful ;)
+2025.04.06 20:48:26,832	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer16! Just a warning to be careful ;)
+2025.04.06 20:48:26,839	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer17! Just a warning to be careful ;)
+2025.04.06 20:48:26,846	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer18! Just a warning to be careful ;)
+2025.04.06 20:48:26,852	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer19! Just a warning to be careful ;)
+2025.04.06 20:48:26,859	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer21! Just a warning to be careful ;)
+2025.04.06 20:48:26,867	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer22! Just a warning to be careful ;)
+2025.04.06 20:48:26,873	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer23! Just a warning to be careful ;)
+2025.04.06 20:48:26,879	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer24! Just a warning to be careful ;)
+2025.04.06 20:48:26,886	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer25! Just a warning to be careful ;)
+2025.04.06 20:48:26,892	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer26! Just a warning to be careful ;)
+2025.04.06 20:48:26,898	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer27! Just a warning to be careful ;)
+2025.04.06 20:48:26,904	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer28! Just a warning to be careful ;)
+2025.04.06 20:48:26,910	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer29! Just a warning to be careful ;)
+2025.04.06 20:48:26,917	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer30! Just a warning to be careful ;)
+2025.04.06 20:48:26,922	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer36! Just a warning to be careful ;)
+2025.04.06 20:48:26,929	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer37! Just a warning to be careful ;)
+2025.04.06 20:48:26,935	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer38! Just a warning to be careful ;)
+2025.04.06 20:48:26,941	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer39! Just a warning to be careful ;)
+2025.04.06 20:48:26,948	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer40! Just a warning to be careful ;)
+2025.04.06 20:48:26,954	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer41! Just a warning to be careful ;)
+2025.04.06 20:48:26,961	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer42! Just a warning to be careful ;)
+2025.04.06 20:48:26,968	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer43! Just a warning to be careful ;)
+2025.04.06 20:48:26,974	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer44! Just a warning to be careful ;)
+2025.04.06 20:48:26,980	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer45! Just a warning to be careful ;)
+2025.04.06 20:48:26,987	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer46! Just a warning to be careful ;)
+2025.04.06 20:48:26,994	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer47! Just a warning to be careful ;)
+2025.04.06 20:48:26,999	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer48! Just a warning to be careful ;)
+2025.04.06 20:48:27,006	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer49! Just a warning to be careful ;)
+2025.04.06 20:48:27,011	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer50! Just a warning to be careful ;)
+2025.04.06 20:48:27,017	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer51! Just a warning to be careful ;)
+2025.04.06 20:48:27,023	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer52! Just a warning to be careful ;)
+2025.04.06 20:48:27,029	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer53! Just a warning to be careful ;)
+2025.04.06 20:48:27,035	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer54! Just a warning to be careful ;)
+2025.04.06 20:48:27,041	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer55! Just a warning to be careful ;)
+2025.04.06 20:48:27,048	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer56! Just a warning to be careful ;)
+2025.04.06 20:48:27,055	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer57! Just a warning to be careful ;)
+2025.04.06 20:48:27,061	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer58! Just a warning to be careful ;)
+2025.04.06 20:48:27,068	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer59! Just a warning to be careful ;)
+2025.04.06 20:48:27,073	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer60! Just a warning to be careful ;)
+2025.04.06 20:48:27,080	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer61! Just a warning to be careful ;)
+2025.04.06 20:48:27,086	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer62! Just a warning to be careful ;)
+2025.04.06 20:48:27,092	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer63! Just a warning to be careful ;)
+2025.04.06 20:48:27,098	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer64! Just a warning to be careful ;)
+2025.04.06 20:48:27,104	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer65! Just a warning to be careful ;)
+2025.04.06 20:48:27,110	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer66! Just a warning to be careful ;)
+2025.04.06 20:48:27,116	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer67! Just a warning to be careful ;)
+2025.04.06 20:48:27,122	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer68! Just a warning to be careful ;)
+2025.04.06 20:48:27,128	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer69! Just a warning to be careful ;)
+2025.04.06 20:48:27,134	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer70! Just a warning to be careful ;)
+2025.04.06 20:48:27,141	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer71! Just a warning to be careful ;)
+2025.04.06 20:48:27,147	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer72! Just a warning to be careful ;)
+2025.04.06 20:48:27,153	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer73! Just a warning to be careful ;)
+2025.04.06 20:48:27,159	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer74! Just a warning to be careful ;)
+2025.04.06 20:48:27,166	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer75! Just a warning to be careful ;)
+2025.04.06 20:48:27,172	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer76! Just a warning to be careful ;)
+2025.04.06 20:48:27,178	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer77! Just a warning to be careful ;)
+2025.04.06 20:48:27,183	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer78! Just a warning to be careful ;)
+2025.04.06 20:48:27,188	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer79! Just a warning to be careful ;)
+2025.04.06 20:48:27,195	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer80! Just a warning to be careful ;)
+2025.04.06 20:48:27,201	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer81! Just a warning to be careful ;)
+2025.04.06 20:48:27,207	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer82! Just a warning to be careful ;)
+2025.04.06 20:48:27,214	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer83! Just a warning to be careful ;)
+2025.04.06 20:48:27,220	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer84! Just a warning to be careful ;)
+2025.04.06 20:48:27,226	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer85! Just a warning to be careful ;)
+2025.04.06 20:48:27,233	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer86! Just a warning to be careful ;)
+2025.04.06 20:48:27,239	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer87! Just a warning to be careful ;)
+2025.04.06 20:48:27,245	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer88! Just a warning to be careful ;)
+2025.04.06 20:48:27,251	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer89! Just a warning to be careful ;)
+2025.04.06 20:48:27,258	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer90! Just a warning to be careful ;)
+2025.04.06 20:48:27,263	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer91! Just a warning to be careful ;)
+2025.04.06 20:48:27,269	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer92! Just a warning to be careful ;)
+2025.04.06 20:48:27,275	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer93! Just a warning to be careful ;)
+2025.04.06 20:48:27,281	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer94! Just a warning to be careful ;)
+2025.04.06 20:48:27,287	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer95! Just a warning to be careful ;)
+2025.04.06 20:48:27,293	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer96! Just a warning to be careful ;)
+2025.04.06 20:48:27,299	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer97! Just a warning to be careful ;)
+2025.04.06 20:48:27,305	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer98! Just a warning to be careful ;)
+2025.04.06 20:48:27,312	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer99! Just a warning to be careful ;)
+2025.04.06 20:48:27,318	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerDancer100! Just a warning to be careful ;)
+2025.04.06 20:48:27,342	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger2! Just a warning to be careful ;)
+2025.04.06 20:48:27,348	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger3! Just a warning to be careful ;)
+2025.04.06 20:48:27,355	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger4! Just a warning to be careful ;)
+2025.04.06 20:48:27,362	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger5! Just a warning to be careful ;)
+2025.04.06 20:48:27,368	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger6! Just a warning to be careful ;)
+2025.04.06 20:48:27,375	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger7! Just a warning to be careful ;)
+2025.04.06 20:48:27,381	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger8! Just a warning to be careful ;)
+2025.04.06 20:48:27,384	INFO	43	org.l2jmobius.gameserver.ui.SystemPanel	New maximum connected count of 110!
+2025.04.06 20:48:27,387	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger9! Just a warning to be careful ;)
+2025.04.06 20:48:27,393	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger10! Just a warning to be careful ;)
+2025.04.06 20:48:27,399	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger11! Just a warning to be careful ;)
+2025.04.06 20:48:27,405	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger12! Just a warning to be careful ;)
+2025.04.06 20:48:27,412	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger13! Just a warning to be careful ;)
+2025.04.06 20:48:27,418	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger14! Just a warning to be careful ;)
+2025.04.06 20:48:27,424	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger15! Just a warning to be careful ;)
+2025.04.06 20:48:27,431	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger16! Just a warning to be careful ;)
+2025.04.06 20:48:27,437	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger17! Just a warning to be careful ;)
+2025.04.06 20:48:27,443	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger18! Just a warning to be careful ;)
+2025.04.06 20:48:27,449	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger19! Just a warning to be careful ;)
+2025.04.06 20:48:27,455	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger20! Just a warning to be careful ;)
+2025.04.06 20:48:27,462	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger21! Just a warning to be careful ;)
+2025.04.06 20:48:27,467	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger22! Just a warning to be careful ;)
+2025.04.06 20:48:27,474	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger23! Just a warning to be careful ;)
+2025.04.06 20:48:27,480	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger24! Just a warning to be careful ;)
+2025.04.06 20:48:27,487	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger25! Just a warning to be careful ;)
+2025.04.06 20:48:27,495	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger26! Just a warning to be careful ;)
+2025.04.06 20:48:27,503	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger27! Just a warning to be careful ;)
+2025.04.06 20:48:27,510	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger28! Just a warning to be careful ;)
+2025.04.06 20:48:27,517	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger29! Just a warning to be careful ;)
+2025.04.06 20:48:27,524	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger30! Just a warning to be careful ;)
+2025.04.06 20:48:27,530	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger36! Just a warning to be careful ;)
+2025.04.06 20:48:27,536	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger37! Just a warning to be careful ;)
+2025.04.06 20:48:27,543	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger38! Just a warning to be careful ;)
+2025.04.06 20:48:27,549	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger39! Just a warning to be careful ;)
+2025.04.06 20:48:27,554	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger40! Just a warning to be careful ;)
+2025.04.06 20:48:27,560	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger41! Just a warning to be careful ;)
+2025.04.06 20:48:27,566	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger42! Just a warning to be careful ;)
+2025.04.06 20:48:27,572	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger43! Just a warning to be careful ;)
+2025.04.06 20:48:27,577	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger44! Just a warning to be careful ;)
+2025.04.06 20:48:27,583	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger45! Just a warning to be careful ;)
+2025.04.06 20:48:27,588	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger46! Just a warning to be careful ;)
+2025.04.06 20:48:27,594	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger47! Just a warning to be careful ;)
+2025.04.06 20:48:27,600	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger48! Just a warning to be careful ;)
+2025.04.06 20:48:27,606	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger49! Just a warning to be careful ;)
+2025.04.06 20:48:27,611	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger50! Just a warning to be careful ;)
+2025.04.06 20:48:27,617	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger51! Just a warning to be careful ;)
+2025.04.06 20:48:27,623	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger52! Just a warning to be careful ;)
+2025.04.06 20:48:27,629	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger53! Just a warning to be careful ;)
+2025.04.06 20:48:27,635	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger54! Just a warning to be careful ;)
+2025.04.06 20:48:27,640	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger55! Just a warning to be careful ;)
+2025.04.06 20:48:27,647	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger56! Just a warning to be careful ;)
+2025.04.06 20:48:27,653	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger57! Just a warning to be careful ;)
+2025.04.06 20:48:27,658	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger58! Just a warning to be careful ;)
+2025.04.06 20:48:27,664	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger59! Just a warning to be careful ;)
+2025.04.06 20:48:27,670	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger60! Just a warning to be careful ;)
+2025.04.06 20:48:27,676	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger61! Just a warning to be careful ;)
+2025.04.06 20:48:27,681	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger62! Just a warning to be careful ;)
+2025.04.06 20:48:27,687	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger63! Just a warning to be careful ;)
+2025.04.06 20:48:27,693	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger64! Just a warning to be careful ;)
+2025.04.06 20:48:27,699	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger65! Just a warning to be careful ;)
+2025.04.06 20:48:27,759	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger66! Just a warning to be careful ;)
+2025.04.06 20:48:27,835	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger67! Just a warning to be careful ;)
+2025.04.06 20:48:27,848	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger68! Just a warning to be careful ;)
+2025.04.06 20:48:27,855	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger69! Just a warning to be careful ;)
+2025.04.06 20:48:27,862	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger70! Just a warning to be careful ;)
+2025.04.06 20:48:27,868	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger71! Just a warning to be careful ;)
+2025.04.06 20:48:27,874	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger72! Just a warning to be careful ;)
+2025.04.06 20:48:27,881	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger73! Just a warning to be careful ;)
+2025.04.06 20:48:27,887	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger74! Just a warning to be careful ;)
+2025.04.06 20:48:27,894	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger75! Just a warning to be careful ;)
+2025.04.06 20:48:27,900	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger76! Just a warning to be careful ;)
+2025.04.06 20:48:27,906	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger77! Just a warning to be careful ;)
+2025.04.06 20:48:27,913	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger78! Just a warning to be careful ;)
+2025.04.06 20:48:27,918	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger79! Just a warning to be careful ;)
+2025.04.06 20:48:27,924	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger80! Just a warning to be careful ;)
+2025.04.06 20:48:27,931	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger81! Just a warning to be careful ;)
+2025.04.06 20:48:27,936	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger82! Just a warning to be careful ;)
+2025.04.06 20:48:27,942	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger83! Just a warning to be careful ;)
+2025.04.06 20:48:27,947	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger84! Just a warning to be careful ;)
+2025.04.06 20:48:27,953	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger85! Just a warning to be careful ;)
+2025.04.06 20:48:27,959	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger86! Just a warning to be careful ;)
+2025.04.06 20:48:27,964	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger87! Just a warning to be careful ;)
+2025.04.06 20:48:27,970	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger88! Just a warning to be careful ;)
+2025.04.06 20:48:27,975	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger89! Just a warning to be careful ;)
+2025.04.06 20:48:27,980	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger90! Just a warning to be careful ;)
+2025.04.06 20:48:27,986	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger91! Just a warning to be careful ;)
+2025.04.06 20:48:27,991	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger92! Just a warning to be careful ;)
+2025.04.06 20:48:27,997	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger93! Just a warning to be careful ;)
+2025.04.06 20:48:28,002	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger94! Just a warning to be careful ;)
+2025.04.06 20:48:28,008	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger95! Just a warning to be careful ;)
+2025.04.06 20:48:28,014	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger96! Just a warning to be careful ;)
+2025.04.06 20:48:28,019	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger97! Just a warning to be careful ;)
+2025.04.06 20:48:28,024	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger98! Just a warning to be careful ;)
+2025.04.06 20:48:28,031	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger99! Just a warning to be careful ;)
+2025.04.06 20:48:28,036	WARNING	3	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character ServerSonger100! Just a warning to be careful ;)
+2025.04.06 20:48:28,153	INFO	3	org.l2jmobius.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 205 offline traders.
+2025.04.06 20:48:28,439	INFO	43	org.l2jmobius.gameserver.ui.SystemPanel	New maximum connected count of 205!
+2025.04.06 20:48:28,442	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Started, using 889 of 8192 MB total memory.
+2025.04.06 20:48:28,442	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2025.04.06 20:48:28,442	INFO	3	org.l2jmobius.gameserver.GameServer	GameServer: Server loaded in 21 seconds.
+2025.04.06 20:48:28,456	INFO	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2025.04.06 20:48:28,510	INFO	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 2: Sieghardt
+2025.04.06 20:48:33,551	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] ProtocolVersion
+2025.04.06 20:48:33,574	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] AuthLogin
+2025.04.06 20:48:33,666	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] CharacterSelect
+2025.04.06 20:48:33,667	WARNING	136	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Mage! Just a warning to be careful ;)
+2025.04.06 20:48:42,032	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] EnterWorld
+2025.04.06 20:48:42,313	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestSkillCoolTime
+2025.04.06 20:48:42,361	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestPledgeInfo
+2025.04.06 20:48:42,372	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestPledgeInfo
+2025.04.06 20:48:42,384	INFO	43	org.l2jmobius.gameserver.ui.SystemPanel	New maximum connected count of 206!
+2025.04.06 20:48:42,430	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestPledgeInfo
+2025.04.06 20:48:42,430	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestPledgeCrest
+2025.04.06 20:48:42,597	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestSkillCoolTime
+2025.04.06 20:48:43,530	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:43,669	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:43,796	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:43,922	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:44,049	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:44,234	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:44,382	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:44,501	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] Action
+2025.04.06 20:48:44,628	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] Action
+2025.04.06 20:48:44,761	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] Action
+2025.04.06 20:48:45,498	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:45,610	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:46,479	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:47,125	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:47,245	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:47,378	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:48,240	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:48,492	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] MoveBackwardToLocation
+2025.04.06 20:48:49,950	INFO	203	org.l2jmobius.gameserver.network.PacketLogger	[C] RequestItemList
+2025.04.06 20:48:50,859	INFO	202	org.l2jmobius.gameserver.network.PacketLogger	[C] Logout
+2025.04.06 20:56:46,543	INFO	97	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2025.04.06 20:57:01,284	WARNING	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2025.04.06 20:57:02,794	WARNING	41	org.l2jmobius.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 1 seconds!
+2025.04.06 20:57:03,796	WARNING	209	org.l2jmobius.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2025.04.06 20:57:05,748	INFO	209	org.l2jmobius.gameserver.Shutdown	All players disconnected and saved(1951ms).
+2025.04.06 20:57:05,748	INFO	209	org.l2jmobius.gameserver.Shutdown	Game Time Task Manager: Thread interruped(1ms).
+2025.04.06 20:57:05,748	INFO	209	org.l2jmobius.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2025.04.06 20:57:05,749	INFO	209	org.l2jmobius.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(1ms).
+2025.04.06 20:57:05,749	INFO	209	org.l2jmobius.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2025.04.06 20:57:05,749	INFO	209	org.l2jmobius.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2025.04.06 20:57:05,749	INFO	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2025.04.06 20:57:05,751	INFO	209	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs data saved(2ms).
+2025.04.06 20:57:05,751	WARNING	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2025.04.06 20:57:05,754	INFO	209	org.l2jmobius.gameserver.Shutdown	SevenSigns: Seven Signs status saved(3ms).
+2025.04.06 20:57:05,766	INFO	209	org.l2jmobius.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(12ms).
+2025.04.06 20:57:05,767	INFO	209	org.l2jmobius.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(1ms).
+2025.04.06 20:57:05,767	INFO	209	org.l2jmobius.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2025.04.06 20:57:05,767	INFO	209	org.l2jmobius.gameserver.Shutdown	Olympiad System: Data saved(0ms).
+2025.04.06 20:57:05,767	INFO	209	org.l2jmobius.gameserver.Shutdown	Hero System: Data saved(0ms).
+2025.04.06 20:57:05,768	INFO	209	org.l2jmobius.gameserver.Shutdown	Clan System: Data saved(1ms).
+2025.04.06 20:57:05,769	INFO	209	org.l2jmobius.gameserver.Shutdown	Cursed Weapons Manager: Data saved(1ms).
+2025.04.06 20:57:05,769	INFO	209	org.l2jmobius.gameserver.Shutdown	Castle Manor Manager: Data saved(0ms).
+2025.04.06 20:57:05,769	CONFIG	209	conquerablehalls.FortressOfTheDead.FortressOfTheDead	FortressOfTheDead: Successfully saved attackers to database.
+2025.04.06 20:57:05,769	CONFIG	209	conquerablehalls.DevastatedCastle.DevastatedCastle	DevastatedCastle: Successfully saved attackers to database.
+2025.04.06 20:57:05,769	CONFIG	209	conquerablehalls.BanditStronghold.BanditStronghold	BanditStronghold: Successfully saved attackers to database.
+2025.04.06 20:57:05,769	CONFIG	209	conquerablehalls.FortressOfResistance.FortressOfResistance	FortressOfResistance: Successfully saved attackers to database.
+2025.04.06 20:57:05,769	CONFIG	209	conquerablehalls.RainbowSpringsChateau.RainbowSpringsChateau	RainbowSpringsChateau: Successfully saved attackers to database.
+2025.04.06 20:57:05,769	CONFIG	209	conquerablehalls.WildBeastReserve.WildBeastReserve	WildBeastReserve: Successfully saved attackers to database.
+2025.04.06 20:57:05,769	INFO	209	org.l2jmobius.gameserver.Shutdown	CHSiegeManager: Siegable hall attacker lists saved!
+2025.04.06 20:57:05,770	INFO	209	org.l2jmobius.gameserver.Shutdown	Quest Manager: Data saved(1ms).
+2025.04.06 20:57:05,800	INFO	209	org.l2jmobius.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 15 variables.
+2025.04.06 20:57:05,800	INFO	209	org.l2jmobius.gameserver.Shutdown	Global Variables Manager: Variables saved(30ms).
+2025.04.06 20:57:05,801	INFO	209	org.l2jmobius.gameserver.Shutdown	Fishing Championship data has been saved.
+2025.04.06 20:57:05,811	INFO	209	org.l2jmobius.gameserver.Shutdown	SchemeBufferTable data has been saved.
+2025.04.06 20:57:08,259	INFO	209	org.l2jmobius.gameserver.Shutdown	Items On Ground Manager: Data saved(2459ms).
+2025.04.06 20:57:08,260	INFO	209	org.l2jmobius.gameserver.Shutdown	Items On Ground Manager: Cleaned up(1ms).
+2025.04.06 20:57:08,260	INFO	209	org.l2jmobius.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2025.04.06 20:57:10,752	INFO	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2025.04.06 20:57:10,753	WARNING	204	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...
+2025.04.06 20:57:13,270	INFO	209	org.l2jmobius.gameserver.Shutdown	Database Factory: Database connection has been shut down(9ms).
+2025.04.06 20:57:13,271	INFO	209	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 9seconds.
