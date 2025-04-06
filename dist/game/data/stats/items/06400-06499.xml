@@ -1,0 +1,1278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+	<item id="6400" type="EtcItem" name="Badge of Hyena">
+		<!-- The badge that indicates that its bearer's event collector grade is "hyena." Without this badge, one cannot prove one'S-Grade. -->
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="6401" type="EtcItem" name="Badge of Fox">
+		<!-- The badge that indicates that its bearer's event collector grade is "fox." Without this badge, one cannot prove one'S-Grade. -->
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="6402" type="EtcItem" name="Badge of Wolf">
+		<!-- The badge that indicates that its bearer's event collector grade is "wolf." Without this badge, one cannot prove one'S-Grade. -->
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+	<item id="6403" type="EtcItem" name="Star Shard">
+		<!-- Starlight Festival Event A gift from the sky. When it is thrown, it creates a small explosion. Can be used as an ingredient to make other types of fireworks. -->
+		<set name="icon" val="icon.etc_fairy_fire_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2023-1" /> <!-- Star Shard -->
+	</item>
+	<item id="6404" type="EtcItem" name="Gunpowder">
+		<!-- Starlight Festival Event - Black powder. An ingredient used to make larger fireworks. -->
+		<set name="icon" val="icon.etc_powder_black_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="6405" type="EtcItem" name="Magnesium">
+		<!-- Starlight Festival Event - A chemical compound that generates a powerful flash when ignited. It is needed to make large fireworks. -->
+		<set name="icon" val="icon.etc_broken_crystal_silver_i00" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+	</item>
+	<item id="6406" type="EtcItem" name="Firework">
+		<!-- An explosive device that brilliantly lights up the sky. -->
+		<set name="icon" val="icon.etc_small_ultra_bomb_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2024-1" /> <!-- Firework -->
+	</item>
+	<item id="6407" type="EtcItem" name="Large Firework">
+		<!-- A large explosive device that ignites to light up the sky. -->
+		<set name="icon" val="icon.etc_ultra_bomb_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2025-1" /> <!-- Large Firework -->
+	</item>
+	<item id="6408" type="Armor" name="Formal Wear">
+		<!-- Formal wear appears as a wedding dress for female characters and as a tuxedo for male characters. -->
+		<set name="icon" val="icon.armor_t2000_ul_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="alldress" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1000" />
+		<set name="price" val="7500000" />
+	</item>
+	<item id="6409" type="EtcItem" name="2006 Battle Tournament - CP Potion">
+		<!-- Restores CP by 200. -->
+		<set name="icon" val="icon.etc_cp_potion_i01" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="500" />
+		<set name="reuse_delay" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2166-2" /> <!-- CP Gauge Potion -->
+	</item>
+	<item id="6410" type="EtcItem" name="2006 Battle Tournament - Quick Healing Potion">
+		<!-- A magical potion that quickly restores HP. However, its effects do not last. -->
+		<set name="icon" val="icon.etc_potion_gold_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="180" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2038-1" /> <!-- Quick Healing Potion -->
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="6411" type="EtcItem" name="Small Nimble Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="207" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-1" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6412" type="EtcItem" name="Small Ugly Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="211" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-2" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6413" type="EtcItem" name="Small Pudgy Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="229" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-3" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6414" type="EtcItem" name="Nimble Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="250" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-4" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6415" type="EtcItem" name="Ugly Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="280" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-5" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6416" type="EtcItem" name="Pudgy Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="312" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-6" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6417" type="EtcItem" name="Large Nimble Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="337" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-7" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6418" type="EtcItem" name="Large Ugly Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="372" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-8" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6419" type="EtcItem" name="Large Pudgy Green Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="397" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2190-9" /> <!-- Item - Green Fish -->
+	</item>
+	<item id="6420" type="EtcItem" name="Small Jade Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="427" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-1" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6421" type="EtcItem" name="Small Jade Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="994" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-2" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6422" type="EtcItem" name="Small Jade Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="465" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-3" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6423" type="EtcItem" name="Jade Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="487" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-4" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6424" type="EtcItem" name="Jade Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="510" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-5" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6425" type="EtcItem" name="Jade Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="532" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-6" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6426" type="EtcItem" name="Big Jade Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="547" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-7" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6427" type="EtcItem" name="Big Jade Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="562" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-8" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6428" type="EtcItem" name="Big Jade Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="577" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2191-9" /> <!-- Item - Jade Fish -->
+	</item>
+	<item id="6429" type="EtcItem" name="Small Blue Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="592" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-1" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6430" type="EtcItem" name="Small Blue Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="600" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-2" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6431" type="EtcItem" name="Small Blue Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="615" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-3" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6432" type="EtcItem" name="Blue Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="933" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-4" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6433" type="EtcItem" name="Blue Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="627" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-5" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6434" type="EtcItem" name="Blue Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="630" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-6" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6435" type="EtcItem" name="Big Blue Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="637" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-7" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6436" type="EtcItem" name="Big Blue Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="646" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-8" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6437" type="EtcItem" name="Big Blue Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="652" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2192-9" /> <!-- Item - Blue Fish -->
+	</item>
+	<item id="6438" type="EtcItem" name="Small Yellow Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="994" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-1" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6439" type="EtcItem" name="Small Yellow Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="670" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-2" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6440" type="EtcItem" name="Small Yellow Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="678" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-3" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6441" type="EtcItem" name="Yellow Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="810" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-4" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6442" type="EtcItem" name="Yellow Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="829" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-5" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6443" type="EtcItem" name="Yellow Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="852" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-6" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6444" type="EtcItem" name="Big Yellow Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="870" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-7" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6445" type="EtcItem" name="Big Yellow Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="891" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-8" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6446" type="EtcItem" name="Big Yellow Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i02" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="912" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2193-9" /> <!-- Item - Yellow Fish -->
+	</item>
+	<item id="6447" type="EtcItem" name="Small Orange Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="933" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-1" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6448" type="EtcItem" name="Small Orange Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="952" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-2" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6449" type="EtcItem" name="Small Orange Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="973" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-3" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6450" type="EtcItem" name="Orange Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="994" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-4" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6451" type="EtcItem" name="Orange Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1164" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-5" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6452" type="EtcItem" name="Orange Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1188" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-6" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6453" type="EtcItem" name="Big Orange Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1224" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-7" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6454" type="EtcItem" name="Big Orange Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1260" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-8" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6455" type="EtcItem" name="Big Orange Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i08" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1287" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2194-9" /> <!-- Item - Orange Fish -->
+	</item>
+	<item id="6456" type="EtcItem" name="Small Purple Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1312" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-1" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6457" type="EtcItem" name="Small Purple Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1339" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-2" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6458" type="EtcItem" name="Small Purple Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1365" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-3" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6459" type="EtcItem" name="Purple Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1395" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-4" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6460" type="EtcItem" name="Purple Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1422" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-5" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6461" type="EtcItem" name="Purple Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1635" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-6" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6462" type="EtcItem" name="Big Purple Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1666" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-7" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6463" type="EtcItem" name="Big Purple Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1699" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-8" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6464" type="EtcItem" name="Big Purple Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i04" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1735" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2195-9" /> <!-- Item - Violet Fish -->
+	</item>
+	<item id="6465" type="EtcItem" name="Small Red Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1915" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-1" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6466" type="EtcItem" name="Small Red Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1951" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-2" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6467" type="EtcItem" name="Small Red Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="1989" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-3" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6468" type="EtcItem" name="Red Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2026" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-4" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6469" type="EtcItem" name="Red Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2064" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-5" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6470" type="EtcItem" name="Red Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2103" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-6" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6471" type="EtcItem" name="Big Red Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2365" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-7" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6472" type="EtcItem" name="Big Red Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2412" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-8" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6473" type="EtcItem" name="Big Red Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i03" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2572" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2196-9" /> <!-- Item - Red Fish -->
+	</item>
+	<item id="6474" type="EtcItem" name="Small White Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2620" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-1" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6475" type="EtcItem" name="Small White Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2671" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-2" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6476" type="EtcItem" name="Small White Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2721" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-3" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6477" type="EtcItem" name="White Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2773" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-4" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6478" type="EtcItem" name="White Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2830" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-5" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6479" type="EtcItem" name="White Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2884" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-6" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6480" type="EtcItem" name="Big White Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="2941" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-7" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6481" type="EtcItem" name="Big White Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-8" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6482" type="EtcItem" name="Big White Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i00" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3058" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2197-9" /> <!-- Item - White Fish -->
+	</item>
+	<item id="6483" type="EtcItem" name="Small Black Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3121" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-1" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6484" type="EtcItem" name="Small Black Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3184" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-2" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6485" type="EtcItem" name="Small Black Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3249" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-3" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6486" type="EtcItem" name="Black Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3463" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-4" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6487" type="EtcItem" name="Black Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3535" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-5" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6488" type="EtcItem" name="Black Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3604" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-6" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6489" type="EtcItem" name="Big Black Nimble Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_tuna_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3678" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-7" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6490" type="EtcItem" name="Big Black Ugly Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_angler_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3753" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-8" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6491" type="EtcItem" name="Big Black Fat Fish">
+		<!-- Double-click to randomly change into another item. The changed item can be used as an ingredient for general manufacture. -->
+		<set name="icon" val="icon.etc_bream_i05" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="3828" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2198-9" /> <!-- Item - Black Fish -->
+	</item>
+	<item id="6492" type="EtcItem" name="Small Green Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="229" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2199-1" /> <!-- Item - Green Treasure Box -->
+	</item>
+	<item id="6493" type="EtcItem" name="Green Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="312" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2199-2" /> <!-- Item - Green Treasure Box -->
+	</item>
+	<item id="6494" type="EtcItem" name="Big Green Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i07" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="397" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2199-3" /> <!-- Item - Green Treasure Box -->
+	</item>
+	<item id="6495" type="EtcItem" name="Small Jade Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="427" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2200-1" /> <!-- Item - Jade Treasure Box -->
+	</item>
+	<item id="6496" type="EtcItem" name="Jade Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="472" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2200-2" /> <!-- Item - Jade Treasure Box -->
+	</item>
+	<item id="6497" type="EtcItem" name="Big Jade Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i06" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="517" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2200-3" /> <!-- Item - Jade Treasure Box -->
+	</item>
+	<item id="6498" type="EtcItem" name="Small Blue Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="592" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2201-1" /> <!-- Item - Blue Treasure Box -->
+	</item>
+	<item id="6499" type="EtcItem" name="Blue Treasure Chest">
+		<!-- Double-click to see the change. -->
+		<set name="icon" val="icon.etc_treasure_box_i01" />
+		<set name="default_action" val="CAPSULE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="FISH" />
+		<set name="weight" val="100" />
+		<set name="price" val="628" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="2201-2" /> <!-- Item - Blue Treasure Box -->
+	</item>
+</list>

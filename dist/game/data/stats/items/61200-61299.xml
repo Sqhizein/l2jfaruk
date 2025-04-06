@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/items.xsd">
+    <item id="61200" type="EtcItem" name="Ragraman's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61201" type="EtcItem" name="Lizardmen Leader Hellion's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61202" type="EtcItem" name="Tiger King Karuta's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61203" type="EtcItem" name="Black Lily's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61204" type="EtcItem" name="Guardian of the Statue of Giant Karum's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61205" type="EtcItem" name="Demon Kuri's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61206" type="EtcItem" name="Tasaba Patriarch Hellena's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61207" type="EtcItem" name="Apepi's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61208" type="EtcItem" name="Cronos's Servitor Mumu's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61209" type="EtcItem" name="Earth Protector Panathen's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61210" type="EtcItem" name="Fafurion's Herald Lokness's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61211" type="EtcItem" name="Water Dragon Seer Sheshark's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61212" type="EtcItem" name="Krokian Padisha Sobekk's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61213" type="EtcItem" name="Ocean Flame Ashakiel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61214" type="EtcItem" name="Water Couatle Ateka's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61215" type="EtcItem" name="Sebek's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61216" type="EtcItem" name="Fafurion's Page Sika's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61217" type="EtcItem" name="Cursed Clara's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61218" type="EtcItem" name="Death Lord Hallate's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61219" type="EtcItem" name="Soul Collector Acheron's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61220" type="EtcItem" name="Roaring Lord Kastor's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61221" type="EtcItem" name="Storm Winged Naga's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61222" type="EtcItem" name="Timak Seer Ragoth's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61223" type="EtcItem" name="Spirit of Andras, the Betrayer's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61224" type="EtcItem" name="Ancient Drake's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61225" type="EtcItem" name="Vanor Chief Kandra's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61226" type="EtcItem" name="Abyss Brukunt's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61227" type="EtcItem" name="Harit Hero Tamash's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61228" type="EtcItem" name="Last Lesser Giant Olkuth's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61229" type="EtcItem" name="Last Lesser Giant Glaki's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61230" type="EtcItem" name="Doom Blade Tanatos's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61231" type="EtcItem" name="Menacing Palatanos's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61232" type="EtcItem" name="Palibati Queen Themis's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61233" type="EtcItem" name="Gargoyle Lord Tiphon's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61234" type="EtcItem" name="Taik High Prefect Arak's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61235" type="EtcItem" name="Zaken's Butcher Krantz's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61236" type="EtcItem" name="Iron Giant Totem's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61237" type="EtcItem" name="Kernon's Faithful Servant Kelone's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61238" type="EtcItem" name="Bloody Empress Decarbia's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61239" type="EtcItem" name="Beast Lord Behemoth's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61240" type="EtcItem" name="Partisan Leader Talakin's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61241" type="EtcItem" name="Carnamakos's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61242" type="EtcItem" name="Death Lord Ipos's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61243" type="EtcItem" name="Lilith's Witch Marilion's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61244" type="EtcItem" name="Pagan Watcher Cerberon's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61245" type="EtcItem" name="Anakim's Nemesis Zakaron's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61246" type="EtcItem" name="Death Lord Shax's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61247" type="EtcItem" name="Lilith's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61248" type="EtcItem" name="Anakim's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61249" type="EtcItem" name="Daimon the White-Eyed's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61250" type="EtcItem" name="Hesti Guardian Deity of the Hot Springs's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61251" type="EtcItem" name="Icicle Emperor Bumbalump's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61252" type="EtcItem" name="Ketra's Hero Hekaton's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61253" type="EtcItem" name="Ketra's Commander Tayr's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61254" type="EtcItem" name="Ketra's Chief Brakki's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61255" type="EtcItem" name="Soul of Fire Nastron's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61256" type="EtcItem" name="Varka's Hero Shadith's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61257" type="EtcItem" name="Varka's Commander Mos's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61258" type="EtcItem" name="Varka's Chief Horus's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61259" type="EtcItem" name="Soul of Water Ashutar's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61260" type="EtcItem" name="Ember's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61261" type="EtcItem" name="Demon's Agent Falston's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61262" type="EtcItem" name="Flame of Splendor Barakiel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61263" type="EtcItem" name="Eilhalder von Hellmann's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61264" type="EtcItem" name="Anakazel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61265" type="EtcItem" name="Anakazel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61266" type="EtcItem" name="Anakazel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61267" type="EtcItem" name="Anakazel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61268" type="EtcItem" name="Anakazel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61269" type="EtcItem" name="Anakazel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61270" type="EtcItem" name="Shadow of Halisha's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61271" type="EtcItem" name="Shadow of Halisha's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61272" type="EtcItem" name="Shadow of Halisha's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61273" type="EtcItem" name="Shadow of Halisha's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61274" type="EtcItem" name="Giant Wasteland Basilisk's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61275" type="EtcItem" name="Gargoyle Lord Sirocco's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61276" type="EtcItem" name="Sukar Wererat Chief's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61277" type="EtcItem" name="Tiger Hornet's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61278" type="EtcItem" name="Tracker Leader Sharuk's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61279" type="EtcItem" name="Patriarch Kuroboros's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61280" type="EtcItem" name="Kuroboros' Priest's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61281" type="EtcItem" name="Soul Scavenger's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61282" type="EtcItem" name="Discarded Guardian's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61283" type="EtcItem" name="Malex Herald of Dagoniel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61284" type="EtcItem" name="Zombie Lord Ferkel's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61285" type="EtcItem" name="Madness Beast's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61286" type="EtcItem" name="Kaysha Herald of Icarus's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61287" type="EtcItem" name="Revenant of Sir Calibus's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61288" type="EtcItem" name="Evil Spirit Tempest's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61289" type="EtcItem" name="Red Eye Captain Trakia's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61290" type="EtcItem" name="Nurka's Messenger's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61291" type="EtcItem" name="Captain of Queen's Royal Guards's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61292" type="EtcItem" name="Premo Prime's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61293" type="EtcItem" name="Archon Suscepter's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61294" type="EtcItem" name="Beleth's Eye's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61295" type="EtcItem" name="Skyla's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61296" type="EtcItem" name="Corsair Captain Kylon's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61297" type="EtcItem" name="Lord Ishka's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61298" type="EtcItem" name="Road Scavenger Leader's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    <item id="61299" type="EtcItem" name="Necrosentinel Royal Guard's Summoning Item">
+    <!-- A bugle used to summon a pet. This pet uses some of the experience points earned by its master. -->
+        <set name="icon" val="icon.etc_bugle_i00" />
+        <set name="default_action" val="SKILL_MAINTAIN" />
+        <set name="etcitem_type" val="PET_COLLAR" />
+        <set name="material" val="STEEL" />
+        <set name="weight" val="20" />
+        <set name="price" val="3000" />
+        <set name="is_depositable" val="true" />
+        <set name="is_oly_restricted" val="true" />
+        <set name="handler" val="SummonItems" />
+        <set name="item_skill" val="2046-1" />
+        <set name="use_condition" val="{{uc_transmode_exclude;{tt_pure_stat}}}" />
+        <cond msgId="113" addName="1">
+            <player flyMounted="false" />
+    </cond>
+    </item>
+    </list>

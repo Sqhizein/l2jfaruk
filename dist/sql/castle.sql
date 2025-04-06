@@ -1,0 +1,9 @@
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (5, 'Aden', 0, 0, 1743944400711, 'false', 1741104000537, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (2, 'Dion', 0, 0, 1743958800705, 'false', 1741118400534, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (3, 'Giran', 0, 0, 1743944400707, 'false', 1741104000542, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (1, 'Gludio', 0, 0, 1743944400702, 'false', 1741017600527, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (7, 'Goddard', 0, 0, 1743944400716, 'false', 1741104000539, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (6, 'Innadril', 0, 0, 1743958800714, 'false', 1741118400537, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (4, 'Oren', 0, 0, 1743958800709, 'false', 1741118400536, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (8, 'Rune', 0, 0, 1743958800718, 'false', 1741118400541, 'false', 0);
+INSERT INTO `castle` (`id`, `name`, `taxPercent`, `treasury`, `siegeDate`, `regTimeOver`, `regTimeEnd`, `showNpcCrest`, `ticketBuyCount`) VALUES (9, 'Schuttgart', 0, 0, 1743944400720, 'false', 1741104000541, 'false', 0);

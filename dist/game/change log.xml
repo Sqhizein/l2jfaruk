@@ -1,0 +1,31 @@
+<skill id="255" levels="15" name="Power Smash">
+<set name="baseCritRate" val="15" />
+
+<skill id="295" levels="1" name="Iron Body">
+    <!-- Environment-related damage is decreased by 40%. Shock,Sleep,Debuff,Camcel resistance +%10 -->
+    <set name="icon" val="icon.skill0295" />
+    <table name="#trait_shock">10</table>
+    <table name="#trait_sleep">10</table>
+    <set name="magicLevel" val="15" />
+    <set name="operateType" val="P" />
+    <set name="targetType" val="SELF" />
+    <for>
+        <effect name="Buff">
+            <sub stat="damageZoneVuln" val="40" />
+            <sub stat="debuffVuln" val="10" />
+            <sub stat="cancelVuln" val="10" />
+        </effect>
+        <effect name="DefenceTrait">
+            <param SHOCK="#trait_shock" />
+            <param SLEEP="#trait_sleep" />
+        </effect>
+    </for>
+</skill>
+
+<skill id="420" levels="3" name="Zealot" enchantGroup1="1" enchantGroup2="1">
+<player hp="50" />
+
+Memento mori rateleri ayarla
+
+286	Eminence Bow		a,Bestows one of the following functions: Focus, Miser or Cheap Shot.\0	-1	0	0						a,	0	0		a,	0	0	0	0	0	0	0	0	0	0	a,	1
+4822	Eminence Bow	Focus	a,<Soul Crystal Enhancement>\\nIncreases Accuracy by 4.\0	-1	0	0						a,	0	0		a,	0	0	0	0	0	0	0	0	0	0	a,	1

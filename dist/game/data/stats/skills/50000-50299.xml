@@ -1,0 +1,3619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+    <skill id="50001" levels="1" name="Tattoo of the Ogre Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50001" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.03" /> <!-- Increases P.atk +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50002" levels="1" name="Tattoo of the Ogre Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50002" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.03" /> <!-- Increases P.atk +3%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50003" levels="1" name="Tattoo of the Ogre Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50003" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50004" levels="1" name="Tattoo of the Ogre Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50004" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.03" /> <!-- Increases P.atk +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50005" levels="1" name="Tattoo of the Ogre Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50005" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.03" /> <!-- Increases P.atk +3%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50006" levels="1" name="Tattoo of the Ogre Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50006" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50007" levels="1" name="Tattoo of the Monk Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50007" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.03" /> <!-- Increases AttackSpeed +3%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50008" levels="1" name="Tattoo of the Monk Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50008" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.03" /> <!-- Increases AttackSpeed +3%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50009" levels="1" name="Tattoo of the Monk Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50009" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50010" levels="1" name="Tattoo of the Monk Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50010" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.03" /> <!-- Increases AttackSpeed +3%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50011" levels="1" name="Tattoo of the Monk Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50011" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.03" /> <!-- Increases AttackSpeed +3%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50012" levels="1" name="Tattoo of the Monk Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50012" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50013" levels="1" name="Tattoo of the Rabbit Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50013" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.03" /> <!-- Increases Speed +3%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50014" levels="1" name="Tattoo of the Rabbit Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50014" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.03" /> <!-- Increases Speed +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50015" levels="1" name="Tattoo of the Rabbit Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50015" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50016" levels="1" name="Tattoo of the Rabbit Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50016" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.03" /> <!-- Increases Speed +3%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50017" levels="1" name="Tattoo of the Rabbit Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50017" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.03" /> <!-- Increases Speed +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50018" levels="1" name="Tattoo of the Rabbit Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50018" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50019" levels="1" name="Tattoo of the Assassin Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50019" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.03" /> <!-- Increases Crt.Rate +3%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50020" levels="1" name="Tattoo of the Assassin Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50020" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.03" /> <!-- Increases Crt.Rate +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50021" levels="1" name="Tattoo of the Assassin Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50021" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50022" levels="1" name="Tattoo of the Assassin Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50022" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.03" /> <!-- Increases Crt.Rate +3%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50023" levels="1" name="Tattoo of the Assassin Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50023" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.03" /> <!-- Increases Crt.Rate +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50024" levels="1" name="Tattoo of the Assassin Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50024" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50025" levels="1" name="Tattoo of the Giant Left Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50025" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.03" /> <!-- Increases HP +3%. -->
+                <mul stat="maxMp" val="0.95" /> <!-- Decreases MP -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50026" levels="1" name="Tattoo of the Scholar Left Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50026" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.03" /> <!-- Increases MP +3%. -->
+                <mul stat="maxHp" val="0.95" /> <!-- Decreases HP -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50027" levels="1" name="Tattoo of the Troll Left Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50027" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.04" /> <!-- Increases HP +4%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50028" levels="1" name="Tattoo of the Nymph Left Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50028" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.04" /> <!-- Increases MP +4%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50029" levels="1" name="Tattoo of the Giant Right Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50029" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.03" /> <!-- Increases HP +3%. -->
+                <mul stat="maxMp" val="0.95" /> <!-- Decreases MP -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50030" levels="1" name="Tattoo of the Scholar Right Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50030" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.03" /> <!-- Increases MP +3%. -->
+                <mul stat="maxHp" val="0.95" /> <!-- Decreases HP -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50031" levels="1" name="Tattoo of the Troll Right Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50031" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.04" /> <!-- Increases HP +4%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50032" levels="1" name="Tattoo of the Nymph Right Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50032" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.04" /> <!-- Increases MP +4%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50033" levels="1" name="Tattoo of the Golem Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50033" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.03" /> <!-- Increases P.Def +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50034" levels="1" name="Tattoo of the Golem Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50034" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.03" /> <!-- Increases P.Def +3%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50035" levels="1" name="Tattoo of the Golem Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50035" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50036" levels="1" name="Tattoo of the Golem Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50036" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.03" /> <!-- Increases P.Def +3%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50037" levels="1" name="Tattoo of the Golem Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50037" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.03" /> <!-- Increases P.Def +3%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50038" levels="1" name="Tattoo of the Golem Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50038" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="pAtkSpd" val="0.95" /> <!-- Decreases AttackSpeed -5%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50039" levels="1" name="Tattoo of the Sniper Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50039" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.03" /> <!-- Increases Accuracy +3%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50040" levels="1" name="Tattoo of the Sniper Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50040" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.03" /> <!-- Increases Accuracy +3%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50041" levels="1" name="Tattoo of the Sniper Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50041" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50042" levels="1" name="Tattoo of the Sniper Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50042" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.03" /> <!-- Increases Accuracy +3%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50043" levels="1" name="Tattoo of the Sniper Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50043" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.03" /> <!-- Increases Accuracy +3%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50044" levels="1" name="Tattoo of the Sniper Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50044" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="pAtk" val="0.95" /> <!-- Decreases P.Atk -5%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50045" levels="1" name="Tattoo of the Ghost Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50045" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.03" /> <!-- Increases Evasion +3%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50046" levels="1" name="Tattoo of the Ghost Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50046" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.03" /> <!-- Increases Evasion +3%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50047" levels="1" name="Tattoo of the Ghost Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50047" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50048" levels="1" name="Tattoo of the Ghost Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50048" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.03" /> <!-- Increases Evasion +3%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50049" levels="1" name="Tattoo of the Ghost Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50049" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.03" /> <!-- Increases Evasion +3%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50050" levels="1" name="Tattoo of the Ghost Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50050" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="accCombat" val="0.95" /> <!-- Decreases Accuracy -5%. -->
+                <mul stat="pDef" val="0.95" /> <!-- Decreases P.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50051" levels="1" name="Tattoo of the Witch Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50051" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.03" /> <!-- Increases CastingSpeed +3%. -->
+                <mul stat="mAtk" val="0.95" /> <!-- Decreases M.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50052" levels="1" name="Tattoo of the Witch Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50052" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.03" /> <!-- Increases CastingSpeed +3%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50053" levels="1" name="Tattoo of the Witch Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50053" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mAtk" val="0.95" /> <!-- Decreases M.Atk -5%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50054" levels="1" name="Tattoo of the Witch Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50054" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.03" /> <!-- Increases CastingSpeed +3%. -->
+                <mul stat="mAtk" val="0.95" /> <!-- Decreases M.Atk -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50055" levels="1" name="Tattoo of the Witch Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50055" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.03" /> <!-- Increases CastingSpeed +3%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50056" levels="1" name="Tattoo of the Witch Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50056" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mAtk" val="0.95" /> <!-- Decreases M.Atk -5%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50057" levels="1" name="Tattoo of Magic Power Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50057" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.03" /> <!-- Increases M.Atk +3%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50058" levels="1" name="Tattoo of Magic Power Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50058" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.03" /> <!-- Increases M.Atk +3%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50059" levels="1" name="Tattoo of Magic Power Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50059" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50060" levels="1" name="Tattoo of Magic Power Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50060" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.03" /> <!-- Increases M.Atk +3%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50061" levels="1" name="Tattoo of Magic Power Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50061" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.03" /> <!-- Increases M.Atk +3%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50062" levels="1" name="Tattoo of Magic Power Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50062" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+                <mul stat="mDef" val="0.95" /> <!-- Decreases M.Def -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50063" levels="1" name="Tattoo of the Mirror Left Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50063" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.03" /> <!-- Increases M.Def +3%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50064" levels="1" name="Tattoo of the Mirror Left Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50064" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.03" /> <!-- Increases M.Def +3%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50065" levels="1" name="Tattoo of the Mirror Left Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50065" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50066" levels="1" name="Tattoo of the Mirror Right Type 1 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50066" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.03" /> <!-- Increases M.Def +3%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50067" levels="1" name="Tattoo of the Mirror Right Type 2 Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50067" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.03" /> <!-- Increases M.Def +3%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50068" levels="1" name="Tattoo of the Mirror Right Empowered Level 1">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50068" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="mAtkSpd" val="0.95" /> <!-- Decreases CastingSpeed -5%. -->
+                <mul stat="rEvas" val="0.95" /> <!-- Decreases Evasion -5%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50069" levels="1" name="Tattoo of the Ogre Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50069" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50070" levels="1" name="Tattoo of the Ogre Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50070" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50071" levels="1" name="Tattoo of the Ogre Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50071" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.05" /> <!-- Increases P.atk +5%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50072" levels="1" name="Tattoo of the Ogre Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50072" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50073" levels="1" name="Tattoo of the Ogre Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50073" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50074" levels="1" name="Tattoo of the Ogre Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50074" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.05" /> <!-- Increases P.atk +5%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50075" levels="1" name="Tattoo of the Monk Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50075" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50076" levels="1" name="Tattoo of the Monk Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50076" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50077" levels="1" name="Tattoo of the Monk Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50077" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.05" /> <!-- Increases AttackSpeed +5%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50078" levels="1" name="Tattoo of the Monk Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50078" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50079" levels="1" name="Tattoo of the Monk Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50079" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50080" levels="1" name="Tattoo of the Monk Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50080" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.05" /> <!-- Increases AttackSpeed +5%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50081" levels="1" name="Tattoo of the Rabbit Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50081" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50082" levels="1" name="Tattoo of the Rabbit Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50082" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50083" levels="1" name="Tattoo of the Rabbit Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50083" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.05" /> <!-- Increases Speed +5%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50084" levels="1" name="Tattoo of the Rabbit Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50084" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50085" levels="1" name="Tattoo of the Rabbit Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50085" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50086" levels="1" name="Tattoo of the Rabbit Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50086" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.05" /> <!-- Increases Speed +5%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50087" levels="1" name="Tattoo of the Assassin Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50087" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50088" levels="1" name="Tattoo of the Assassin Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50088" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50089" levels="1" name="Tattoo of the Assassin Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50089" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.05" /> <!-- Increases Crt.Rate +5%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50090" levels="1" name="Tattoo of the Assassin Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50090" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50091" levels="1" name="Tattoo of the Assassin Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50091" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50093" levels="1" name="Tattoo of the Giant Left Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50093" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.04" /> <!-- Increases HP +4%. -->
+                <mul stat="maxMp" val="0.96" /> <!-- Decreases MP -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50094" levels="1" name="Tattoo of the Scholar Left Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50094" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.04" /> <!-- Increases MP +4%. -->
+                <mul stat="maxHp" val="0.96" /> <!-- Decreases HP -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50095" levels="1" name="Tattoo of the Troll Left Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50095" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.07" /> <!-- Increases HP +7%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50096" levels="1" name="Tattoo of the Nymph Left Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50096" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.07" /> <!-- Increases MP +7%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50097" levels="1" name="Tattoo of the Giant Right Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50097" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.04" /> <!-- Increases HP +4%. -->
+                <mul stat="maxMp" val="0.96" /> <!-- Decreases MP -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50098" levels="1" name="Tattoo of the Scholar Right Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50098" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.04" /> <!-- Increases MP +4%. -->
+                <mul stat="maxHp" val="0.96" /> <!-- Decreases HP -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50099" levels="1" name="Tattoo of the Troll Right Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50099" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.07" /> <!-- Increases HP +7%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50100" levels="1" name="Tattoo of the Nymph Right Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50100" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.07" /> <!-- Increases MP +7%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50092" levels="1" name="Tattoo of the Assassin Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50092" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.05" /> <!-- Increases Crt.Rate +5%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50101" levels="1" name="Tattoo of the Golem Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50101" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50102" levels="1" name="Tattoo of the Golem Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50102" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50103" levels="1" name="Tattoo of the Golem Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50103" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.05" /> <!-- Increases P.Def +5%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50104" levels="1" name="Tattoo of the Golem Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50104" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50105" levels="1" name="Tattoo of the Golem Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50105" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50106" levels="1" name="Tattoo of the Golem Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50106" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.05" /> <!-- Increases P.Def +5%. -->
+                <mul stat="pAtkSpd" val="0.96" /> <!-- Decreases AttackSpeed -4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50107" levels="1" name="Tattoo of the Sniper Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50107" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50108" levels="1" name="Tattoo of the Sniper Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50108" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50109" levels="1" name="Tattoo of the Sniper Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50109" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.05" /> <!-- Increases Accuracy +5%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50110" levels="1" name="Tattoo of the Sniper Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50110" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50111" levels="1" name="Tattoo of the Sniper Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50111" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50112" levels="1" name="Tattoo of the Sniper Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50112" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.05" /> <!-- Increases Accuracy +5%. -->
+                <mul stat="pAtk" val="0.96" /> <!-- Decreases P.Atk -4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50113" levels="1" name="Tattoo of the Ghost Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50113" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50114" levels="1" name="Tattoo of the Ghost Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50114" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50115" levels="1" name="Tattoo of the Ghost Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50115" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.05" /> <!-- Increases Evasion +5%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50116" levels="1" name="Tattoo of the Ghost Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50116" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50117" levels="1" name="Tattoo of the Ghost Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50117" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50118" levels="1" name="Tattoo of the Ghost Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50118" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.05" /> <!-- Increases Evasion +5%. -->
+                <mul stat="accCombat" val="0.96" /> <!-- Decreases Accuracy -4%. -->
+                <mul stat="pDef" val="0.96" /> <!-- Decreases P.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50119" levels="1" name="Tattoo of the Witch Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50119" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mAtk" val="0.96" /> <!-- Decreases M.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50120" levels="1" name="Tattoo of the Witch Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50120" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50121" levels="1" name="Tattoo of the Witch Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50121" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.05" /> <!-- Increases CastingSpeed +5%. -->
+                <mul stat="mAtk" val="0.96" /> <!-- Decreases M.Atk -4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50122" levels="1" name="Tattoo of the Witch Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50122" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mAtk" val="0.96" /> <!-- Decreases M.Atk -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50123" levels="1" name="Tattoo of the Witch Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50123" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50124" levels="1" name="Tattoo of the Witch Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50124" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.05" /> <!-- Increases CastingSpeed +5%. -->
+                <mul stat="mAtk" val="0.96" /> <!-- Decreases M.Atk -4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50125" levels="1" name="Tattoo of Magic Power Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50125" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50126" levels="1" name="Tattoo of Magic Power Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50126" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50127" levels="1" name="Tattoo of Magic Power Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50127" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.05" /> <!-- Increases M.Atk +5%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50128" levels="1" name="Tattoo of Magic Power Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50128" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50129" levels="1" name="Tattoo of Magic Power Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50129" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50130" levels="1" name="Tattoo of Magic Power Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50130" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.05" /> <!-- Increases M.Atk +5%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+                <mul stat="mDef" val="0.96" /> <!-- Decreases M.Def -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50131" levels="1" name="Tattoo of the Mirror Left Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50131" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50132" levels="1" name="Tattoo of the Mirror Left Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50132" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50133" levels="1" name="Tattoo of the Mirror Left Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50133" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.05" /> <!-- Increases M.Def +5%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50134" levels="1" name="Tattoo of the Mirror Right Type 1 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50134" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50135" levels="1" name="Tattoo of the Mirror Right Type 2 Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50135" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50136" levels="1" name="Tattoo of the Mirror Right Empowered Level 2">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50136" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.05" /> <!-- Increases M.Def +5%. -->
+                <mul stat="mAtkSpd" val="0.96" /> <!-- Decreases CastingSpeed -4%. -->
+                <mul stat="rEvas" val="0.96" /> <!-- Decreases Evasion -4%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50137" levels="1" name="Tattoo of the Ogre Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50137" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50138" levels="1" name="Tattoo of the Ogre Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50138" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50139" levels="1" name="Tattoo of the Ogre Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50139" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.06" /> <!-- Increases P.atk +6%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50140" levels="1" name="Tattoo of the Ogre Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50140" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50141" levels="1" name="Tattoo of the Ogre Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50141" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.04" /> <!-- Increases P.atk +4%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50142" levels="1" name="Tattoo of the Ogre Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50142" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.06" /> <!-- Increases P.atk +6%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50143" levels="1" name="Tattoo of the Monk Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50143" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50144" levels="1" name="Tattoo of the Monk Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50144" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50145" levels="1" name="Tattoo of the Monk Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50145" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.06" /> <!-- Increases AttackSpeed +6%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50146" levels="1" name="Tattoo of the Monk Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50146" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50147" levels="1" name="Tattoo of the Monk Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50147" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.04" /> <!-- Increases AttackSpeed +4%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50148" levels="1" name="Tattoo of the Monk Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50148" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.06" /> <!-- Increases AttackSpeed +6%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50149" levels="1" name="Tattoo of the Rabbit Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50149" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50150" levels="1" name="Tattoo of the Rabbit Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50150" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50151" levels="1" name="Tattoo of the Rabbit Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50151" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.06" /> <!-- Increases Speed +6%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50152" levels="1" name="Tattoo of the Rabbit Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50152" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50153" levels="1" name="Tattoo of the Rabbit Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50153" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.04" /> <!-- Increases Speed +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50154" levels="1" name="Tattoo of the Rabbit Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50154" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.06" /> <!-- Increases Speed +6%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50155" levels="1" name="Tattoo of the Assassin Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50155" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50156" levels="1" name="Tattoo of the Assassin Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50156" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50157" levels="1" name="Tattoo of the Assassin Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50157" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.06" /> <!-- Increases Crt.Rate +6%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50158" levels="1" name="Tattoo of the Assassin Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50158" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50159" levels="1" name="Tattoo of the Assassin Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50159" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.04" /> <!-- Increases Crt.Rate +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50160" levels="1" name="Tattoo of the Assassin Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50160" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.06" /> <!-- Increases Crt.Rate +6%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50161" levels="1" name="Tattoo of the Giant Left Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50161" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.04" /> <!-- Increases HP +4%. -->
+                <mul stat="maxMp" val="0.97" /> <!-- Decreases MP -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50162" levels="1" name="Tattoo of the Scholar Left Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50162" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.04" /> <!-- Increases MP +4%. -->
+                <mul stat="maxHp" val="0.97" /> <!-- Decreases HP -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50163" levels="1" name="Tattoo of the Troll Left Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50163" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.11" /> <!-- Increases HP +11%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50164" levels="1" name="Tattoo of the Nymph Left Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50164" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.11" /> <!-- Increases MP +11%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50165" levels="1" name="Tattoo of the Giant Right Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50165" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.04" /> <!-- Increases HP +4%. -->
+                <mul stat="maxMp" val="0.97" /> <!-- Decreases MP -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50166" levels="1" name="Tattoo of the Scholar Right Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50166" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.04" /> <!-- Increases MP +4%. -->
+                <mul stat="maxHp" val="0.97" /> <!-- Decreases HP -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50167" levels="1" name="Tattoo of the Troll Right Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50167" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.11" /> <!-- Increases HP +11%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50168" levels="1" name="Tattoo of the Nymph Right Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50168" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.11" /> <!-- Increases MP +11%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50169" levels="1" name="Tattoo of the Golem Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50169" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50170" levels="1" name="Tattoo of the Golem Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50170" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50171" levels="1" name="Tattoo of the Golem Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50171" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.06" /> <!-- Increases P.Def +6%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50172" levels="1" name="Tattoo of the Golem Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50172" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50173" levels="1" name="Tattoo of the Golem Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50173" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.04" /> <!-- Increases P.Def +4%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50174" levels="1" name="Tattoo of the Golem Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50174" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.06" /> <!-- Increases P.Def +6%. -->
+                <mul stat="pAtkSpd" val="0.97" /> <!-- Decreases AttackSpeed -3%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50175" levels="1" name="Tattoo of the Sniper Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50175" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50176" levels="1" name="Tattoo of the Sniper Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50176" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50177" levels="1" name="Tattoo of the Sniper Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50177" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.06" /> <!-- Increases Accuracy +6%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50178" levels="1" name="Tattoo of the Sniper Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50178" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50179" levels="1" name="Tattoo of the Sniper Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50179" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.04" /> <!-- Increases Accuracy +4%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50180" levels="1" name="Tattoo of the Sniper Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50180" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.06" /> <!-- Increases Accuracy +6%. -->
+                <mul stat="pAtk" val="0.97" /> <!-- Decreases P.Atk -3%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50181" levels="1" name="Tattoo of the Ghost Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50181" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50182" levels="1" name="Tattoo of the Ghost Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50182" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50183" levels="1" name="Tattoo of the Ghost Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50183" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.06" /> <!-- Increases Evasion +6%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50184" levels="1" name="Tattoo of the Ghost Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50184" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50185" levels="1" name="Tattoo of the Ghost Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50185" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.04" /> <!-- Increases Evasion +4%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50186" levels="1" name="Tattoo of the Ghost Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50186" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.06" /> <!-- Increases Evasion +6%. -->
+                <mul stat="accCombat" val="0.97" /> <!-- Decreases Accuracy -3%. -->
+                <mul stat="pDef" val="0.97" /> <!-- Decreases P.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50187" levels="1" name="Tattoo of the Witch Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50187" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mAtk" val="0.97" /> <!-- Decreases M.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50188" levels="1" name="Tattoo of the Witch Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50188" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50189" levels="1" name="Tattoo of the Witch Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50189" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.06" /> <!-- Increases CastingSpeed +6%. -->
+                <mul stat="mAtk" val="0.97" /> <!-- Decreases M.Atk -3%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50190" levels="1" name="Tattoo of the Witch Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50190" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mAtk" val="0.97" /> <!-- Decreases M.Atk -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50191" levels="1" name="Tattoo of the Witch Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50191" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.04" /> <!-- Increases CastingSpeed +4%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50192" levels="1" name="Tattoo of the Witch Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50192" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.06" /> <!-- Increases CastingSpeed +6%. -->
+                <mul stat="mAtk" val="0.97" /> <!-- Decreases M.Atk -3%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50193" levels="1" name="Tattoo of Magic Power Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50193" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50194" levels="1" name="Tattoo of Magic Power Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50194" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50195" levels="1" name="Tattoo of Magic Power Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50195" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.06" /> <!-- Increases M.Atk +6%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50196" levels="1" name="Tattoo of Magic Power Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50196" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50197" levels="1" name="Tattoo of Magic Power Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50197" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.04" /> <!-- Increases M.Atk +4%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50198" levels="1" name="Tattoo of Magic Power Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50198" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.06" /> <!-- Increases M.Atk +6%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+                <mul stat="mDef" val="0.97" /> <!-- Decreases M.Def -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50199" levels="1" name="Tattoo of the Mirror Left Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50199" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50200" levels="1" name="Tattoo of the Mirror Left Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50200" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50201" levels="1" name="Tattoo of the Mirror Left Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50201" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.06" /> <!-- Increases M.Def +6%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50202" levels="1" name="Tattoo of the Mirror Right Type 1 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50202" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50203" levels="1" name="Tattoo of the Mirror Right Type 2 Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50203" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.04" /> <!-- Increases M.Def +4%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50204" levels="1" name="Tattoo of the Mirror Right Empowered Level 3">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50204" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.06" /> <!-- Increases M.Def +6%. -->
+                <mul stat="mAtkSpd" val="0.97" /> <!-- Decreases CastingSpeed -3%. -->
+                <mul stat="rEvas" val="0.97" /> <!-- Decreases Evasion -3%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50205" levels="1" name="Tattoo of the Ogre Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50205" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.05" /> <!-- Increases P.atk +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50206" levels="1" name="Tattoo of the Ogre Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50206" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.05" /> <!-- Increases P.atk +5%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50207" levels="1" name="Tattoo of the Ogre Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50207" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.07" /> <!-- Increases P.atk +7%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50208" levels="1" name="Tattoo of the Ogre Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50208" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.05" /> <!-- Increases P.atk +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50209" levels="1" name="Tattoo of the Ogre Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50209" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.05" /> <!-- Increases P.atk +5%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50210" levels="1" name="Tattoo of the Ogre Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50210" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtk" val="1.07" /> <!-- Increases P.atk +7%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50211" levels="1" name="Tattoo of the Monk Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50211" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.05" /> <!-- Increases AttackSpeed +5%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50212" levels="1" name="Tattoo of the Monk Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50212" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.05" /> <!-- Increases AttackSpeed +5%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50213" levels="1" name="Tattoo of the Monk Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50213" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.07" /> <!-- Increases AttackSpeed +7%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50214" levels="1" name="Tattoo of the Monk Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50214" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.05" /> <!-- Increases AttackSpeed +5%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50215" levels="1" name="Tattoo of the Monk Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50215" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.05" /> <!-- Increases AttackSpeed +5%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50216" levels="1" name="Tattoo of the Monk Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50216" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pAtkSpd" val="1.07" /> <!-- Increases AttackSpeed +7%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50217" levels="1" name="Tattoo of the Rabbit Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50217" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.05" /> <!-- Increases Speed +5%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50218" levels="1" name="Tattoo of the Rabbit Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50218" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.05" /> <!-- Increases Speed +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50219" levels="1" name="Tattoo of the Rabbit Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50219" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.07" /> <!-- Increases Speed +7%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50220" levels="1" name="Tattoo of the Rabbit Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50220" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.05" /> <!-- Increases Speed +5%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50221" levels="1" name="Tattoo of the Rabbit Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50221" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.05" /> <!-- Increases Speed +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50222" levels="1" name="Tattoo of the Rabbit Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50222" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="runSpd" val="1.07" /> <!-- Increases Speed +7%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50223" levels="1" name="Tattoo of the Assassin Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50223" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.05" /> <!-- Increases Crt.Rate +5%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50224" levels="1" name="Tattoo of the Assassin Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50224" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.05" /> <!-- Increases Crt.Rate +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50225" levels="1" name="Tattoo of the Assassin Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50225" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.07" /> <!-- Increases Crt.Rate +7%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50226" levels="1" name="Tattoo of the Assassin Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50226" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.05" /> <!-- Increases Crt.Rate +5%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50227" levels="1" name="Tattoo of the Assassin Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50227" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.05" /> <!-- Increases Crt.Rate +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50228" levels="1" name="Tattoo of the Assassin Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50228" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="critRate" val="1.07" /> <!-- Increases Crt.Rate +7%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50229" levels="1" name="Tattoo of the Giant Left Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50229" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.05" /> <!-- Increases HP +5%. -->
+                <mul stat="maxMp" val="0.98" /> <!-- Decreases MP -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50230" levels="1" name="Tattoo of the Scholar Left Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50230" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.05" /> <!-- Increases MP +5%. -->
+                <mul stat="maxHp" val="0.98" /> <!-- Decreases HP -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50231" levels="1" name="Tattoo of the Troll Left Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50231" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.15" /> <!-- Increases HP +15%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50232" levels="1" name="Tattoo of the Nymph Left Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50232" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.15" /> <!-- Increases MP +15%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50233" levels="1" name="Tattoo of the Giant Right Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50233" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.05" /> <!-- Increases HP +5%. -->
+                <mul stat="maxMp" val="0.98" /> <!-- Decreases MP -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50234" levels="1" name="Tattoo of the Scholar Right Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50234" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.05" /> <!-- Increases MP +5%. -->
+                <mul stat="maxHp" val="0.98" /> <!-- Decreases HP -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50235" levels="1" name="Tattoo of the Troll Right Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50235" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxHp" val="1.15" /> <!-- Increases HP +15%. -->
+                <mul stat="maxMp" val="0.90" /> <!-- Decreases MP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50236" levels="1" name="Tattoo of the Nymph Right Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50236" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="maxMp" val="1.15" /> <!-- Increases MP +15%. -->
+                <mul stat="maxHp" val="0.90" /> <!-- Decreases HP -10%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50237" levels="1" name="Tattoo of the Golem Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50237" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.05" /> <!-- Increases P.Def +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50238" levels="1" name="Tattoo of the Golem Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50238" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.05" /> <!-- Increases P.Def +5%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50239" levels="1" name="Tattoo of the Golem Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50239" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.07" /> <!-- Increases P.Def +7%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50240" levels="1" name="Tattoo of the Golem Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50240" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.05" /> <!-- Increases P.Def +5%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50241" levels="1" name="Tattoo of the Golem Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50241" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.05" /> <!-- Increases P.Def +5%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50242" levels="1" name="Tattoo of the Golem Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50242" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="pDef" val="1.07" /> <!-- Increases P.Def +7%. -->
+                <mul stat="pAtkSpd" val="0.98" /> <!-- Decreases AttackSpeed -2%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50243" levels="1" name="Tattoo of the Sniper Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50243" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.05" /> <!-- Increases Accuracy +5%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50244" levels="1" name="Tattoo of the Sniper Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50244" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.05" /> <!-- Increases Accuracy +5%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50245" levels="1" name="Tattoo of the Sniper Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50245" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.07" /> <!-- Increases Accuracy +7%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50246" levels="1" name="Tattoo of the Sniper Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50246" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.05" /> <!-- Increases Accuracy +5%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50247" levels="1" name="Tattoo of the Sniper Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50247" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.05" /> <!-- Increases Accuracy +5%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50248" levels="1" name="Tattoo of the Sniper Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50248" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="accCombat" val="1.07" /> <!-- Increases Accuracy +7%. -->
+                <mul stat="pAtk" val="0.98" /> <!-- Decreases P.Atk -2%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50249" levels="1" name="Tattoo of the Ghost Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50249" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.05" /> <!-- Increases Evasion +5%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50250" levels="1" name="Tattoo of the Ghost Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50250" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.05" /> <!-- Increases Evasion +5%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50251" levels="1" name="Tattoo of the Ghost Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50251" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.07" /> <!-- Increases Evasion +7%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50252" levels="1" name="Tattoo of the Ghost Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50252" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.05" /> <!-- Increases Evasion +5%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50253" levels="1" name="Tattoo of the Ghost Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50253" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.05" /> <!-- Increases Evasion +5%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50254" levels="1" name="Tattoo of the Ghost Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50254" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="rEvas" val="1.07" /> <!-- Increases Evasion +7%. -->
+                <mul stat="accCombat" val="0.98" /> <!-- Decreases Accuracy -2%. -->
+                <mul stat="pDef" val="0.98" /> <!-- Decreases P.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50255" levels="1" name="Tattoo of the Witch Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50255" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.05" /> <!-- Increases CastingSpeed +5%. -->
+                <mul stat="mAtk" val="0.98" /> <!-- Decreases M.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50256" levels="1" name="Tattoo of the Witch Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50256" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.05" /> <!-- Increases CastingSpeed +5%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50257" levels="1" name="Tattoo of the Witch Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50257" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.07" /> <!-- Increases CastingSpeed +7%. -->
+                <mul stat="mAtk" val="0.98" /> <!-- Decreases M.Atk -2%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50258" levels="1" name="Tattoo of the Witch Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50258" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.05" /> <!-- Increases CastingSpeed +5%. -->
+                <mul stat="mAtk" val="0.98" /> <!-- Decreases M.Atk -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50259" levels="1" name="Tattoo of the Witch Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50259" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.05" /> <!-- Increases CastingSpeed +5%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50260" levels="1" name="Tattoo of the Witch Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50260" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtkSpd" val="1.07" /> <!-- Increases CastingSpeed +7%. -->
+                <mul stat="mAtk" val="0.98" /> <!-- Decreases M.Atk -2%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50261" levels="1" name="Tattoo of Magic Power Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50261" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.05" /> <!-- Increases M.Atk +5%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50262" levels="1" name="Tattoo of Magic Power Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50262" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.05" /> <!-- Increases M.Atk +5%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50263" levels="1" name="Tattoo of Magic Power Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50263" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.07" /> <!-- Increases M.Atk +7%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50264" levels="1" name="Tattoo of Magic Power Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50264" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.05" /> <!-- Increases M.Atk +5%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50265" levels="1" name="Tattoo of Magic Power Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50265" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.05" /> <!-- Increases M.Atk +5%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50266" levels="1" name="Tattoo of Magic Power Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50266" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mAtk" val="1.07" /> <!-- Increases M.Atk +7%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+                <mul stat="mDef" val="0.98" /> <!-- Decreases M.Def -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50267" levels="1" name="Tattoo of the Mirror Left Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50267" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.05" /> <!-- Increases M.Def +5%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50268" levels="1" name="Tattoo of the Mirror Left Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50268" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.05" /> <!-- Increases M.Def +5%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50269" levels="1" name="Tattoo of the Mirror Left Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50269" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.07" /> <!-- Increases M.Def +7%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50270" levels="1" name="Tattoo of the Mirror Right Type 1 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50270" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.05" /> <!-- Increases M.Def +5%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50271" levels="1" name="Tattoo of the Mirror Right Type 2 Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50271" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.05" /> <!-- Increases M.Def +5%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+    <skill id="50272" levels="1" name="Tattoo of the Mirror Right Empowered Level 4">
+        <!-- Tattoo that increases/decreases certain abilities. -->
+        <set name="icon" val="icon.skill50272" />
+        <set name="magicLevel" val="75" />
+        <set name="operateType" val="P" />
+        <set name="targetType" val="SELF" />
+        <for>
+            <effect name="Buff">
+                <mul stat="mDef" val="1.07" /> <!-- Increases M.Def +7%. -->
+                <mul stat="mAtkSpd" val="0.98" /> <!-- Decreases CastingSpeed -2%. -->
+                <mul stat="rEvas" val="0.98" /> <!-- Decreases Evasion -2%. -->
+            </effect>
+        </for>
+    </skill>
+</list>

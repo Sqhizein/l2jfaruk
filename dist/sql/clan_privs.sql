@@ -1,0 +1,17 @@
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268529827, 1, 0, 16777214);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268529827, 5, 0, 16777214);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268529827, 6, 0, 16777214);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268538897, 1, 0, 16777214);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268580782, 5, 0, 1660942);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268580782, 6, 0, 1660942);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 1, 0, 1924206);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 2, 0, 0);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 3, 0, 0);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 4, 0, 16777214);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 5, 0, 1906758);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 6, 0, 16775246);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 7, 0, 1660998);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 8, 0, 1644610);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (268784513, 9, 0, 67584);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (269404764, 4, 0, 16777214);
+INSERT INTO `clan_privs` (`clan_id`, `rank`, `party`, `privs`) VALUES (269404764, 5, 0, 16777214);

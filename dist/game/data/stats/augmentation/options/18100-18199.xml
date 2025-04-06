@@ -1,0 +1,696 @@
+<?xml version="1.0" ?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/optionsData.xsd">
+    <option id="18100" name="o_s_58_1g_acc_earring_4">
+        <!-- Passive: Increase Dark P. Def. -->
+        <passive_skill id="8116" level="1"/>
+        <!-- Augment Option - Dark Resistance -->
+    </option>
+    <option id="18101" name="o_s_58_1g_acc_earring_5">
+        <!-- Passive: Increase Water P. Def. -->
+        <passive_skill id="8118" level="1"/>
+        <!-- Augment Option - Water Resistance -->
+    </option>
+    <option id="18102" name="o_s_58_1g_acc_earring_6">
+        <!-- Passive: Increase Wind P. Def. -->
+        <passive_skill id="8119" level="1"/>
+        <!-- Augment Option - Wind Resistance -->
+    </option>
+    <option id="18103" name="o_s_58_1g_acc_earring_7">
+        <!-- Passive: Increase Bleed P. Atk. -->
+        <passive_skill id="8158" level="1"/>
+        <!-- Augment Option - Bleed Resistance -->
+    </option>
+    <option id="18104" name="o_s_58_1g_acc_earring_8">
+        <!-- Passive: Increase Bleed P. Def. -->
+        <passive_skill id="8164" level="1"/>
+        <!-- Augment Option - Bleed Resistance -->
+    </option>
+    <option id="18105" name="o_s_58_1g_acc_earring_9">
+        <!-- Passive: Increase Mental Abnormal P. Atk. -->
+        <passive_skill id="8162" level="1"/>
+        <!-- Augment Option - Mental Attack Resistance -->
+    </option>
+    <option id="18106" name="o_s_58_1g_acc_earring_10">
+        <!-- Passive: Increase Mental Abnormal P. Def. -->
+        <passive_skill id="8168" level="1"/>
+        <!-- Augment Option - Mental Attack Resistance -->
+    </option>
+    <option id="18107" name="o_s_58_1g_acc_earring_11">
+        <!-- Passive: Increases the power of paralysis-type attacks. -->
+        <passive_skill id="8161" level="1"/>
+        <!-- Augment Option - Paralysis Resistance -->
+    </option>
+    <option id="18108" name="o_s_58_1g_acc_earring_12">
+        <!-- Passive: Increases your defense against paralysis-type attacks. -->
+        <passive_skill id="8167" level="1"/>
+        <!-- Augment Option - Paralysis Resistance -->
+    </option>
+    <option id="18109" name="o_s_58_1g_acc_earring_13">
+        <!-- Passive: Increase Poison P. Atk. -->
+        <passive_skill id="8159" level="1"/>
+        <!-- Augment Option - Poison Resistance -->
+    </option>
+    <option id="18110" name="o_s_58_1g_acc_earring_14">
+        <!-- Passive: Increase Poison P. Def. -->
+        <passive_skill id="8165" level="1"/>
+        <!-- Augment Option - Poison Resistance -->
+    </option>
+    <option id="18111" name="o_s_58_1g_acc_earring_15">
+        <!-- Passive: Increase Stun P. Atk. -->
+        <passive_skill id="8157" level="1"/>
+        <!-- Augment Option - Stun Resistance -->
+    </option>
+    <option id="18112" name="o_s_58_1g_acc_earring_16">
+        <!-- Passive: Increase Stun P. Def. -->
+        <passive_skill id="8163" level="1"/>
+        <!-- Augment Option - Stun Resistance -->
+    </option>
+    <option id="18113" name="o_s_58_1g_acc_earring_17">
+        <!-- Passive: Increase Sleep P. Atk. -->
+        <passive_skill id="8160" level="1"/>
+        <!-- Augment Option - Sleep Resistance -->
+    </option>
+    <option id="18114" name="o_s_58_1g_acc_earring_18">
+        <!-- Passive: Increase Sleep P. Def. -->
+        <passive_skill id="8166" level="1"/>
+        <!-- Augment Option - Sleep Resistance -->
+    </option>
+    <option id="18115" name="o_f_58_2g_acc_earring_1">
+        <!--Increase M. Def. and P. Def. 25-->
+        <for>
+            <add stat="mDef" val="25"/>
+            <add stat="pDef" val="25"/>
+        </for>
+    </option>
+    <option id="18116" name="o_f_58_2g_acc_earring_2">
+        <!--Increase Max HP 108 Increase M. Def. and P. Def. 12.5-->
+        <for>
+            <add stat="mDef" val="12.5"/>
+            <add stat="pDef" val="12.5"/>
+            <add stat="maxHp" val="108"/>
+        </for>
+    </option>
+    <option id="18117" name="o_f_58_2g_acc_earring_3">
+        <!--Increase Max MP 64 Increase M. Def. and P. Def. 12.5-->
+        <for>
+            <add stat="mDef" val="12.5"/>
+            <add stat="pDef" val="12.5"/>
+            <add stat="maxMp" val="64"/>
+        </for>
+    </option>
+    <option id="18118" name="o_f_58_2g_acc_earring_4">
+        <!--Increase M. Atk. and P. Atk. 19 Increase M. Def. and P. Def. 12.5-->
+        <for>
+            <add stat="mDef" val="12.5"/>
+            <add stat="pDef" val="12.5"/>
+            <add stat="mAtk" val="19"/>
+            <add stat="pAtk" val="19"/>
+        </for>
+    </option>
+    <option id="18119" name="o_f_58_2g_acc_earring_5">
+        <!--Increase M. Def. and P. Def. 12.5 Increase HP Regen 0.6-->
+        <for>
+            <add stat="mDef" val="12.5"/>
+            <add stat="pDef" val="12.5"/>
+            <add stat="regHp" val="0.6"/>
+        </for>
+    </option>
+    <option id="18120" name="o_f_58_2g_acc_earring_6">
+        <!--Increase M. Def. and P. Def. 12.5 Increase MP Regen 0.2-->
+        <for>
+            <add stat="mDef" val="12.5"/>
+            <add stat="pDef" val="12.5"/>
+            <add stat="regMp" val="0.2"/>
+        </for>
+    </option>
+    <option id="18121" name="o_f_58_2g_acc_earring_7">
+        <!--Increase Max HP 216 Increase MP Regen 0.2-->
+        <for>
+            <add stat="maxHp" val="216"/>
+            <add stat="regMp" val="0.2"/>
+        </for>
+    </option>
+    <option id="18122" name="o_f_58_2g_acc_earring_8">
+        <!--Increase Max HP 108 Increase Max MP 64-->
+        <for>
+            <add stat="maxHp" val="108"/>
+            <add stat="maxMp" val="64"/>
+        </for>
+    </option>
+    <option id="18123" name="o_f_58_2g_acc_earring_9">
+        <!--Increase Max HP 108 Increase M. Atk. and P. Atk. 19-->
+        <for>
+            <add stat="maxHp" val="108"/>
+            <add stat="mAtk" val="19"/>
+            <add stat="pAtk" val="19"/>
+        </for>
+    </option>
+    <option id="18124" name="o_f_58_2g_acc_earring_10">
+        <!--Increase Max HP 108 Increase HP Regen 0.6-->
+        <for>
+            <add stat="maxHp" val="108"/>
+            <add stat="regHp" val="0.6"/>
+        </for>
+    </option>
+    <option id="18125" name="o_f_58_2g_acc_earring_11">
+        <!--Increase Max HP 108 Increase MP Regen 0.2-->
+        <for>
+            <add stat="maxHp" val="108"/>
+            <add stat="regMp" val="0.2"/>
+        </for>
+    </option>
+    <option id="18126" name="o_f_58_2g_acc_earring_12">
+        <!--Increase Max MP 128-->
+        <for>
+            <add stat="maxMp" val="128"/>
+        </for>
+    </option>
+    <option id="18127" name="o_f_58_2g_acc_earring_13">
+        <!--Increase Max MP 64 Increase M. Atk. and P. Atk. 19-->
+        <for>
+            <add stat="maxMp" val="64"/>
+            <add stat="mAtk" val="19"/>
+            <add stat="pAtk" val="19"/>
+        </for>
+    </option>
+    <option id="18128" name="o_f_58_2g_acc_earring_14">
+        <!--Increase Max MP 64 Increase HP Regen 0.6-->
+        <for>
+            <add stat="maxMp" val="64"/>
+            <add stat="regHp" val="0.6"/>
+        </for>
+    </option>
+    <option id="18129" name="o_f_58_2g_acc_earring_15">
+        <!--Increase Max MP 64 Increase MP Regen 0.2-->
+        <for>
+            <add stat="maxMp" val="64"/>
+            <add stat="regMp" val="0.2"/>
+        </for>
+    </option>
+    <option id="18130" name="o_f_58_2g_acc_earring_16">
+        <!--Increase M. Atk. and P. Atk. 38-->
+        <for>
+            <add stat="mAtk" val="38"/>
+            <add stat="pAtk" val="38"/>
+        </for>
+    </option>
+    <option id="18131" name="o_f_58_2g_acc_earring_17">
+        <!--Increase M. Atk. and P. Atk. 19 Increase HP Regen 0.6-->
+        <for>
+            <add stat="mAtk" val="19"/>
+            <add stat="pAtk" val="19"/>
+            <add stat="regHp" val="0.6"/>
+        </for>
+    </option>
+    <option id="18132" name="o_f_58_2g_acc_earring_18">
+        <!--Increase M. Atk. and P. Atk. 19 Increase MP Regen 0.2-->
+        <for>
+            <add stat="mAtk" val="19"/>
+            <add stat="pAtk" val="19"/>
+            <add stat="regMp" val="0.2"/>
+        </for>
+    </option>
+    <option id="18133" name="o_f_58_2g_acc_earring_19">
+        <!--Increase HP Regen 1.2-->
+        <for>
+            <add stat="regHp" val="1.2"/>
+        </for>
+    </option>
+    <option id="18134" name="o_f_58_2g_acc_earring_20">
+        <!--Increase MP Regen 0.4-->
+        <for>
+            <add stat="regMp" val="0.4"/>
+        </for>
+    </option>
+    <option id="18135" name="o_f_58_2g_acc_earring_21">
+        <!--Increase HP Regen 0.6 Increase MP Regen 0.2-->
+        <for>
+            <add stat="regHp" val="0.6"/>
+            <add stat="regMp" val="0.2"/>
+        </for>
+    </option>
+    <option id="18136" name="o_f_58_2s_acc_earring_1">
+        <!--Increase M. Def. and P. Def. 30-->
+        <for>
+            <add stat="mDef" val="30"/>
+            <add stat="pDef" val="30"/>
+        </for>
+    </option>
+    <option id="18137" name="o_f_58_2s_acc_earring_2">
+        <!--Increase Max HP 124 Increase M. Def. and P. Def. 15-->
+        <for>
+            <add stat="mDef" val="15"/>
+            <add stat="pDef" val="15"/>
+            <add stat="maxHp" val="124"/>
+        </for>
+    </option>
+    <option id="18138" name="o_f_58_2s_acc_earring_3">
+        <!--Increase Max MP 80 Increase M. Def. and P. Def. 15-->
+        <for>
+            <add stat="mDef" val="15"/>
+            <add stat="pDef" val="15"/>
+            <add stat="maxMp" val="80"/>
+        </for>
+    </option>
+    <option id="18139" name="o_f_58_2s_acc_earring_4">
+        <!--Increase M. Atk. and P. Atk. 22 Increase M. Def. and P. Def. 15-->
+        <for>
+            <add stat="mDef" val="15"/>
+            <add stat="pDef" val="15"/>
+            <add stat="mAtk" val="22"/>
+            <add stat="pAtk" val="22"/>
+        </for>
+    </option>
+    <option id="18140" name="o_f_58_2s_acc_earring_5">
+        <!--Increase M. Def. and P. Def. 15 Increase HP Regen 7.5-->
+        <for>
+            <add stat="mDef" val="15"/>
+            <add stat="pDef" val="15"/>
+            <add stat="regHp" val="7.5"/>
+        </for>
+    </option>
+    <option id="18141" name="o_f_58_2s_acc_earring_6">
+        <!--Increase M. Def. and P. Def. 15 Increase MP Regen 0.25-->
+        <for>
+            <add stat="mDef" val="15"/>
+            <add stat="pDef" val="15"/>
+            <add stat="regMp" val="0.25"/>
+        </for>
+    </option>
+    <option id="18142" name="o_f_58_2s_acc_earring_7">
+        <!--Increase Max HP 248-->
+        <for>
+            <add stat="maxHp" val="248"/>
+        </for>
+    </option>
+    <option id="18143" name="o_f_58_2s_acc_earring_8">
+        <!--Increase Max HP 124 Increase Max MP 80-->
+        <for>
+            <add stat="maxHp" val="124"/>
+            <add stat="maxMp" val="80"/>
+        </for>
+    </option>
+    <option id="18144" name="o_f_58_2s_acc_earring_9">
+        <!--Increase Max HP 124 Increase M. Atk. and P. Atk. 22-->
+        <for>
+            <add stat="maxHp" val="124"/>
+            <add stat="mAtk" val="22"/>
+            <add stat="pAtk" val="22"/>
+        </for>
+    </option>
+    <option id="18145" name="o_f_58_2s_acc_earring_10">
+        <!--Increase Max HP 124 Increase HP Regen 7.5-->
+        <for>
+            <add stat="maxHp" val="124"/>
+            <add stat="regHp" val="7.5"/>
+        </for>
+    </option>
+    <option id="18146" name="o_f_58_2s_acc_earring_11">
+        <!--Increase Max HP 124 Increase MP Regen 0.25-->
+        <for>
+            <add stat="maxHp" val="124"/>
+            <add stat="regMp" val="0.25"/>
+        </for>
+    </option>
+    <option id="18147" name="o_f_58_2s_acc_earring_12">
+        <!--Increase Max MP 160-->
+        <for>
+            <add stat="maxMp" val="160"/>
+        </for>
+    </option>
+    <option id="18148" name="o_f_58_2s_acc_earring_13">
+        <!--Increase Max MP 80 Increase M. Atk. and P. Atk. 22-->
+        <for>
+            <add stat="maxMp" val="80"/>
+            <add stat="mAtk" val="22"/>
+            <add stat="pAtk" val="22"/>
+        </for>
+    </option>
+    <option id="18149" name="o_f_58_2s_acc_earring_14">
+        <!--Increase Max MP 80 Increase HP Regen 7.5-->
+        <for>
+            <add stat="maxMp" val="80"/>
+            <add stat="regHp" val="7.5"/>
+        </for>
+    </option>
+    <option id="18150" name="o_f_58_2s_acc_earring_15">
+        <!--Increase Max MP 80 Increase MP Regen 0.25-->
+        <for>
+            <add stat="maxMp" val="80"/>
+            <add stat="regMp" val="0.25"/>
+        </for>
+    </option>
+    <option id="18151" name="o_f_58_2s_acc_earring_16">
+        <!--Increase M. Atk. and P. Atk. 44-->
+        <for>
+            <add stat="mAtk" val="44"/>
+            <add stat="pAtk" val="44"/>
+        </for>
+    </option>
+    <option id="18152" name="o_f_58_2s_acc_earring_17">
+        <!--Increase M. Atk. and P. Atk. 22 Increase HP Regen 7.5-->
+        <for>
+            <add stat="mAtk" val="22"/>
+            <add stat="pAtk" val="22"/>
+            <add stat="regHp" val="7.5"/>
+        </for>
+    </option>
+    <option id="18153" name="o_f_58_2s_acc_earring_18">
+        <!--Increase M. Atk. and P. Atk. 22 Increase MP Regen 0.25-->
+        <for>
+            <add stat="mAtk" val="22"/>
+            <add stat="pAtk" val="22"/>
+            <add stat="regMp" val="0.25"/>
+        </for>
+    </option>
+    <option id="18154" name="o_f_58_2s_acc_earring_19">
+        <!--Increase HP Regen 1.5-->
+        <for>
+            <add stat="regHp" val="1.5"/>
+        </for>
+    </option>
+    <option id="18155" name="o_f_58_2s_acc_earring_20">
+        <!--Increase MP Regen 0.5-->
+        <for>
+            <add stat="regMp" val="0.5"/>
+        </for>
+    </option>
+    <option id="18156" name="o_f_58_2s_acc_earring_21">
+        <!--Increase HP Regen 7.5 Increase MP Regen 0.25-->
+        <for>
+            <add stat="regHp" val="7.5"/>
+            <add stat="regMp" val="0.25"/>
+        </for>
+    </option>
+    <option id="18157" name="o_f_58_2r_acc_earring_1">
+        <!--Increase M. Def. and P. Def. 36-->
+        <for>
+            <add stat="mDef" val="36"/>
+            <add stat="pDef" val="36"/>
+        </for>
+    </option>
+    <option id="18158" name="o_f_58_2r_acc_earring_2">
+        <!--Increase Max HP 152 Increase M. Def. and P. Def. 18-->
+        <for>
+            <add stat="mDef" val="18"/>
+            <add stat="pDef" val="18"/>
+            <add stat="maxHp" val="152"/>
+        </for>
+    </option>
+    <option id="18159" name="o_f_58_2r_acc_earring_3">
+        <!--Increase Max MP 96 Increase M. Def. and P. Def. 18-->
+        <for>
+            <add stat="mDef" val="18"/>
+            <add stat="pDef" val="18"/>
+            <add stat="maxMp" val="96"/>
+        </for>
+    </option>
+    <option id="18160" name="o_f_58_2r_acc_earring_4">
+        <!--Increase M. Atk. and P. Atk. 27 Increase M. Def. and P. Def. 18-->
+        <for>
+            <add stat="mDef" val="18"/>
+            <add stat="pDef" val="18"/>
+            <add stat="mAtk" val="27"/>
+            <add stat="pAtk" val="27"/>
+        </for>
+    </option>
+    <option id="18161" name="o_f_58_2r_acc_earring_5">
+        <!--Increase M. Def. and P. Def. 18 Increase HP Regen 0.9-->
+        <for>
+            <add stat="mDef" val="18"/>
+            <add stat="pDef" val="18"/>
+            <add stat="regHp" val="0.9"/>
+        </for>
+    </option>
+    <option id="18162" name="o_f_58_2r_acc_earring_6">
+        <!--Increase M. Def. and P. Def. 18 Increase MP Regen 0.3-->
+        <for>
+            <add stat="mDef" val="18"/>
+            <add stat="pDef" val="18"/>
+            <add stat="regMp" val="0.3"/>
+        </for>
+    </option>
+    <option id="18163" name="o_f_58_2r_acc_earring_7">
+        <!--Increase Max HP 304-->
+        <for>
+            <add stat="maxHp" val="304"/>
+        </for>
+    </option>
+    <option id="18164" name="o_f_58_2r_acc_earring_8">
+        <!--Increase Max HP 152 Increase Max MP 96-->
+        <for>
+            <add stat="maxHp" val="152"/>
+            <add stat="maxMp" val="96"/>
+        </for>
+    </option>
+    <option id="18165" name="o_f_58_2r_acc_earring_9">
+        <!--Increase Max HP 152 Increase M. Atk. and P. Atk. 27-->
+        <for>
+            <add stat="maxHp" val="152"/>
+            <add stat="mAtk" val="27"/>
+            <add stat="pAtk" val="27"/>
+        </for>
+    </option>
+    <option id="18166" name="o_f_58_2r_acc_earring_10">
+        <!--Increase Max HP 152 Increase HP Regen 0.9-->
+        <for>
+            <add stat="maxHp" val="152"/>
+            <add stat="regHp" val="0.9"/>
+        </for>
+    </option>
+    <option id="18167" name="o_f_58_2r_acc_earring_11">
+        <!--Increase Max HP 152 Increase MP Regen 0.3-->
+        <for>
+            <add stat="maxHp" val="152"/>
+            <add stat="regMp" val="0.3"/>
+        </for>
+    </option>
+    <option id="18168" name="o_f_58_2r_acc_earring_12">
+        <!--Increase Max MP 192-->
+        <for>
+            <add stat="maxMp" val="192"/>
+        </for>
+    </option>
+    <option id="18169" name="o_f_58_2r_acc_earring_13">
+        <!--Increase Max MP 96 Increase M. Atk. and P. Atk. 27-->
+        <for>
+            <add stat="maxMp" val="96"/>
+            <add stat="mAtk" val="27"/>
+            <add stat="pAtk" val="27"/>
+        </for>
+    </option>
+    <option id="18170" name="o_f_58_2r_acc_earring_14">
+        <!--Increase Max MP 96 Increase HP Regen 0.9-->
+        <for>
+            <add stat="maxMp" val="96"/>
+            <add stat="regHp" val="0.9"/>
+        </for>
+    </option>
+    <option id="18171" name="o_f_58_2r_acc_earring_15">
+        <!--Increase Max MP 96 Increase MP Regen 0.3-->
+        <for>
+            <add stat="maxMp" val="96"/>
+            <add stat="regMp" val="0.3"/>
+        </for>
+    </option>
+    <option id="18172" name="o_f_58_2r_acc_earring_16">
+        <!--Increase M. Atk. and P. Atk. 54-->
+        <for>
+            <add stat="mAtk" val="54"/>
+            <add stat="pAtk" val="54"/>
+        </for>
+    </option>
+    <option id="18173" name="o_f_58_2r_acc_earring_17">
+        <!--Increase M. Atk. and P. Atk. 27 Increase HP Regen 0.9-->
+        <for>
+            <add stat="mAtk" val="27"/>
+            <add stat="pAtk" val="27"/>
+            <add stat="regHp" val="0.9"/>
+        </for>
+    </option>
+    <option id="18174" name="o_f_58_2r_acc_earring_18">
+        <!--Increase M. Atk. and P. Atk. 27 Increase MP Regen 0.3-->
+        <for>
+            <add stat="mAtk" val="27"/>
+            <add stat="pAtk" val="27"/>
+            <add stat="regMp" val="0.3"/>
+        </for>
+    </option>
+    <option id="18175" name="o_f_58_2r_acc_earring_19">
+        <!--Increase HP Regen 1.8-->
+        <for>
+            <add stat="regHp" val="1.8"/>
+        </for>
+    </option>
+    <option id="18176" name="o_f_58_2r_acc_earring_20">
+        <!--Increase MP Regen 0.6-->
+        <for>
+            <add stat="regMp" val="0.6"/>
+        </for>
+    </option>
+    <option id="18177" name="o_f_58_2r_acc_earring_21">
+        <!--Increase HP Regen 0.9 Increase MP Regen 0.3-->
+        <for>
+            <add stat="regHp" val="0.9"/>
+            <add stat="regMp" val="0.3"/>
+        </for>
+    </option>
+    <option id="18178" name="o_f_58_2u_acc_earring_1">
+        <!--Increase M. Def. and P. Def. 42-->
+        <for>
+            <add stat="mDef" val="42"/>
+            <add stat="pDef" val="42"/>
+        </for>
+    </option>
+    <option id="18179" name="o_f_58_2u_acc_earring_2">
+        <!--Increase Max HP 176 Increase M. Def. and P. Def. 21-->
+        <for>
+            <add stat="mDef" val="21"/>
+            <add stat="pDef" val="21"/>
+            <add stat="maxHp" val="176"/>
+        </for>
+    </option>
+    <option id="18180" name="o_f_58_2u_acc_earring_3">
+        <!--Increase Max MP 112 Increase M. Def. and P. Def. 21-->
+        <for>
+            <add stat="mDef" val="21"/>
+            <add stat="pDef" val="21"/>
+            <add stat="maxMp" val="112"/>
+        </for>
+    </option>
+    <option id="18181" name="o_f_58_2u_acc_earring_4">
+        <!--Increase M. Atk. and P. Atk. 32 Increase M. Def. and P. Def. 21-->
+        <for>
+            <add stat="mDef" val="21"/>
+            <add stat="pDef" val="21"/>
+            <add stat="mAtk" val="32"/>
+            <add stat="pAtk" val="32"/>
+        </for>
+    </option>
+    <option id="18182" name="o_f_58_2u_acc_earring_5">
+        <!--Increase M. Def. and P. Def. 21 Increase HP Regen 1-->
+        <for>
+            <add stat="mDef" val="21"/>
+            <add stat="pDef" val="21"/>
+            <add stat="regHp" val="1"/>
+        </for>
+    </option>
+    <option id="18183" name="o_f_58_2u_acc_earring_6">
+        <!--Increase M. Def. and P. Def. 21 Increase MP Regen 0.35-->
+        <for>
+            <add stat="mDef" val="21"/>
+            <add stat="pDef" val="21"/>
+            <add stat="regMp" val="0.35"/>
+        </for>
+    </option>
+    <option id="18184" name="o_f_58_2u_acc_earring_7">
+        <!--Increase Max HP 352-->
+        <for>
+            <add stat="maxHp" val="352"/>
+        </for>
+    </option>
+    <option id="18185" name="o_f_58_2u_acc_earring_8">
+        <!--Increase Max HP 176 Increase Max MP 112-->
+        <for>
+            <add stat="maxHp" val="176"/>
+            <add stat="maxMp" val="112"/>
+        </for>
+    </option>
+    <option id="18186" name="o_f_58_2u_acc_earring_9">
+        <!--Increase Max HP 176 Increase M. Atk. and P. Atk. 32-->
+        <for>
+            <add stat="maxHp" val="176"/>
+            <add stat="mAtk" val="32"/>
+            <add stat="pAtk" val="32"/>
+        </for>
+    </option>
+    <option id="18187" name="o_f_58_2u_acc_earring_10">
+        <!--Increase Max HP 176 Increase HP Regen 1-->
+        <for>
+            <add stat="maxHp" val="176"/>
+            <add stat="regHp" val="1"/>
+        </for>
+    </option>
+    <option id="18188" name="o_f_58_2u_acc_earring_11">
+        <!--Increase Max HP 176 Increase MP Regen 0.35-->
+        <for>
+            <add stat="maxHp" val="176"/>
+            <add stat="regMp" val="0.35"/>
+        </for>
+    </option>
+    <option id="18189" name="o_f_58_2u_acc_earring_12">
+        <!--Increase Max MP 224-->
+        <for>
+            <add stat="maxMp" val="224"/>
+        </for>
+    </option>
+    <option id="18190" name="o_f_58_2u_acc_earring_13">
+        <!--Increase Max MP 112 Increase M. Atk. and P. Atk. 32-->
+        <for>
+            <add stat="maxMp" val="112"/>
+            <add stat="mAtk" val="32"/>
+            <add stat="pAtk" val="32"/>
+        </for>
+    </option>
+    <option id="18191" name="o_f_58_2u_acc_earring_14">
+        <!--Increase Max MP 112 Increase HP Regen 1-->
+        <for>
+            <add stat="maxMp" val="112"/>
+            <add stat="regHp" val="1"/>
+        </for>
+    </option>
+    <option id="18192" name="o_f_58_2u_acc_earring_15">
+        <!--Increase Max MP 112 Increase MP Regen 0.35-->
+        <for>
+            <add stat="maxMp" val="112"/>
+            <add stat="regMp" val="0.35"/>
+        </for>
+    </option>
+    <option id="18193" name="o_f_58_2u_acc_earring_16">
+        <!--Increase M. Atk. and P. Atk. 64-->
+        <for>
+            <add stat="mAtk" val="64"/>
+            <add stat="pAtk" val="64"/>
+        </for>
+    </option>
+    <option id="18194" name="o_f_58_2u_acc_earring_17">
+        <!--Increase M. Atk. and P. Atk. 32 Increase HP Regen 1-->
+        <for>
+            <add stat="mAtk" val="32"/>
+            <add stat="pAtk" val="32"/>
+            <add stat="regHp" val="1"/>
+        </for>
+    </option>
+    <option id="18195" name="o_f_58_2u_acc_earring_18">
+        <!--Increase M. Atk. and P. Atk. 32 Increase MP Regen 0.35-->
+        <for>
+            <add stat="mAtk" val="32"/>
+            <add stat="pAtk" val="32"/>
+            <add stat="regMp" val="0.35"/>
+        </for>
+    </option>
+    <option id="18196" name="o_f_58_2u_acc_earring_19">
+        <!--Increase HP Regen 2-->
+        <for>
+            <add stat="regHp" val="2"/>
+        </for>
+    </option>
+    <option id="18197" name="o_f_58_2u_acc_earring_20">
+        <!--Increase MP Regen 0.7-->
+        <for>
+            <add stat="regMp" val="0.7"/>
+        </for>
+    </option>
+    <option id="18198" name="o_f_58_2u_acc_earring_21">
+        <!--Increase HP Regen 1 Increase MP Regen 0.35-->
+        <for>
+            <add stat="regHp" val="1"/>
+            <add stat="regMp" val="0.35"/>
+        </for>
+    </option>
+    <option id="18199" name="o_s_61_1g_acc_earring_1">
+        <!-- Passive: Increase Earth P. Def. -->
+        <passive_skill id="8120" level="1"/>
+        <!-- Augment Option - Earth Resistance -->
+    </option>
+</list>

@@ -1,0 +1,1686 @@
+<?xml version="1.0" ?>
+<pets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/PetData.xsd">
+                <!-- Skeleton Axeman -->
+                <pet id="20254" itemId="58898" index="2997">
+                <set name="food" val="5169;5168;6316" />
+                <set name="hungry_limit" val="55" />
+                <set name="load" val="54510" />
+                <skills>
+                <!-- Blunt Weapon Weak Point -->
+                <skill minLevel="1" skillId="4274" skillLevel="1" />
+                <!-- HP Increase (12x) -->
+                <skill minLevel="1" skillId="4408" skillLevel="1" />
+                <!-- MP Increase (12x) -->
+                <skill minLevel="1" skillId="4409" skillLevel="1" />
+                <!-- Ultra Strong P. Atk. -->
+                <skill minLevel="1" skillId="4410" skillLevel="11" />
+                <!-- Ultra Strong M. Atk. -->
+                <skill minLevel="1" skillId="4411" skillLevel="11" />
+                <!-- Ultra Strong P. Def. -->
+                <skill minLevel="1" skillId="4412" skillLevel="11" />
+                <!-- Ultra Strong M. Def. -->
+                <skill minLevel="1" skillId="4413" skillLevel="11" />
+                <!-- Light Armor Type -->
+                <skill minLevel="1" skillId="4414" skillLevel="2" />
+                <!-- Crossbow -->
+                <skill minLevel="1" skillId="4415" skillLevel="5" />
+                <!-- Kamael -->
+                <skill minLevel="1" skillId="4416" skillLevel="1" />
+                </skills>
+                <stats>
+                <!-- Level 1 -->
+                <stat level="1">
+                <set name="exp" val="0" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="13" />
+                <set name="consume_meal_in_normal" val="2" />
+                <set name="max_meal" val="508" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="107.0" />
+                <set name="org_mp" val="53.5" />
+                <set name="org_pdefend" val="19.26" />
+                <set name="org_mdefend" val="19.26" />
+                <set name="org_pattack" val="18.19" />
+                <set name="org_mattack" val="6.42" />
+                <set name="org_hp_regen" val="2.14" />
+                <set name="org_mp_regen" val="1.07" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 2 -->
+                <stat level="2">
+                <set name="exp" val="16000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="102" />
+                <set name="consume_meal_in_normal" val="20" />
+                <set name="max_meal" val="5060" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="141.39" />
+                <set name="org_mp" val="78.34" />
+                <set name="org_pdefend" val="23.49" />
+                <set name="org_mdefend" val="23.36" />
+                <set name="org_pattack" val="23.07" />
+                <set name="org_mattack" val="9.53" />
+                <set name="org_hp_regen" val="2.24" />
+                <set name="org_mp_regen" val="1.16" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 3 -->
+                <stat level="3">
+                <set name="exp" val="24000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="103" />
+                <set name="consume_meal_in_normal" val="20" />
+                <set name="max_meal" val="5090" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="175.79" />
+                <set name="org_mp" val="103.18" />
+                <set name="org_pdefend" val="27.72" />
+                <set name="org_mdefend" val="27.46" />
+                <set name="org_pattack" val="27.95" />
+                <set name="org_mattack" val="12.64" />
+                <set name="org_hp_regen" val="2.34" />
+                <set name="org_mp_regen" val="1.25" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 4 -->
+                <stat level="4">
+                <set name="exp" val="32000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="104" />
+                <set name="consume_meal_in_normal" val="20" />
+                <set name="max_meal" val="5120" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="210.18" />
+                <set name="org_mp" val="128.02" />
+                <set name="org_pdefend" val="31.95" />
+                <set name="org_mdefend" val="31.57" />
+                <set name="org_pattack" val="32.83" />
+                <set name="org_mattack" val="15.74" />
+                <set name="org_hp_regen" val="2.45" />
+                <set name="org_mp_regen" val="1.34" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 5 -->
+                <stat level="5">
+                <set name="exp" val="40000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="105" />
+                <set name="consume_meal_in_normal" val="21" />
+                <set name="max_meal" val="5150" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="244.57" />
+                <set name="org_mp" val="152.86" />
+                <set name="org_pdefend" val="36.18" />
+                <set name="org_mdefend" val="35.67" />
+                <set name="org_pattack" val="37.7" />
+                <set name="org_mattack" val="18.85" />
+                <set name="org_hp_regen" val="2.55" />
+                <set name="org_mp_regen" val="1.43" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 6 -->
+                <stat level="6">
+                <set name="exp" val="48000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="106" />
+                <set name="consume_meal_in_normal" val="21" />
+                <set name="max_meal" val="5180" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="278.96" />
+                <set name="org_mp" val="177.7" />
+                <set name="org_pdefend" val="40.41" />
+                <set name="org_mdefend" val="39.77" />
+                <set name="org_pattack" val="42.58" />
+                <set name="org_mattack" val="21.96" />
+                <set name="org_hp_regen" val="2.65" />
+                <set name="org_mp_regen" val="1.52" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 7 -->
+                <stat level="7">
+                <set name="exp" val="56000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="107" />
+                <set name="consume_meal_in_normal" val="21" />
+                <set name="max_meal" val="5210" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="313.36" />
+                <set name="org_mp" val="202.54" />
+                <set name="org_pdefend" val="44.63" />
+                <set name="org_mdefend" val="43.87" />
+                <set name="org_pattack" val="47.46" />
+                <set name="org_mattack" val="25.07" />
+                <set name="org_hp_regen" val="2.75" />
+                <set name="org_mp_regen" val="1.6" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 8 -->
+                <stat level="8">
+                <set name="exp" val="64000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="108" />
+                <set name="consume_meal_in_normal" val="21" />
+                <set name="max_meal" val="5240" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="347.75" />
+                <set name="org_mp" val="227.38" />
+                <set name="org_pdefend" val="48.86" />
+                <set name="org_mdefend" val="47.97" />
+                <set name="org_pattack" val="52.34" />
+                <set name="org_mattack" val="28.18" />
+                <set name="org_hp_regen" val="2.85" />
+                <set name="org_mp_regen" val="1.69" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 9 -->
+                <stat level="9">
+                <set name="exp" val="72000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="109" />
+                <set name="consume_meal_in_normal" val="21" />
+                <set name="max_meal" val="5270" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="382.14" />
+                <set name="org_mp" val="252.21" />
+                <set name="org_pdefend" val="53.09" />
+                <set name="org_mdefend" val="52.07" />
+                <set name="org_pattack" val="57.22" />
+                <set name="org_mattack" val="31.28" />
+                <set name="org_hp_regen" val="2.96" />
+                <set name="org_mp_regen" val="1.78" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 10 -->
+                <stat level="10">
+                <set name="exp" val="80000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="110" />
+                <set name="consume_meal_in_normal" val="22" />
+                <set name="max_meal" val="5300" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="416.54" />
+                <set name="org_mp" val="277.05" />
+                <set name="org_pdefend" val="57.32" />
+                <set name="org_mdefend" val="56.18" />
+                <set name="org_pattack" val="62.1" />
+                <set name="org_mattack" val="34.39" />
+                <set name="org_hp_regen" val="3.06" />
+                <set name="org_mp_regen" val="1.87" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 11 -->
+                <stat level="11">
+                <set name="exp" val="88000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="111" />
+                <set name="consume_meal_in_normal" val="22" />
+                <set name="max_meal" val="5330" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="450.93" />
+                <set name="org_mp" val="301.89" />
+                <set name="org_pdefend" val="61.55" />
+                <set name="org_mdefend" val="60.28" />
+                <set name="org_pattack" val="66.98" />
+                <set name="org_mattack" val="37.5" />
+                <set name="org_hp_regen" val="3.16" />
+                <set name="org_mp_regen" val="1.96" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 12 -->
+                <stat level="12">
+                <set name="exp" val="96000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="112" />
+                <set name="consume_meal_in_normal" val="22" />
+                <set name="max_meal" val="5360" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="485.32" />
+                <set name="org_mp" val="326.73" />
+                <set name="org_pdefend" val="65.78" />
+                <set name="org_mdefend" val="64.38" />
+                <set name="org_pattack" val="71.86" />
+                <set name="org_mattack" val="40.61" />
+                <set name="org_hp_regen" val="3.26" />
+                <set name="org_mp_regen" val="2.05" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 13 -->
+                <stat level="13">
+                <set name="exp" val="104000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="113" />
+                <set name="consume_meal_in_normal" val="22" />
+                <set name="max_meal" val="5390" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="519.71" />
+                <set name="org_mp" val="351.57" />
+                <set name="org_pdefend" val="70.01" />
+                <set name="org_mdefend" val="68.48" />
+                <set name="org_pattack" val="76.73" />
+                <set name="org_mattack" val="43.72" />
+                <set name="org_hp_regen" val="3.36" />
+                <set name="org_mp_regen" val="2.14" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 14 -->
+                <stat level="14">
+                <set name="exp" val="112000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="114" />
+                <set name="consume_meal_in_normal" val="22" />
+                <set name="max_meal" val="5420" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="554.11" />
+                <set name="org_mp" val="376.41" />
+                <set name="org_pdefend" val="74.24" />
+                <set name="org_mdefend" val="72.58" />
+                <set name="org_pattack" val="81.61" />
+                <set name="org_mattack" val="46.83" />
+                <set name="org_hp_regen" val="3.46" />
+                <set name="org_mp_regen" val="2.23" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 15 -->
+                <stat level="15">
+                <set name="exp" val="120000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="115" />
+                <set name="consume_meal_in_normal" val="23" />
+                <set name="max_meal" val="5450" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="588.5" />
+                <set name="org_mp" val="401.25" />
+                <set name="org_pdefend" val="78.47" />
+                <set name="org_mdefend" val="76.68" />
+                <set name="org_pattack" val="86.49" />
+                <set name="org_mattack" val="49.93" />
+                <set name="org_hp_regen" val="3.57" />
+                <set name="org_mp_regen" val="2.32" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 16 -->
+                <stat level="16">
+                <set name="exp" val="128000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="116" />
+                <set name="consume_meal_in_normal" val="23" />
+                <set name="max_meal" val="5480" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="622.89" />
+                <set name="org_mp" val="426.09" />
+                <set name="org_pdefend" val="82.7" />
+                <set name="org_mdefend" val="80.79" />
+                <set name="org_pattack" val="91.37" />
+                <set name="org_mattack" val="53.04" />
+                <set name="org_hp_regen" val="3.67" />
+                <set name="org_mp_regen" val="2.41" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 17 -->
+                <stat level="17">
+                <set name="exp" val="136000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="117" />
+                <set name="consume_meal_in_normal" val="23" />
+                <set name="max_meal" val="5510" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="657.29" />
+                <set name="org_mp" val="450.93" />
+                <set name="org_pdefend" val="86.92" />
+                <set name="org_mdefend" val="84.89" />
+                <set name="org_pattack" val="96.25" />
+                <set name="org_mattack" val="56.15" />
+                <set name="org_hp_regen" val="3.77" />
+                <set name="org_mp_regen" val="2.5" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 18 -->
+                <stat level="18">
+                <set name="exp" val="144000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="118" />
+                <set name="consume_meal_in_normal" val="23" />
+                <set name="max_meal" val="5540" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="691.68" />
+                <set name="org_mp" val="475.77" />
+                <set name="org_pdefend" val="91.15" />
+                <set name="org_mdefend" val="88.99" />
+                <set name="org_pattack" val="101.13" />
+                <set name="org_mattack" val="59.26" />
+                <set name="org_hp_regen" val="3.87" />
+                <set name="org_mp_regen" val="2.59" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 19 -->
+                <stat level="19">
+                <set name="exp" val="152000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="119" />
+                <set name="consume_meal_in_normal" val="23" />
+                <set name="max_meal" val="5570" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="726.07" />
+                <set name="org_mp" val="500.61" />
+                <set name="org_pdefend" val="95.38" />
+                <set name="org_mdefend" val="93.09" />
+                <set name="org_pattack" val="106.01" />
+                <set name="org_mattack" val="62.37" />
+                <set name="org_hp_regen" val="3.97" />
+                <set name="org_mp_regen" val="2.68" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 20 -->
+                <stat level="20">
+                <set name="exp" val="160000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="120" />
+                <set name="consume_meal_in_normal" val="24" />
+                <set name="max_meal" val="5600" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="760.46" />
+                <set name="org_mp" val="525.45" />
+                <set name="org_pdefend" val="99.61" />
+                <set name="org_mdefend" val="97.19" />
+                <set name="org_pattack" val="110.89" />
+                <set name="org_mattack" val="65.47" />
+                <set name="org_hp_regen" val="4.08" />
+                <set name="org_mp_regen" val="2.76" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 21 -->
+                <stat level="21">
+                <set name="exp" val="168000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="121" />
+                <set name="consume_meal_in_normal" val="24" />
+                <set name="max_meal" val="5630" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="794.86" />
+                <set name="org_mp" val="550.29" />
+                <set name="org_pdefend" val="103.84" />
+                <set name="org_mdefend" val="101.29" />
+                <set name="org_pattack" val="115.76" />
+                <set name="org_mattack" val="68.58" />
+                <set name="org_hp_regen" val="4.18" />
+                <set name="org_mp_regen" val="2.85" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 22 -->
+                <stat level="22">
+                <set name="exp" val="176000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="122" />
+                <set name="consume_meal_in_normal" val="24" />
+                <set name="max_meal" val="5660" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="829.25" />
+                <set name="org_mp" val="575.12" />
+                <set name="org_pdefend" val="108.07" />
+                <set name="org_mdefend" val="105.4" />
+                <set name="org_pattack" val="120.64" />
+                <set name="org_mattack" val="71.69" />
+                <set name="org_hp_regen" val="4.28" />
+                <set name="org_mp_regen" val="2.94" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 23 -->
+                <stat level="23">
+                <set name="exp" val="184000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="123" />
+                <set name="consume_meal_in_normal" val="24" />
+                <set name="max_meal" val="5690" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="863.64" />
+                <set name="org_mp" val="599.96" />
+                <set name="org_pdefend" val="112.3" />
+                <set name="org_mdefend" val="109.5" />
+                <set name="org_pattack" val="125.52" />
+                <set name="org_mattack" val="74.8" />
+                <set name="org_hp_regen" val="4.38" />
+                <set name="org_mp_regen" val="3.03" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 24 -->
+                <stat level="24">
+                <set name="exp" val="192000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="124" />
+                <set name="consume_meal_in_normal" val="24" />
+                <set name="max_meal" val="5720" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="898.04" />
+                <set name="org_mp" val="624.8" />
+                <set name="org_pdefend" val="116.53" />
+                <set name="org_mdefend" val="113.6" />
+                <set name="org_pattack" val="130.4" />
+                <set name="org_mattack" val="77.91" />
+                <set name="org_hp_regen" val="4.48" />
+                <set name="org_mp_regen" val="3.12" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 25 -->
+                <stat level="25">
+                <set name="exp" val="200000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="125" />
+                <set name="consume_meal_in_normal" val="25" />
+                <set name="max_meal" val="5750" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="932.43" />
+                <set name="org_mp" val="649.64" />
+                <set name="org_pdefend" val="120.76" />
+                <set name="org_mdefend" val="117.7" />
+                <set name="org_pattack" val="135.28" />
+                <set name="org_mattack" val="81.01" />
+                <set name="org_hp_regen" val="4.59" />
+                <set name="org_mp_regen" val="3.21" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 26 -->
+                <stat level="26">
+                <set name="exp" val="208000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="126" />
+                <set name="consume_meal_in_normal" val="25" />
+                <set name="max_meal" val="5780" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="966.82" />
+                <set name="org_mp" val="674.48" />
+                <set name="org_pdefend" val="124.99" />
+                <set name="org_mdefend" val="121.8" />
+                <set name="org_pattack" val="140.16" />
+                <set name="org_mattack" val="84.12" />
+                <set name="org_hp_regen" val="4.69" />
+                <set name="org_mp_regen" val="3.3" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 27 -->
+                <stat level="27">
+                <set name="exp" val="216000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="127" />
+                <set name="consume_meal_in_normal" val="25" />
+                <set name="max_meal" val="5810" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1001.21" />
+                <set name="org_mp" val="699.32" />
+                <set name="org_pdefend" val="129.22" />
+                <set name="org_mdefend" val="125.9" />
+                <set name="org_pattack" val="145.04" />
+                <set name="org_mattack" val="87.23" />
+                <set name="org_hp_regen" val="4.79" />
+                <set name="org_mp_regen" val="3.39" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 28 -->
+                <stat level="28">
+                <set name="exp" val="224000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="128" />
+                <set name="consume_meal_in_normal" val="25" />
+                <set name="max_meal" val="5840" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1035.61" />
+                <set name="org_mp" val="724.16" />
+                <set name="org_pdefend" val="133.44" />
+                <set name="org_mdefend" val="130.0" />
+                <set name="org_pattack" val="149.91" />
+                <set name="org_mattack" val="90.34" />
+                <set name="org_hp_regen" val="4.89" />
+                <set name="org_mp_regen" val="3.48" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 29 -->
+                <stat level="29">
+                <set name="exp" val="232000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="129" />
+                <set name="consume_meal_in_normal" val="25" />
+                <set name="max_meal" val="5870" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1070.0" />
+                <set name="org_mp" val="749.0" />
+                <set name="org_pdefend" val="137.67" />
+                <set name="org_mdefend" val="134.11" />
+                <set name="org_pattack" val="154.79" />
+                <set name="org_mattack" val="93.45" />
+                <set name="org_hp_regen" val="4.99" />
+                <set name="org_mp_regen" val="3.57" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 30 -->
+                <stat level="30">
+                <set name="exp" val="240000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="130" />
+                <set name="consume_meal_in_normal" val="26" />
+                <set name="max_meal" val="5900" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1104.39" />
+                <set name="org_mp" val="773.84" />
+                <set name="org_pdefend" val="141.9" />
+                <set name="org_mdefend" val="138.21" />
+                <set name="org_pattack" val="159.67" />
+                <set name="org_mattack" val="96.55" />
+                <set name="org_hp_regen" val="5.1" />
+                <set name="org_mp_regen" val="3.66" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 31 -->
+                <stat level="31">
+                <set name="exp" val="248000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="131" />
+                <set name="consume_meal_in_normal" val="26" />
+                <set name="max_meal" val="5930" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1138.79" />
+                <set name="org_mp" val="798.68" />
+                <set name="org_pdefend" val="146.13" />
+                <set name="org_mdefend" val="142.31" />
+                <set name="org_pattack" val="164.55" />
+                <set name="org_mattack" val="99.66" />
+                <set name="org_hp_regen" val="5.2" />
+                <set name="org_mp_regen" val="3.75" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 32 -->
+                <stat level="32">
+                <set name="exp" val="256000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="132" />
+                <set name="consume_meal_in_normal" val="26" />
+                <set name="max_meal" val="5960" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1173.18" />
+                <set name="org_mp" val="823.52" />
+                <set name="org_pdefend" val="150.36" />
+                <set name="org_mdefend" val="146.41" />
+                <set name="org_pattack" val="169.43" />
+                <set name="org_mattack" val="102.77" />
+                <set name="org_hp_regen" val="5.3" />
+                <set name="org_mp_regen" val="3.83" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 33 -->
+                <stat level="33">
+                <set name="exp" val="264000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="133" />
+                <set name="consume_meal_in_normal" val="26" />
+                <set name="max_meal" val="5990" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1207.57" />
+                <set name="org_mp" val="848.36" />
+                <set name="org_pdefend" val="154.59" />
+                <set name="org_mdefend" val="150.51" />
+                <set name="org_pattack" val="174.31" />
+                <set name="org_mattack" val="105.88" />
+                <set name="org_hp_regen" val="5.4" />
+                <set name="org_mp_regen" val="3.92" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 34 -->
+                <stat level="34">
+                <set name="exp" val="272000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="134" />
+                <set name="consume_meal_in_normal" val="26" />
+                <set name="max_meal" val="6020" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1241.96" />
+                <set name="org_mp" val="873.2" />
+                <set name="org_pdefend" val="158.82" />
+                <set name="org_mdefend" val="154.62" />
+                <set name="org_pattack" val="179.19" />
+                <set name="org_mattack" val="108.99" />
+                <set name="org_hp_regen" val="5.5" />
+                <set name="org_mp_regen" val="4.01" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 35 -->
+                <stat level="35">
+                <set name="exp" val="280000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="135" />
+                <set name="consume_meal_in_normal" val="27" />
+                <set name="max_meal" val="6050" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1276.36" />
+                <set name="org_mp" val="898.04" />
+                <set name="org_pdefend" val="163.05" />
+                <set name="org_mdefend" val="158.72" />
+                <set name="org_pattack" val="184.07" />
+                <set name="org_mattack" val="112.1" />
+                <set name="org_hp_regen" val="5.6" />
+                <set name="org_mp_regen" val="4.1" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 36 -->
+                <stat level="36">
+                <set name="exp" val="288000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="136" />
+                <set name="consume_meal_in_normal" val="27" />
+                <set name="max_meal" val="6080" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1310.75" />
+                <set name="org_mp" val="922.88" />
+                <set name="org_pdefend" val="167.28" />
+                <set name="org_mdefend" val="162.82" />
+                <set name="org_pattack" val="188.94" />
+                <set name="org_mattack" val="115.2" />
+                <set name="org_hp_regen" val="5.71" />
+                <set name="org_mp_regen" val="4.19" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 37 -->
+                <stat level="37">
+                <set name="exp" val="296000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="137" />
+                <set name="consume_meal_in_normal" val="27" />
+                <set name="max_meal" val="6110" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1345.14" />
+                <set name="org_mp" val="947.71" />
+                <set name="org_pdefend" val="171.51" />
+                <set name="org_mdefend" val="166.92" />
+                <set name="org_pattack" val="193.82" />
+                <set name="org_mattack" val="118.31" />
+                <set name="org_hp_regen" val="5.81" />
+                <set name="org_mp_regen" val="4.28" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 38 -->
+                <stat level="38">
+                <set name="exp" val="304000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="138" />
+                <set name="consume_meal_in_normal" val="27" />
+                <set name="max_meal" val="6140" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1379.54" />
+                <set name="org_mp" val="972.55" />
+                <set name="org_pdefend" val="175.73" />
+                <set name="org_mdefend" val="171.02" />
+                <set name="org_pattack" val="198.7" />
+                <set name="org_mattack" val="121.42" />
+                <set name="org_hp_regen" val="5.91" />
+                <set name="org_mp_regen" val="4.37" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 39 -->
+                <stat level="39">
+                <set name="exp" val="312000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="139" />
+                <set name="consume_meal_in_normal" val="27" />
+                <set name="max_meal" val="6170" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1413.93" />
+                <set name="org_mp" val="997.39" />
+                <set name="org_pdefend" val="179.96" />
+                <set name="org_mdefend" val="175.12" />
+                <set name="org_pattack" val="203.58" />
+                <set name="org_mattack" val="124.53" />
+                <set name="org_hp_regen" val="6.01" />
+                <set name="org_mp_regen" val="4.46" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 40 -->
+                <stat level="40">
+                <set name="exp" val="320000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="140" />
+                <set name="consume_meal_in_normal" val="28" />
+                <set name="max_meal" val="6200" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1448.32" />
+                <set name="org_mp" val="1022.23" />
+                <set name="org_pdefend" val="184.19" />
+                <set name="org_mdefend" val="179.23" />
+                <set name="org_pattack" val="208.46" />
+                <set name="org_mattack" val="127.64" />
+                <set name="org_hp_regen" val="6.11" />
+                <set name="org_mp_regen" val="4.55" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 41 -->
+                <stat level="41">
+                <set name="exp" val="328000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="141" />
+                <set name="consume_meal_in_normal" val="28" />
+                <set name="max_meal" val="6230" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1482.71" />
+                <set name="org_mp" val="1047.07" />
+                <set name="org_pdefend" val="188.42" />
+                <set name="org_mdefend" val="183.33" />
+                <set name="org_pattack" val="213.34" />
+                <set name="org_mattack" val="130.74" />
+                <set name="org_hp_regen" val="6.22" />
+                <set name="org_mp_regen" val="4.64" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 42 -->
+                <stat level="42">
+                <set name="exp" val="336000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="142" />
+                <set name="consume_meal_in_normal" val="28" />
+                <set name="max_meal" val="6260" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1517.11" />
+                <set name="org_mp" val="1071.91" />
+                <set name="org_pdefend" val="192.65" />
+                <set name="org_mdefend" val="187.43" />
+                <set name="org_pattack" val="218.22" />
+                <set name="org_mattack" val="133.85" />
+                <set name="org_hp_regen" val="6.32" />
+                <set name="org_mp_regen" val="4.73" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 43 -->
+                <stat level="43">
+                <set name="exp" val="344000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="143" />
+                <set name="consume_meal_in_normal" val="28" />
+                <set name="max_meal" val="6290" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1551.5" />
+                <set name="org_mp" val="1096.75" />
+                <set name="org_pdefend" val="196.88" />
+                <set name="org_mdefend" val="191.53" />
+                <set name="org_pattack" val="223.09" />
+                <set name="org_mattack" val="136.96" />
+                <set name="org_hp_regen" val="6.42" />
+                <set name="org_mp_regen" val="4.82" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 44 -->
+                <stat level="44">
+                <set name="exp" val="352000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="144" />
+                <set name="consume_meal_in_normal" val="28" />
+                <set name="max_meal" val="6320" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1585.89" />
+                <set name="org_mp" val="1121.59" />
+                <set name="org_pdefend" val="201.11" />
+                <set name="org_mdefend" val="195.63" />
+                <set name="org_pattack" val="227.97" />
+                <set name="org_mattack" val="140.07" />
+                <set name="org_hp_regen" val="6.52" />
+                <set name="org_mp_regen" val="4.9" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 45 -->
+                <stat level="45">
+                <set name="exp" val="360000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="145" />
+                <set name="consume_meal_in_normal" val="29" />
+                <set name="max_meal" val="6350" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1620.29" />
+                <set name="org_mp" val="1146.43" />
+                <set name="org_pdefend" val="205.34" />
+                <set name="org_mdefend" val="199.73" />
+                <set name="org_pattack" val="232.85" />
+                <set name="org_mattack" val="143.18" />
+                <set name="org_hp_regen" val="6.62" />
+                <set name="org_mp_regen" val="4.99" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 46 -->
+                <stat level="46">
+                <set name="exp" val="368000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="146" />
+                <set name="consume_meal_in_normal" val="29" />
+                <set name="max_meal" val="6380" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1654.68" />
+                <set name="org_mp" val="1171.27" />
+                <set name="org_pdefend" val="209.57" />
+                <set name="org_mdefend" val="203.84" />
+                <set name="org_pattack" val="237.73" />
+                <set name="org_mattack" val="146.28" />
+                <set name="org_hp_regen" val="6.73" />
+                <set name="org_mp_regen" val="5.08" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 47 -->
+                <stat level="47">
+                <set name="exp" val="376000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="147" />
+                <set name="consume_meal_in_normal" val="29" />
+                <set name="max_meal" val="6410" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1689.07" />
+                <set name="org_mp" val="1196.11" />
+                <set name="org_pdefend" val="213.8" />
+                <set name="org_mdefend" val="207.94" />
+                <set name="org_pattack" val="242.61" />
+                <set name="org_mattack" val="149.39" />
+                <set name="org_hp_regen" val="6.83" />
+                <set name="org_mp_regen" val="5.17" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 48 -->
+                <stat level="48">
+                <set name="exp" val="384000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="148" />
+                <set name="consume_meal_in_normal" val="29" />
+                <set name="max_meal" val="6440" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1723.46" />
+                <set name="org_mp" val="1220.95" />
+                <set name="org_pdefend" val="218.03" />
+                <set name="org_mdefend" val="212.04" />
+                <set name="org_pattack" val="247.49" />
+                <set name="org_mattack" val="152.5" />
+                <set name="org_hp_regen" val="6.93" />
+                <set name="org_mp_regen" val="5.26" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 49 -->
+                <stat level="49">
+                <set name="exp" val="392000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="149" />
+                <set name="consume_meal_in_normal" val="29" />
+                <set name="max_meal" val="6470" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1757.86" />
+                <set name="org_mp" val="1245.79" />
+                <set name="org_pdefend" val="222.25" />
+                <set name="org_mdefend" val="216.14" />
+                <set name="org_pattack" val="252.37" />
+                <set name="org_mattack" val="155.61" />
+                <set name="org_hp_regen" val="7.03" />
+                <set name="org_mp_regen" val="5.35" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 50 -->
+                <stat level="50">
+                <set name="exp" val="400000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="150" />
+                <set name="consume_meal_in_normal" val="30" />
+                <set name="max_meal" val="6500" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1792.25" />
+                <set name="org_mp" val="1270.62" />
+                <set name="org_pdefend" val="226.48" />
+                <set name="org_mdefend" val="220.24" />
+                <set name="org_pattack" val="257.25" />
+                <set name="org_mattack" val="158.72" />
+                <set name="org_hp_regen" val="7.13" />
+                <set name="org_mp_regen" val="5.44" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 51 -->
+                <stat level="51">
+                <set name="exp" val="408000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="151" />
+                <set name="consume_meal_in_normal" val="30" />
+                <set name="max_meal" val="6530" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1826.64" />
+                <set name="org_mp" val="1295.46" />
+                <set name="org_pdefend" val="230.71" />
+                <set name="org_mdefend" val="224.34" />
+                <set name="org_pattack" val="262.12" />
+                <set name="org_mattack" val="161.82" />
+                <set name="org_hp_regen" val="7.24" />
+                <set name="org_mp_regen" val="5.53" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 52 -->
+                <stat level="52">
+                <set name="exp" val="416000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="152" />
+                <set name="consume_meal_in_normal" val="30" />
+                <set name="max_meal" val="6560" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1861.04" />
+                <set name="org_mp" val="1320.3" />
+                <set name="org_pdefend" val="234.94" />
+                <set name="org_mdefend" val="228.45" />
+                <set name="org_pattack" val="267.0" />
+                <set name="org_mattack" val="164.93" />
+                <set name="org_hp_regen" val="7.34" />
+                <set name="org_mp_regen" val="5.62" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 53 -->
+                <stat level="53">
+                <set name="exp" val="424000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="153" />
+                <set name="consume_meal_in_normal" val="30" />
+                <set name="max_meal" val="6590" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1895.43" />
+                <set name="org_mp" val="1345.14" />
+                <set name="org_pdefend" val="239.17" />
+                <set name="org_mdefend" val="232.55" />
+                <set name="org_pattack" val="271.88" />
+                <set name="org_mattack" val="168.04" />
+                <set name="org_hp_regen" val="7.44" />
+                <set name="org_mp_regen" val="5.71" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 54 -->
+                <stat level="54">
+                <set name="exp" val="432000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="154" />
+                <set name="consume_meal_in_normal" val="30" />
+                <set name="max_meal" val="6620" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1929.82" />
+                <set name="org_mp" val="1369.98" />
+                <set name="org_pdefend" val="243.4" />
+                <set name="org_mdefend" val="236.65" />
+                <set name="org_pattack" val="276.76" />
+                <set name="org_mattack" val="171.15" />
+                <set name="org_hp_regen" val="7.54" />
+                <set name="org_mp_regen" val="5.8" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 55 -->
+                <stat level="55">
+                <set name="exp" val="440000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="155" />
+                <set name="consume_meal_in_normal" val="31" />
+                <set name="max_meal" val="6650" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1964.21" />
+                <set name="org_mp" val="1394.82" />
+                <set name="org_pdefend" val="247.63" />
+                <set name="org_mdefend" val="240.75" />
+                <set name="org_pattack" val="281.64" />
+                <set name="org_mattack" val="174.26" />
+                <set name="org_hp_regen" val="7.64" />
+                <set name="org_mp_regen" val="5.89" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 56 -->
+                <stat level="56">
+                <set name="exp" val="448000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="156" />
+                <set name="consume_meal_in_normal" val="31" />
+                <set name="max_meal" val="6680" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="1998.61" />
+                <set name="org_mp" val="1419.66" />
+                <set name="org_pdefend" val="251.86" />
+                <set name="org_mdefend" val="244.85" />
+                <set name="org_pattack" val="286.52" />
+                <set name="org_mattack" val="177.37" />
+                <set name="org_hp_regen" val="7.74" />
+                <set name="org_mp_regen" val="5.97" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 57 -->
+                <stat level="57">
+                <set name="exp" val="456000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="157" />
+                <set name="consume_meal_in_normal" val="31" />
+                <set name="max_meal" val="6710" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2033.0" />
+                <set name="org_mp" val="1444.5" />
+                <set name="org_pdefend" val="256.09" />
+                <set name="org_mdefend" val="248.95" />
+                <set name="org_pattack" val="291.4" />
+                <set name="org_mattack" val="180.47" />
+                <set name="org_hp_regen" val="7.85" />
+                <set name="org_mp_regen" val="6.06" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 58 -->
+                <stat level="58">
+                <set name="exp" val="464000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="158" />
+                <set name="consume_meal_in_normal" val="31" />
+                <set name="max_meal" val="6740" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2067.39" />
+                <set name="org_mp" val="1469.34" />
+                <set name="org_pdefend" val="260.32" />
+                <set name="org_mdefend" val="253.06" />
+                <set name="org_pattack" val="296.28" />
+                <set name="org_mattack" val="183.58" />
+                <set name="org_hp_regen" val="7.95" />
+                <set name="org_mp_regen" val="6.15" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 59 -->
+                <stat level="59">
+                <set name="exp" val="472000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="159" />
+                <set name="consume_meal_in_normal" val="31" />
+                <set name="max_meal" val="6770" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2101.79" />
+                <set name="org_mp" val="1494.18" />
+                <set name="org_pdefend" val="264.54" />
+                <set name="org_mdefend" val="257.16" />
+                <set name="org_pattack" val="301.15" />
+                <set name="org_mattack" val="186.69" />
+                <set name="org_hp_regen" val="8.05" />
+                <set name="org_mp_regen" val="6.24" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 60 -->
+                <stat level="60">
+                <set name="exp" val="480000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="160" />
+                <set name="consume_meal_in_normal" val="32" />
+                <set name="max_meal" val="6800" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2136.18" />
+                <set name="org_mp" val="1519.02" />
+                <set name="org_pdefend" val="268.77" />
+                <set name="org_mdefend" val="261.26" />
+                <set name="org_pattack" val="306.03" />
+                <set name="org_mattack" val="189.8" />
+                <set name="org_hp_regen" val="8.15" />
+                <set name="org_mp_regen" val="6.33" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 61 -->
+                <stat level="61">
+                <set name="exp" val="488000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="161" />
+                <set name="consume_meal_in_normal" val="32" />
+                <set name="max_meal" val="6830" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2170.57" />
+                <set name="org_mp" val="1543.86" />
+                <set name="org_pdefend" val="273.0" />
+                <set name="org_mdefend" val="265.36" />
+                <set name="org_pattack" val="310.91" />
+                <set name="org_mattack" val="192.91" />
+                <set name="org_hp_regen" val="8.25" />
+                <set name="org_mp_regen" val="6.42" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 62 -->
+                <stat level="62">
+                <set name="exp" val="496000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="162" />
+                <set name="consume_meal_in_normal" val="32" />
+                <set name="max_meal" val="6860" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2204.96" />
+                <set name="org_mp" val="1568.7" />
+                <set name="org_pdefend" val="277.23" />
+                <set name="org_mdefend" val="269.46" />
+                <set name="org_pattack" val="315.79" />
+                <set name="org_mattack" val="196.01" />
+                <set name="org_hp_regen" val="8.36" />
+                <set name="org_mp_regen" val="6.51" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 63 -->
+                <stat level="63">
+                <set name="exp" val="504000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="163" />
+                <set name="consume_meal_in_normal" val="32" />
+                <set name="max_meal" val="6890" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2239.36" />
+                <set name="org_mp" val="1593.54" />
+                <set name="org_pdefend" val="281.46" />
+                <set name="org_mdefend" val="273.56" />
+                <set name="org_pattack" val="320.67" />
+                <set name="org_mattack" val="199.12" />
+                <set name="org_hp_regen" val="8.46" />
+                <set name="org_mp_regen" val="6.6" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 64 -->
+                <stat level="64">
+                <set name="exp" val="512000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="164" />
+                <set name="consume_meal_in_normal" val="32" />
+                <set name="max_meal" val="6920" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2273.75" />
+                <set name="org_mp" val="1618.38" />
+                <set name="org_pdefend" val="285.69" />
+                <set name="org_mdefend" val="277.67" />
+                <set name="org_pattack" val="325.55" />
+                <set name="org_mattack" val="202.23" />
+                <set name="org_hp_regen" val="8.56" />
+                <set name="org_mp_regen" val="6.69" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 65 -->
+                <stat level="65">
+                <set name="exp" val="520000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="165" />
+                <set name="consume_meal_in_normal" val="33" />
+                <set name="max_meal" val="6950" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2308.14" />
+                <set name="org_mp" val="1643.21" />
+                <set name="org_pdefend" val="289.92" />
+                <set name="org_mdefend" val="281.77" />
+                <set name="org_pattack" val="330.43" />
+                <set name="org_mattack" val="205.34" />
+                <set name="org_hp_regen" val="8.66" />
+                <set name="org_mp_regen" val="6.78" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 66 -->
+                <stat level="66">
+                <set name="exp" val="528000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="166" />
+                <set name="consume_meal_in_normal" val="33" />
+                <set name="max_meal" val="6980" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2342.54" />
+                <set name="org_mp" val="1668.05" />
+                <set name="org_pdefend" val="294.15" />
+                <set name="org_mdefend" val="285.87" />
+                <set name="org_pattack" val="335.3" />
+                <set name="org_mattack" val="208.45" />
+                <set name="org_hp_regen" val="8.76" />
+                <set name="org_mp_regen" val="6.87" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 67 -->
+                <stat level="67">
+                <set name="exp" val="536000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="167" />
+                <set name="consume_meal_in_normal" val="33" />
+                <set name="max_meal" val="7010" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2376.93" />
+                <set name="org_mp" val="1692.89" />
+                <set name="org_pdefend" val="298.38" />
+                <set name="org_mdefend" val="289.97" />
+                <set name="org_pattack" val="340.18" />
+                <set name="org_mattack" val="211.55" />
+                <set name="org_hp_regen" val="8.87" />
+                <set name="org_mp_regen" val="6.96" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 68 -->
+                <stat level="68">
+                <set name="exp" val="544000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="168" />
+                <set name="consume_meal_in_normal" val="33" />
+                <set name="max_meal" val="7040" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2411.32" />
+                <set name="org_mp" val="1717.73" />
+                <set name="org_pdefend" val="302.61" />
+                <set name="org_mdefend" val="294.07" />
+                <set name="org_pattack" val="345.06" />
+                <set name="org_mattack" val="214.66" />
+                <set name="org_hp_regen" val="8.97" />
+                <set name="org_mp_regen" val="7.04" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 69 -->
+                <stat level="69">
+                <set name="exp" val="552000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="169" />
+                <set name="consume_meal_in_normal" val="33" />
+                <set name="max_meal" val="7070" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2445.71" />
+                <set name="org_mp" val="1742.57" />
+                <set name="org_pdefend" val="306.84" />
+                <set name="org_mdefend" val="298.17" />
+                <set name="org_pattack" val="349.94" />
+                <set name="org_mattack" val="217.77" />
+                <set name="org_hp_regen" val="9.07" />
+                <set name="org_mp_regen" val="7.13" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 70 -->
+                <stat level="70">
+                <set name="exp" val="560000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="170" />
+                <set name="consume_meal_in_normal" val="34" />
+                <set name="max_meal" val="7100" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2480.11" />
+                <set name="org_mp" val="1767.41" />
+                <set name="org_pdefend" val="311.06" />
+                <set name="org_mdefend" val="302.28" />
+                <set name="org_pattack" val="354.82" />
+                <set name="org_mattack" val="220.88" />
+                <set name="org_hp_regen" val="9.17" />
+                <set name="org_mp_regen" val="7.22" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 71 -->
+                <stat level="71">
+                <set name="exp" val="568000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="171" />
+                <set name="consume_meal_in_normal" val="34" />
+                <set name="max_meal" val="7130" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2514.5" />
+                <set name="org_mp" val="1792.25" />
+                <set name="org_pdefend" val="315.29" />
+                <set name="org_mdefend" val="306.38" />
+                <set name="org_pattack" val="359.7" />
+                <set name="org_mattack" val="223.99" />
+                <set name="org_hp_regen" val="9.27" />
+                <set name="org_mp_regen" val="7.31" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 72 -->
+                <stat level="72">
+                <set name="exp" val="576000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="172" />
+                <set name="consume_meal_in_normal" val="34" />
+                <set name="max_meal" val="7160" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2548.89" />
+                <set name="org_mp" val="1817.09" />
+                <set name="org_pdefend" val="319.52" />
+                <set name="org_mdefend" val="310.48" />
+                <set name="org_pattack" val="364.58" />
+                <set name="org_mattack" val="227.09" />
+                <set name="org_hp_regen" val="9.38" />
+                <set name="org_mp_regen" val="7.4" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 73 -->
+                <stat level="73">
+                <set name="exp" val="584000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="173" />
+                <set name="consume_meal_in_normal" val="34" />
+                <set name="max_meal" val="7190" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2583.29" />
+                <set name="org_mp" val="1841.93" />
+                <set name="org_pdefend" val="323.75" />
+                <set name="org_mdefend" val="314.58" />
+                <set name="org_pattack" val="369.46" />
+                <set name="org_mattack" val="230.2" />
+                <set name="org_hp_regen" val="9.48" />
+                <set name="org_mp_regen" val="7.49" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 74 -->
+                <stat level="74">
+                <set name="exp" val="592000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="174" />
+                <set name="consume_meal_in_normal" val="34" />
+                <set name="max_meal" val="7220" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2617.68" />
+                <set name="org_mp" val="1866.77" />
+                <set name="org_pdefend" val="327.98" />
+                <set name="org_mdefend" val="318.68" />
+                <set name="org_pattack" val="374.33" />
+                <set name="org_mattack" val="233.31" />
+                <set name="org_hp_regen" val="9.58" />
+                <set name="org_mp_regen" val="7.58" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 75 -->
+                <stat level="75">
+                <set name="exp" val="600000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="175" />
+                <set name="consume_meal_in_normal" val="35" />
+                <set name="max_meal" val="7250" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2652.07" />
+                <set name="org_mp" val="1891.61" />
+                <set name="org_pdefend" val="332.21" />
+                <set name="org_mdefend" val="322.78" />
+                <set name="org_pattack" val="379.21" />
+                <set name="org_mattack" val="236.42" />
+                <set name="org_hp_regen" val="9.68" />
+                <set name="org_mp_regen" val="7.67" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 76 -->
+                <stat level="76">
+                <set name="exp" val="608000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="176" />
+                <set name="consume_meal_in_normal" val="35" />
+                <set name="max_meal" val="7280" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2686.46" />
+                <set name="org_mp" val="1916.45" />
+                <set name="org_pdefend" val="336.44" />
+                <set name="org_mdefend" val="326.88" />
+                <set name="org_pattack" val="384.09" />
+                <set name="org_mattack" val="239.53" />
+                <set name="org_hp_regen" val="9.78" />
+                <set name="org_mp_regen" val="7.76" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 77 -->
+                <stat level="77">
+                <set name="exp" val="616000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="177" />
+                <set name="consume_meal_in_normal" val="35" />
+                <set name="max_meal" val="7310" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2720.86" />
+                <set name="org_mp" val="1941.29" />
+                <set name="org_pdefend" val="340.67" />
+                <set name="org_mdefend" val="330.99" />
+                <set name="org_pattack" val="388.97" />
+                <set name="org_mattack" val="242.64" />
+                <set name="org_hp_regen" val="9.88" />
+                <set name="org_mp_regen" val="7.85" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 78 -->
+                <stat level="78">
+                <set name="exp" val="624000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="178" />
+                <set name="consume_meal_in_normal" val="35" />
+                <set name="max_meal" val="7340" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2755.25" />
+                <set name="org_mp" val="1966.13" />
+                <set name="org_pdefend" val="344.9" />
+                <set name="org_mdefend" val="335.09" />
+                <set name="org_pattack" val="393.85" />
+                <set name="org_mattack" val="245.74" />
+                <set name="org_hp_regen" val="9.99" />
+                <set name="org_mp_regen" val="7.94" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 79 -->
+                <stat level="79">
+                <set name="exp" val="632000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="179" />
+                <set name="consume_meal_in_normal" val="35" />
+                <set name="max_meal" val="7370" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2789.64" />
+                <set name="org_mp" val="1990.96" />
+                <set name="org_pdefend" val="349.13" />
+                <set name="org_mdefend" val="339.19" />
+                <set name="org_pattack" val="398.73" />
+                <set name="org_mattack" val="248.85" />
+                <set name="org_hp_regen" val="10.09" />
+                <set name="org_mp_regen" val="8.03" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 80 -->
+                <stat level="80">
+                <set name="exp" val="640000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="180" />
+                <set name="consume_meal_in_normal" val="36" />
+                <set name="max_meal" val="7400" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2824.04" />
+                <set name="org_mp" val="2015.8" />
+                <set name="org_pdefend" val="353.35" />
+                <set name="org_mdefend" val="343.29" />
+                <set name="org_pattack" val="403.61" />
+                <set name="org_mattack" val="251.96" />
+                <set name="org_hp_regen" val="10.19" />
+                <set name="org_mp_regen" val="8.11" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 81 -->
+                <stat level="81">
+                <set name="exp" val="648000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="181" />
+                <set name="consume_meal_in_normal" val="36" />
+                <set name="max_meal" val="7430" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2858.43" />
+                <set name="org_mp" val="2040.64" />
+                <set name="org_pdefend" val="357.58" />
+                <set name="org_mdefend" val="347.39" />
+                <set name="org_pattack" val="408.49" />
+                <set name="org_mattack" val="255.07" />
+                <set name="org_hp_regen" val="10.29" />
+                <set name="org_mp_regen" val="8.2" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 82 -->
+                <stat level="82">
+                <set name="exp" val="656000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="182" />
+                <set name="consume_meal_in_normal" val="36" />
+                <set name="max_meal" val="7460" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2892.82" />
+                <set name="org_mp" val="2065.48" />
+                <set name="org_pdefend" val="361.81" />
+                <set name="org_mdefend" val="351.5" />
+                <set name="org_pattack" val="413.36" />
+                <set name="org_mattack" val="258.18" />
+                <set name="org_hp_regen" val="10.39" />
+                <set name="org_mp_regen" val="8.29" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 83 -->
+                <stat level="83">
+                <set name="exp" val="664000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="183" />
+                <set name="consume_meal_in_normal" val="36" />
+                <set name="max_meal" val="7490" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2927.21" />
+                <set name="org_mp" val="2090.32" />
+                <set name="org_pdefend" val="366.04" />
+                <set name="org_mdefend" val="355.6" />
+                <set name="org_pattack" val="418.24" />
+                <set name="org_mattack" val="261.28" />
+                <set name="org_hp_regen" val="10.5" />
+                <set name="org_mp_regen" val="8.38" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 84 -->
+                <stat level="84">
+                <set name="exp" val="672000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="184" />
+                <set name="consume_meal_in_normal" val="36" />
+                <set name="max_meal" val="7520" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2961.61" />
+                <set name="org_mp" val="2115.16" />
+                <set name="org_pdefend" val="370.27" />
+                <set name="org_mdefend" val="359.7" />
+                <set name="org_pattack" val="423.12" />
+                <set name="org_mattack" val="264.39" />
+                <set name="org_hp_regen" val="10.6" />
+                <set name="org_mp_regen" val="8.47" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 85 -->
+                <stat level="85">
+                <set name="exp" val="680000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="185" />
+                <set name="consume_meal_in_normal" val="37" />
+                <set name="max_meal" val="7550" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="2996.0" />
+                <set name="org_mp" val="2140.0" />
+                <set name="org_pdefend" val="374.5" />
+                <set name="org_mdefend" val="363.8" />
+                <set name="org_pattack" val="428.0" />
+                <set name="org_mattack" val="267.5" />
+                <set name="org_hp_regen" val="10.7" />
+                <set name="org_mp_regen" val="8.56" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 86 -->
+                <stat level="86">
+                <set name="exp" val="688000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="186" />
+                <set name="consume_meal_in_normal" val="37" />
+                <set name="max_meal" val="7580" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="3030.39" />
+                <set name="org_mp" val="2164.84" />
+                <set name="org_pdefend" val="378.73" />
+                <set name="org_mdefend" val="367.9" />
+                <set name="org_pattack" val="432.88" />
+                <set name="org_mattack" val="270.61" />
+                <set name="org_hp_regen" val="10.8" />
+                <set name="org_mp_regen" val="8.65" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                <!-- Level 87 -->
+                <stat level="87">
+                <set name="exp" val="696000000" />
+                <set name="get_exp_type" val="77" />
+                <set name="consume_meal_in_battle" val="187" />
+                <set name="consume_meal_in_normal" val="37" />
+                <set name="max_meal" val="7610" />
+                <set name="soulshot_count" val="3" />
+                <set name="spiritshot_count" val="3" />
+                <set name="org_hp" val="3064.79" />
+                <set name="org_mp" val="2189.68" />
+                <set name="org_pdefend" val="382.96" />
+                <set name="org_mdefend" val="372.0" />
+                <set name="org_pattack" val="437.76" />
+                <set name="org_mattack" val="273.72" />
+                <set name="org_hp_regen" val="10.9" />
+                <set name="org_mp_regen" val="8.74" />
+                <set name="speed_on_ride" val="0" walk="175" run="175" slowSwim="70" fastSwim="70" />
+                </stat>
+                </stats>
+                </pet>
+                </pets>

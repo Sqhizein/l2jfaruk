@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="52001" levels="101" name="Mana Drug">
+		<!-- Sharp increase in MP recovery bonus. Effect 4. -->
+		<set name="abnormalLevel" val="5" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="100" />
+		<set name="reuseDelay" val="23000" />
+		<set name="icon" val="icon.etc_potion_blue_i00" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="52001" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff" ticks="1">
+				<add stat="regMp" val="80.0" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="52002" levels="101" name="Mana Potion">
+		<!-- Sharp increase in MP recovery bonus. Effect 4. -->
+		<set name="abnormalLevel" val="6" />
+		<set name="abnormalTime" val="35" />
+		<set name="reuseDelay" val="23000" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.etc_reagent_blue_i00" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="52002" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff" ticks="1">
+				<add stat="regMp" val="100.0" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="52003" levels="101" name="Enchanted Mana Potion">
+		<!-- Sharp increase in MP recovery bonus. Effect 4. -->
+		<set name="abnormalLevel" val="7" />
+		<set name="abnormalTime" val="45" />
+		<set name="reuseDelay" val="25000" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="100" />
+		<set name="icon" val="icon.etc_int_hena_i02" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="52003" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff" ticks="1">
+				<add stat="regMp" val="150.0" />
+			</effect>
+		</for>
+	</skill>
+
+
+
+
+	<skill id="52016" levels="101" name="Combat Haste Potion">
+		<!-- Increases Speed. Effect 1. -->
+		<set name="abnormalLevel" val="10" />
+		<set name="abnormalTime" val="600" />
+		<set name="reuseDelay" val="280000" />
+		<set name="abnormalType" val="ABNORMAL_ITEM" />
+		<set name="icon" val="icon.Item_CanUse23" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLevel" val="10" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="runSpd" val="8" />
+				<mul stat="critRate" val="1.05" />
+				<mul stat="mCritRate" val="1.01" />
+				<mul stat="pAtkSpd" val="1.05" />
+				<mul stat="mAtkSpd" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+
+
+
+
+	<skill id="52051" levels="101" name="Mana Drug">
+		<!-- Sharp increase in MP recovery bonus. Effect 4. -->
+		<set name="abnormalLevel" val="5" />
+		<set name="abnormalTime" val="30" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="100" />
+		<set name="reuseDelay" val="24000" />
+		<set name="icon" val="icon.etc_potion_blue_i00" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="52051" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff" ticks="1">
+				<add stat="regMp" val="80.0" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="52052" levels="101" name="Mana Potion">
+		<!-- Sharp increase in MP recovery bonus. Effect 4. -->
+		<set name="abnormalLevel" val="6" />
+		<set name="abnormalTime" val="35" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="100" />
+		<set name="reuseDelay" val="24000" />
+		<set name="icon" val="icon.etc_reagent_blue_i00" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="52052" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff" ticks="1">
+				<add stat="regMp" val="100.0" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="52053" levels="101" name="Enchanted Mana Potion">
+		<!-- Sharp increase in MP recovery bonus. Effect 4. -->
+		<set name="abnormalLevel" val="7" />
+		<set name="abnormalTime" val="45" />
+		<set name="abnormalType" val="MP_REGEN_UP" />
+		<set name="hitTime" val="100" />
+		<set name="reuseDelay" val="28000" />
+		<set name="icon" val="icon.etc_int_hena_i02" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="52053" /> <!-- L2 Day - Scroll of Mana Regeneration -->
+		<set name="magicLevel" val="1" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff" ticks="1">
+				<add stat="regMp" val="150.0" />
+			</effect>
+		</for>
+	</skill>
+
+	<skill id="52054" levels="101" name="Combat Haste Potion">
+		<!-- Increases Speed. Effect 1. -->
+		<set name="abnormalLevel" val="10" />
+		<set name="abnormalTime" val="600" />
+		<set name="reuseDelay" val="280000" />
+		<set name="abnormalType" val="ABNORMAL_ITEM" />
+		<set name="icon" val="icon.Item_CanUse23" />
+		<set name="isMagic" val="2" /> <!-- Static Skill -->
+		<set name="magicLevel" val="10" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<for>
+			<effect name="Buff">
+				<add stat="runSpd" val="8" />
+				<mul stat="critRate" val="1.05" />
+				<mul stat="mCritRate" val="1.01" />
+				<mul stat="pAtkSpd" val="1.05" />
+				<mul stat="mAtkSpd" val="1.05" />
+			</effect>
+		</for>
+	</skill>
+
+
+
+</list>

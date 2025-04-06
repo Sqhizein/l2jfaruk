@@ -1,0 +1,197 @@
+<html><title>%name% Info</title>
+<body>
+<center>
+
+<!-- Buttons -->
+<center>
+    %dropListButtons%
+</center>
+
+<!-- Header -->
+<table border=0 cellspacing=0 cellpadding=0 width=270 height=20 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+<tr><td align=center>
+    <table border=0 cellspacing=0 width=270 height=20>
+        <tr><td align=center>
+            <font name="hs9" color="CD9000">%name%</font>
+        </td></tr>
+    </table>
+</td></tr>
+</table><br>
+
+<!-- HP/MP Gauges -->
+<table border=0 cellspacing=0 cellpadding=0 width=270 height=20 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+    <tr>
+        <td>
+            <table border=0 cellspacing=0 cellpadding=0 width=270 height=20>
+                <tr><td align=center valign=center>
+                    <font name="hs8" color="CD9000">Status Info</font>
+                </td></tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table width=225 border=0 cellspacing=1 cellpadding=3 bgcolor=666666>
+<tr>
+    <td width=1 bgcolor=333333><font color="FF0000">*</font></td>
+    <td width=225 bgcolor=292929>%hpGauge%</td>
+</tr>
+<tr>
+    <td width=1 bgcolor=333333><font color="0099FF">*</font></td>
+    <td width=225 bgcolor=292929>%mpGauge%</td>
+</tr>
+<tr>
+    <td bgcolor=333333></td>
+    <td bgcolor=292929>
+        <table width=225 border=0 cellspacing=0 cellpadding=0>
+            <tr>
+				<td width=65 valign=middle><font size="-2" color="B09B79">Base: %baseHp%</font></td>
+				%hpModifiers%
+            </tr>
+        </table>
+    </td>
+</tr>
+</table><br>
+<!-- Base Stats -->
+<table border=0 cellspacing=0 cellpadding=0 width=270 height=20 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+	<tr>
+		<td>
+			<table border=0 cellspacing=0 cellpadding=0 width=270 height=20>
+				<tr><td align=center valign=center>
+					<font name="hs8" color="CD9000">Base Stats</font>
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+<table width=270 border=0 cellspacing=1 cellpadding=3 bgcolor=666666>
+<tr>
+    <td width=95 bgcolor=333333><font color="LEVEL">STR:</font> %str%</td>
+    <td width=95 bgcolor=333333><font color="LEVEL">DEX:</font> %dex%</td>
+    <td width=100 bgcolor=333333><font color="LEVEL">CON:</font> %con%</td>
+</tr>
+<tr>
+    <td bgcolor=292929><font color="LEVEL">INT:</font> %int%</td>
+    <td bgcolor=292929><font color="LEVEL">WIT:</font> %wit%</td>
+    <td bgcolor=292929><font color="LEVEL">MEN:</font> %men%</td>
+</tr>
+</table><br>
+
+<!-- Combat Stats -->
+<table border=0 cellspacing=0 cellpadding=0 width=270 height=20 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+	<tr>
+		<td>
+			<table border=0 cellspacing=0 cellpadding=0 width=270 height=20>
+				<tr><td align=center valign=center>
+					<font name="hs8" color="CD9000">Combat Stats</font>
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+<table width=270 border=0 cellspacing=1 cellpadding=3 bgcolor=666666>
+<tr>
+    <td width=145 bgcolor=333333><font color="LEVEL">P.Atk:</font> %patk%</td>
+    <td width=145 bgcolor=333333><font color="LEVEL">M.Atk:</font> %matk%</td>
+</tr>
+<tr>
+    <td bgcolor=292929><font color="LEVEL">P.Def:</font> %pdef%</td>
+    <td bgcolor=292929><font color="LEVEL">M.Def:</font> %mdef%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="LEVEL">Atk.Spd:</font> %atkspd%</td>
+    <td bgcolor=333333><font color="LEVEL">Cast.Spd:</font> %castspd%</td>
+</tr>
+<tr>
+	<td bgcolor=333333><font color="LEVEL">Accuracy:</font> %accuracy%</td>
+    <td bgcolor=292929><font color="LEVEL">Evasion:</font> %evasion%</td>
+</tr>
+<tr>
+    <td bgcolor=292929><font color="LEVEL">Critical:</font> %critrate%</td>
+	<td bgcolor=292929><font color="LEVEL">Attack Range:</font> %patkrange%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="LEVEL">Run Speed:</font> %runspd%</td>
+    <td bgcolor=333333><font color="LEVEL">Walk Speed:</font> %walkspd%</td>
+</tr>
+</table><br>
+
+<!-- Elements ve diğer tüm başlıklar için -->
+<table border=0 cellspacing=0 cellpadding=0 width=270 height=20 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+	<tr>
+		<td>
+			<table border=0 cellspacing=0 cellpadding=0 width=270 height=20>
+				<tr><td align=center valign=center>
+					<font name="hs8" color="CD9000">Elements</font>
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+<table width=270 border=0 cellspacing=1 cellpadding=3 bgcolor=666666>
+<tr>
+    <td width=145 bgcolor=333333><font color="LEVEL">Attack Type:</font></td>
+    <td width=145 bgcolor=333333>%attributeatktype%</td>
+</tr>
+<tr>
+    <td bgcolor=292929><font color="LEVEL">Attack Value:</font></td>
+    <td bgcolor=292929>%attributeatkvalue%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="FF9933">Fire:</font> %attributefire%</td>
+    <td bgcolor=333333><font color="3399FF">Water:</font> %attributewater%</td>
+</tr>
+<tr>
+    <td bgcolor=292929><font color="99FF00">Wind:</font> %attributewind%</td>
+    <td bgcolor=292929><font color="CC9900">Earth:</font> %attributeearth%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="666699">Dark:</font> %attributedark%</td>
+    <td bgcolor=333333><font color="FFFF00">Holy:</font> %attributeholy%</td>
+</tr>
+</table><br>
+
+
+<!-- Basic Info -->
+<table border=0 cellspacing=0 cellpadding=0 width=270 height=20 background="L2UI_CT1.Windows.Windows_DF_TooltipBG">
+	<tr>
+		<td>
+			<table border=0 cellspacing=0 cellpadding=0 width=270 height=20>
+				<tr><td align=center valign=center>
+					<font name="hs8" color="CD9000">Basic Info</font>
+				</td></tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+
+<table width=270 border=0 cellspacing=1 cellpadding=3 bgcolor=666666>
+<tr>
+    <td width=140 bgcolor=333333><font color="LEVEL">Level:</font></td>
+    <td width=150 align=right bgcolor=292929>%level%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="LEVEL">Type:</font></td>
+    <td align=right bgcolor=292929>%type%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="LEVEL">Race:</font></td>
+    <td align=right bgcolor=292929>%race%</td>
+</tr>
+<tr>
+    <td bgcolor=333333><font color="LEVEL">Aggro:</font></td>
+    <td align=right bgcolor=292929>%aggroRange%</td>
+</tr>
+</table><br>
+
+<!-- Buttons -->
+<center>
+    %dropListButtons%
+    <button value="Hunting Info" action="bypass NpcViewMod huntinginfo %npcObjectId%" width=100 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+</center>
+
+</center>
+</body></html>

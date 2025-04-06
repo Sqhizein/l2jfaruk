@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<item id="52001" type="EtcItem" name="Mana Drug">
+		<!-- A magical, liquid medicine that restores MP for a certain amount of time. -->
+		<set name="icon" val="icon.etc_potion_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="50" />
+		<set name="price" val="500" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52001-101" />
+		<set name="for_npc" val="true" />
+	</item>
+
+	<item id="52002" type="EtcItem" name="Mana Potion">
+		<!-- A magical, liquid medicine that restores MP for a certain amount of time. -->
+		<set name="icon" val="icon.etc_reagent_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="750" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52002-101" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="52003" type="EtcItem" name="Enchanted Mana Potion">
+		<!-- A magical, liquid medicine that restores MP for a certain amount of time. -->
+		<set name="icon" val="icon.etc_int_hena_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="1000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52003-101" />
+		<set name="for_npc" val="true" />
+	</item>
+
+
+	<item id="52016" type="EtcItem" name="Combat Haste Potion">
+		<!-- A magical potion that increases movement speed -->
+		<set name="icon" val="icon.Item_CanUse23" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="price" val="0" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52016-101" /> <!-- Haste Potion -->
+		<set name="for_npc" val="true" />
+		<cond msgId="113" addName="1">
+			<player flyMounted="false" />
+		</cond>
+	</item>
+
+
+	<item id="52004" type="EtcItem" name="Life Stone Low - Level 20">
+		<!-- An ordinary mineral that has been petrified by a creature's physical or magical damage.
+		Key component used in weapon Augmentation by characters level 46 and above. -->
+		<set name="icon" val="icon.etc_mineral_general_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="5000" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113" addName="1">
+			<player level="20" />
+		</cond>
+	</item>
+
+
+	<item id="52005" type="EtcItem" name="Life Stone Mid - Level 20">
+		<!-- An ordinary mineral that has been petrified by a creature's physical or magical damage.
+		Key component used in weapon Augmentation by characters level 46 and above. -->
+		<set name="icon" val="icon.etc_mineral_special_i01" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113" addName="1">
+			<player level="20" />
+		</cond>
+	</item>
+
+	<item id="52006" type="EtcItem" name="Life Stone High - Level 20">
+		<!-- An ordinary mineral that has been petrified by a creature's physical or magical damage.
+		Key component used in weapon Augmentation by characters level 46 and above. -->
+		<set name="icon" val="icon.etc_mineral_rare_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="15000" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113" addName="1">
+			<player level="20" />
+		</cond>
+	</item>
+
+	<item id="52007" type="EtcItem" name="Life Stone Top - Level 20">
+		<!-- An ordinary mineral that has been petrified by a creature's physical or magical damage.
+		Key component used in weapon Augmentation by characters level 46 and above. -->
+		<set name="icon" val="icon.etc_mineral_unique_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="25000" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113" addName="1">
+			<player level="20" />
+		</cond>
+	</item>
+
+	<item id="52008" type="EtcItem" name="Life Stone Accessory - Level 20">
+		<!-- An ordinary mineral that has been petrified by a creature's physical or magical damage.
+		Key component used in weapon Augmentation by characters level 46 and above. -->
+		<set name="icon" val="icon.etc_mineral_general_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="25000" />
+		<set name="is_stackable" val="true" />
+		<cond msgId="113" addName="1">
+			<player level="20" />
+		</cond>
+	</item>
+
+	<item id="52009" type="EtcItem" name="Dailiy Reward Chest Day 1">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22113,2,2,100;22123,2,2,100;22112,3,3,100;22122,3,3,100;22111,3,3,100;22121,10,10,100;22110,7,7,100;22120,10,10,100;22109,3,3,100;22119,7,7,100;22026,250,250,100;52051,250,250,100;20393,35,35,100;15440,3,3,100;52054,75,75,100" />
+	</item>
+
+
+	<item id="52010" type="EtcItem" name="Dailiy Reward Chest Day 2">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22113,2,2,100;22123,2,2,100;22112,3,3,100;22122,3,3,100;22111,3,3,100;22121,10,10,100;22110,7,7,100;22120,10,10,100;22026,250,250,100;52051,200,200,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,3,3,100;52054,50,50,100" />
+	</item>
+
+	<item id="52011" type="EtcItem" name="Dailiy Reward Chest Day 3">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22113,2,2,100;22123,3,3,100;22112,2,2,100;22122,4,4,100;22111,3,3,100;22121,5,5,100;22026,200,200,100;22110,7,7,100;22120,10,10,100;52051,200,200,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,3,3,100;52054,50,50,100" />
+	</item>
+	<item id="52012" type="EtcItem" name="Dailiy Reward Chest Day 4">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22111,3,3,100;22121,5,5,100;22113,3,3,100;22123,4,4,100;22112,5,5,100;22122,10,10,100;22110,7,7,100;22120,10,10,100;22026,250,250,100;52051,250,250,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,3,3,100;52054,60,60,100" />
+	</item>
+	<item id="52013" type="EtcItem" name="Dailiy Reward Chest Day 5">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22112,2,2,100;22122,3,3,100;22113,2,2,100;22123,4,4,100;22026,250,250,100;52052,250,250,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,3,3,100;52054,60,60,100" />
+	</item>
+	<item id="52014" type="EtcItem" name="Dailiy Reward Chest Day 6">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22112,2,2,100;22122,3,3,100;22113,2,2,100;22123,4,4,100;22026,250,250,100;52053,250,250,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,3,3,100;52054,75,75,100" />
+	</item>
+	<item id="52015" type="EtcItem" name="Dailiy Reward Chest Day 7">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22112,3,3,100;22122,4,4,100;22113,5,5,100;22123,10,10,100;22026,300,300,100;52053,300,300,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,10,10,100;52054,100,100,100" />
+	</item>
+
+	<item id="52017" type="EtcItem" name="Welcome Pack">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_box_of_adventure_1_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="22113,1,1,100;22123,3,3,100;22112,2,2,100;22122,4,4,100;22111,2,2,100;22121,4,4,100;22110,2,2,100;22120,4,4,100;5790,6000,6000,100;5789,15000,15000,100;22109,7,7,100;22119,10,10,100;22026,300,300,100;52051,300,300,100;20393,35,35,100;20549,1,1,100;20555,1,1,100;15440,3,3,100;52054,50,50,100" />
+	</item>
+
+
+	<item id="52051" type="EtcItem" name="Mana Drug">
+		<!-- A magical, liquid medicine that restores MP for a certain amount of time. -->
+		<set name="icon" val="icon.etc_potion_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="50" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52051-101" />
+		<set name="for_npc" val="true" />
+	</item>
+
+	<item id="52052" type="EtcItem" name="Mana Potion">
+		<!-- A magical, liquid medicine that restores MP for a certain amount of time. -->
+		<set name="icon" val="icon.etc_reagent_blue_i00" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="100" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52052-101" />
+		<set name="for_npc" val="true" />
+	</item>
+	<item id="52053" type="EtcItem" name="Enchanted Mana Potion">
+		<!-- A magical, liquid medicine that restores MP for a certain amount of time. -->
+		<set name="icon" val="icon.etc_int_hena_i02" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="150" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52053-101" />
+		<set name="for_npc" val="true" />
+	</item>
+
+
+	<item id="52054" type="EtcItem" name="Combat Haste Potion">
+		<!-- A magical potion that increases movement speed -->
+		<set name="icon" val="icon.Item_CanUse23" />
+		<set name="default_action" val="SKILL_REDUCE" />
+		<set name="etcitem_type" val="POTION" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="LIQUID" />
+		<set name="weight" val="20" />
+		<set name="price" val="0" />
+		<set name="reuse_delay" val="500" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ItemSkills" />
+		<set name="item_skill" val="52054-101" /> <!-- Haste Potion -->
+		<set name="for_npc" val="true" />
+	</item>
+
+	<item id="52090" type="EtcItem" name="Recipe: Combat Haste Potion (100%)">
+		<!-- For Dwarves only. The recipe for a Combat Haste. Requires Create Item - Skill Level 9.
+		The success rate is 100%. -->
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="price" val="1464000" />
+		<set name="recipe_id" val="775" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+
+	<item id="52091" type="EtcItem" name="Recipe: Enchanted Mana Potion (100%)">
+		<!-- For Dwarves only. The recipe for a Enchanted Mana Potion. Requires Create Item - Skill
+		Level 9. The success rate is 100%. -->
+		<set name="icon" val="icon.etc_recipe_black_i00" />
+		<set name="default_action" val="RECIPE" />
+		<set name="etcitem_type" val="RECIPE" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="PAPER" />
+		<set name="weight" val="30" />
+		<set name="price" val="1464000" />
+		<set name="recipe_id" val="775" />
+		<set name="is_stackable" val="true" />
+		<set name="handler" val="Recipes" />
+	</item>
+
+
+	<item id="52092" type="EtcItem" name="Badge of Bear">
+		<!-- The badge that indicates that its bearer's event collector grade is "Bear." Without
+		this badge, one cannot prove one'S-Grade. -->
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+
+	<item id="52093" type="EtcItem" name="Badge of Lion">
+		<!-- The badge that indicates that its bearer's event collector grade is "Lion." Without
+		this badge, one cannot prove one'S-Grade. -->
+		<set name="icon" val="icon.etc_paper_red_i00" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CRYSTAL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_questitem" val="true" />
+	</item>
+
+
+	<item id="62501" type="EtcItem" name="Top Reward Box Top 11 Exclusive">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,10;9627,1,2,5;9625,1,2,7;9626,1,2,7;6673,10,70,100;57,1000000,10000000,100;6392,1,250,100;6393,1,100,100;960,1,3,5.0;730,1,5,7.0;948,1,7,10.0;952,1,9,15.0;956,1,12,25.0;959,1,3,3.5;729,1,3,5.5;947,1,5,8.5;951,1,5,10.5;955,1,6,12.0;6578,1,2,1.0;6570,1,4,3.0;6572,1,5,5.0;6574,1,6,10.0;6576,1,7,15.0;6577,1,1,0.25;6569,1,2,2.5;6571,1,3,4.0;6573,1,4,7.0;6575,1,5,12.0;12371,1,3,5;12370,1,4,10;12369,1,5,15;12368,1,7,20;12367,1,10,25;12366,1,2,2.5;12365,1,2,5;12364,1,3,7.5;12363,1,4,10;12362,1,6,12.5;9174,1,2,10;9172,1,2,10;9176,1,2,10;9173,1,2,10;9171,1,2,10;9175,1,2,10;9546,1,6,10;9547,1,6,10;9548,1,6,10;9549,1,6,10;9550,1,6,10;9551,1,6,10;9552,1,3,4;9553,1,3,4;9554,1,3,4;9555,1,3,4;9556,1,3,4;9557,1,3,4;9560,1,1,1;9558,1,1,1;9563,1,1,1;9559,1,1,1;9561,1,1,1;9562,1,1,1;" />
+	</item>
+
+	<item id="62502" type="EtcItem" name="Top Reward Box 10">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,9;9627,1,2,4.5;9625,1,2,6.3;9626,1,2,6.3;6673,10,70,100;57,1000000,10000000,100;6392,1,200,100;6393,1,75,100;960,1,3,4.5;730,1,5,6.3;948,1,7,9.0;952,1,9,13.5;956,1,12,22.5;959,1,3,3.15;729,1,3,4.95;947,1,5,7.65;951,1,5,9.45;955,1,6,10.8;6578,1,2,0.9;6570,1,4,2.7;6572,1,5,4.5;6574,1,6,9.0;6576,1,7,13.5;6577,1,1,0.225;6569,1,2,2.25;6571,1,3,3.6;6573,1,4,6.3;6575,1,5,10.8;12371,1,3,4.5;12370,1,4,9.0;12369,1,5,13.5;12368,1,7,18.0;12367,1,10,22.5;12366,1,2,2.25;12365,1,2,4.5;12364,1,3,6.75;12363,1,4,9.0;12362,1,6,11.25;9174,1,2,9.0;9172,1,2,9.0;9176,1,2,9.0;9173,1,2,9.0;9171,1,2,9.0;9175,1,2,9.0;9546,1,6,9.0;9547,1,6,9.0;9548,1,6,9.0;9549,1,6,9.0;9550,1,6,9.0;9551,1,6,9.0;9552,1,3,3.6;9553,1,3,3.6;9554,1,3,3.6;9555,1,3,3.6;9556,1,3,3.6;9557,1,3,3.6;9560,1,1,0.9;9558,1,1,0.9;9563,1,1,0.9;9559,1,1,0.9;9561,1,1,0.9;9562,1,1,0.9;" />
+	</item>
+
+	<item id="62503" type="EtcItem" name="Top Reward Box 9">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,8;9627,1,2,4;9625,1,2,5.6;9626,1,2,5.6;6673,10,60,100;57,1000000,8000000,100;6392,1,175,100;6393,1,65,100;960,1,3,4.05;730,1,5,5.67;948,1,7,8.1;952,1,9,12.15;956,1,12,20.25;959,1,3,2.835;729,1,3,4.455;947,1,5,6.885;951,1,5,8.505;955,1,6,9.72;6578,1,2,0.81;6570,1,4,2.43;6572,1,5,4.05;6574,1,6,8.1;6576,1,7,12.15;6577,1,1,0.2025;6569,1,2,2.025;6571,1,3,3.24;6573,1,4,5.67;6575,1,5,9.72;12371,1,3,4.05;12370,1,4,8.1;12369,1,5,12.15;12368,1,7,16.2;12367,1,10,20.25;12366,1,2,2.025;12365,1,2,4.05;12364,1,3,6.075;12363,1,4,8.1;12362,1,6,10.125;9174,1,2,8.1;9172,1,2,8.1;9176,1,2,8.1;9173,1,2,8.1;9171,1,2,8.1;9175,1,2,8.1;9546,1,6,8.1;9547,1,6,8.1;9548,1,6,8.1;9549,1,6,8.1;9550,1,6,8.1;9551,1,6,8.1;9552,1,3,3.24;9553,1,3,3.24;9554,1,3,3.24;9555,1,3,3.24;9556,1,3,3.24;9557,1,3,3.24;9560,1,1,0.81;9558,1,1,0.81;9563,1,1,0.81;9559,1,1,0.81;9561,1,1,0.81;9562,1,1,0.81;" />
+	</item>
+
+	<item id="62504" type="EtcItem" name="Top Reward Box 8">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,7;9627,1,2,3.5;9625,1,2,4.9;9626,1,2,4.9;6673,10,55,100;57,1000000,7000000,100;6392,1,150,100;6393,1,55,100;960,1,3,3.645;730,1,5,5.103;948,1,7,7.29;952,1,9,10.935;956,1,12,18.225;959,1,3,2.5515;729,1,3,4.0095;947,1,5,6.1965;951,1,5,7.6545;955,1,6,8.748;6578,1,2,0.729;6570,1,4,2.187;6572,1,5,3.645;6574,1,6,7.29;6576,1,7,10.935;6577,1,1,0.18225;6569,1,2,1.8225;6571,1,3,2.916;6573,1,4,5.103;6575,1,5,8.748;12371,1,3,3.645;12370,1,4,7.29;12369,1,5,10.935;12368,1,7,14.58;12367,1,10,18.225;12366,1,2,1.8225;12365,1,2,3.645;12364,1,3,5.4675;12363,1,4,7.29;12362,1,6,9.1125;9174,1,2,7.29;9172,1,2,7.29;9176,1,2,7.29;9173,1,2,7.29;9171,1,2,7.29;9175,1,2,7.29;9546,1,6,7.29;9547,1,6,7.29;9548,1,6,7.29;9549,1,6,7.29;9550,1,6,7.29;9551,1,6,7.29;9552,1,3,2.916;9553,1,3,2.916;9554,1,3,2.916;9555,1,3,2.916;9556,1,3,2.916;9557,1,3,2.916;9560,1,1,0.729;9558,1,1,0.729;9563,1,1,0.729;9559,1,1,0.729;9561,1,1,0.729;9562,1,1,0.729;" />
+	</item>
+
+	<item id="62505" type="EtcItem" name="Top Reward Box 7">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,6;9627,1,2,3;9625,1,2,4.2;9626,1,2,4.2;6673,10,50,100;57,1000000,6000000,100;6392,1,120,100;6393,1,50,100;960,1,3,3.2805;730,1,5,4.5927;948,1,7,6.561;952,1,9,9.8415;956,1,12,16.4025;959,1,3,2.29635;729,1,3,3.60855;947,1,5,5.57685;951,1,5,6.88905;955,1,6,7.8732;6578,1,2,0.6561;6570,1,4,1.9683;6572,1,5,3.2805;6574,1,6,6.561;6576,1,7,9.8415;6577,1,1,0.164025;6569,1,2,1.64025;6571,1,3,2.6244;6573,1,4,4.5927;6575,1,5,7.8732;12371,1,3,3.2805;12370,1,4,6.561;12369,1,5,9.8415;12368,1,7,13.122;12367,1,10,16.4025;12366,1,2,1.64025;12365,1,2,3.2805;12364,1,3,4.92075;12363,1,4,6.561;12362,1,6,8.20125;9174,1,2,6.561;9172,1,2,6.561;9176,1,2,6.561;9173,1,2,6.561;9171,1,2,6.561;9175,1,2,6.561;9546,1,6,6.561;9547,1,6,6.561;9548,1,6,6.561;9549,1,6,6.561;9550,1,6,6.561;9551,1,6,6.561;9552,1,3,2.6244;9553,1,3,2.6244;9554,1,3,2.6244;9555,1,3,2.6244;9556,1,3,2.6244;9557,1,3,2.6244;9560,1,1,0.6561;9558,1,1,0.6561;9563,1,1,0.6561;9559,1,1,0.6561;9561,1,1,0.6561;9562,1,1,0.6561;" />
+	</item>
+
+
+	<item id="62506" type="EtcItem" name="Top Reward Box 6">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,5;9627,1,2,2.5;9625,1,2,3.5;9626,1,2,3.5;6673,10,45,100;57,1000000,5000000,100;6392,1,110,100;6393,1,45,100;960,1,3,2.95245;730,1,5,4.13343;948,1,7,5.9049;952,1,9,8.85735;956,1,12,14.76225;959,1,3,2.066715;729,1,3,3.247695;947,1,5,5.019165;951,1,5,6.200145;955,1,6,7.08588;6578,1,2,0.59049;6570,1,4,1.77147;6572,1,5,2.95245;6574,1,6,5.9049;6576,1,7,8.85735;6577,1,1,0.1476225;6569,1,2,1.476225;6571,1,3,2.36196;6573,1,4,4.13343;6575,1,5,7.08588;12371,1,3,2.95245;12370,1,4,5.9049;12369,1,5,8.85735;12368,1,7,11.8098;12367,1,10,14.76225;12366,1,2,1.476225;12365,1,2,2.95245;12364,1,3,4.428675;12363,1,4,5.9049;12362,1,6,7.381125;9174,1,2,5.9049;9172,1,2,5.9049;9176,1,2,5.9049;9173,1,2,5.9049;9171,1,2,5.9049;9175,1,2,5.9049;9546,1,6,5.9049;9547,1,6,5.9049;9548,1,6,5.9049;9549,1,6,5.9049;9550,1,6,5.9049;9551,1,6,5.9049;9552,1,3,2.36196;9553,1,3,2.36196;9554,1,3,2.36196;9555,1,3,2.36196;9556,1,3,2.36196;9557,1,3,2.36196;9560,1,1,0.59049;9558,1,1,0.59049;9563,1,1,0.59049;9559,1,1,0.59049;9561,1,1,0.59049;9562,1,1,0.59049;" />
+	</item>
+
+	<item id="62507" type="EtcItem" name="Top Reward Box 5">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,4;9627,1,2,2;9625,1,2,2.8;9626,1,2,2.8;6673,10,40,100;57,1000000,4500000,100;6392,1,100,100;6393,1,40,100;960,1,3,2.657205;730,1,5,3.720087;948,1,7,5.31441;952,1,9,7.971615;956,1,12,13.286025;959,1,3,1.8600435;729,1,3,2.9229255;947,1,5,4.5172485;951,1,5,5.5801305;955,1,6,6.377292;6578,1,2,0.531441;6570,1,4,1.594323;6572,1,5,2.657205;6574,1,6,5.31441;6576,1,7,7.971615;6577,1,1,0.13286025;6569,1,2,1.3286025;6571,1,3,2.125764;6573,1,4,3.720087;6575,1,5,6.377292;12371,1,3,2.657205;12370,1,4,5.31441;12369,1,5,7.971615;12368,1,7,10.62882;12367,1,10,13.286025;12366,1,2,1.3286025;12365,1,2,2.657205;12364,1,3,3.9858075;12363,1,4,5.31441;12362,1,6,6.6430125;9174,1,2,5.31441;9172,1,2,5.31441;9176,1,2,5.31441;9173,1,2,5.31441;9171,1,2,5.31441;9175,1,2,5.31441;9546,1,6,5.31441;9547,1,6,5.31441;9548,1,6,5.31441;9549,1,6,5.31441;9550,1,6,5.31441;9551,1,6,5.31441;9552,1,3,2.125764;9553,1,3,2.125764;9554,1,3,2.125764;9555,1,3,2.125764;9556,1,3,2.125764;9557,1,3,2.125764;9560,1,1,0.531441;9558,1,1,0.531441;9563,1,1,0.531441;9559,1,1,0.531441;9561,1,1,0.531441;9562,1,1,0.531441;" />
+	</item>
+
+	<item id="62508" type="EtcItem" name="Top Reward Box 4">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,3;9627,1,2,1.5;9625,1,2,2.1;9626,1,2,2.1;6673,10,35,100;57,1000000,4000000,100;6392,1,90,100;6393,1,35,100;960,1,3,2.3914845;730,1,5,3.3480783;948,1,7,4.782969;952,1,9,7.1744535;956,1,12,11.9574225;959,1,3,1.67403915;729,1,3,2.63063295;947,1,5,4.06552365;951,1,5,5.02211745;955,1,6,5.7395628;6578,1,2,0.4782969;6570,1,4,1.4348907;6572,1,5,2.3914845;6574,1,6,4.782969;6576,1,7,7.1744535;6577,1,1,0.119574225;6569,1,2,1.19574225;6571,1,3,1.9131876;6573,1,4,3.3480783;6575,1,5,5.7395628;12371,1,3,2.3914845;12370,1,4,4.782969;12369,1,5,7.1744535;12368,1,7,9.565938;12367,1,10,11.9574225;12366,1,2,1.19574225;12365,1,2,2.3914845;12364,1,3,3.58722675;12363,1,4,4.782969;12362,1,6,5.97871125;9174,1,2,4.782969;9172,1,2,4.782969;9176,1,2,4.782969;9173,1,2,4.782969;9171,1,2,4.782969;9175,1,2,4.782969;9546,1,6,4.782969;9547,1,6,4.782969;9548,1,6,4.782969;9549,1,6,4.782969;9550,1,6,4.782969;9551,1,6,4.782969;9552,1,3,1.9131876;9553,1,3,1.9131876;9554,1,3,1.9131876;9555,1,3,1.9131876;9556,1,3,1.9131876;9557,1,3,1.9131876;9560,1,1,0.4782969;9558,1,1,0.4782969;9563,1,1,0.4782969;9559,1,1,0.4782969;9561,1,1,0.4782969;9562,1,1,0.4782969;" />
+	</item>
+
+	<item id="62509" type="EtcItem" name="Top Reward Box 3">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,2;9627,1,2,1;9625,1,2,1.4;9626,1,2,1.4;6673,10,30,100;57,1000000,3500000,100;6392,1,80,100;6393,1,30,100;960,1,3,2.15233605;730,1,5,3.01327047;948,1,7,4.3046721;952,1,9,6.45700815;956,1,12,10.76168025;959,1,3,1.506635235;729,1,3,2.367569655;947,1,5,3.658971285;951,1,5,4.519905705;955,1,6,5.16560652;6578,1,2,0.43046721;6570,1,4,1.29140163;6572,1,5,2.15233605;6574,1,6,4.3046721;6576,1,7,6.45700815;6577,1,1,0.1076168025;6569,1,2,1.076168025;6571,1,3,1.72186884;6573,1,4,3.01327047;6575,1,5,5.16560652;12371,1,3,2.15233605;12370,1,4,4.3046721;12369,1,5,6.45700815;12368,1,7,8.609344;12367,1,10,10.76168025;12366,1,2,1.076168025;12365,1,2,2.15233605;12364,1,3,3.228504075;12363,1,4,4.3046721;12362,1,6,5.380840125;9174,1,2,4.3046721;9172,1,2,4.3046721;9176,1,2,4.3046721;9173,1,2,4.3046721;9171,1,2,4.3046721;9175,1,2,4.3046721;9546,1,6,4.3046721;9547,1,6,4.3046721;9548,1,6,4.3046721;9549,1,6,4.3046721;9550,1,6,4.3046721;9551,1,6,4.3046721;9552,1,3,1.72186884;9553,1,3,1.72186884;9554,1,3,1.72186884;9555,1,3,1.72186884;9556,1,3,1.72186884;9557,1,3,1.72186884;9560,1,1,0.43046721;9558,1,1,0.43046721;9563,1,1,0.43046721;9559,1,1,0.43046721;9561,1,1,0.43046721;9562,1,1,0.43046721;" />
+	</item>
+
+	<item id="62510" type="EtcItem" name="Top Reward Box 2">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20.5;52003,10,50,20.5;6622,1,3,1.5;9627,1,2,0.75;9625,1,2,1.05;9626,1,2,1.05;6673,10,25,100;57,1000000,3000000,100;6392,1,70,100;6393,1,25,100;960,1,3,1.937102445;730,1,5,2.711943423;948,1,7,3.87420489;952,1,9,5.811307335;956,1,12,9.685512225;959,1,3,1.355971712;729,1,3,2.130812690;947,1,5,3.293074157;951,1,5,4.067915135;955,1,6,4.649045868;6578,1,2,0.387420489;6570,1,4,1.162261467;6572,1,5,1.937102445;6574,1,6,3.87420489;6576,1,7,5.811307335;6577,1,1,0.09685512225;6569,1,2,0.9685512225;6571,1,3,1.549681956;6573,1,4,2.711943423;6575,1,5,4.649045868;12371,1,3,1.937102445;12370,1,4,3.87420489;12369,1,5,5.811307335;12368,1,7,7.748409780;12367,1,10,9.685512225;12366,1,2,0.9685512225;12365,1,2,1.937102445;12364,1,3,2.905653668;12363,1,4,3.87420489;12362,1,6,4.842756113;9174,1,2,3.87420489;9172,1,2,3.87420489;9176,1,2,3.87420489;9173,1,2,3.87420489;9171,1,2,3.87420489;9175,1,2,3.87420489;9546,1,6,3.87420489;9547,1,6,3.87420489;9548,1,6,3.87420489;9549,1,6,3.87420489;9550,1,6,3.87420489;9551,1,6,3.87420489;9552,1,3,1.549681956;9553,1,3,1.549681956;9554,1,3,1.549681956;9555,1,3,1.549681956;9556,1,3,1.549681956;9557,1,3,1.549681956;9560,1,1,0.387420489;9558,1,1,0.387420489;9563,1,1,0.387420489;9559,1,1,0.387420489;9561,1,1,0.387420489;9562,1,1,0.387420489;" />
+	</item>
+
+
+	<item id="62511" type="EtcItem" name="Top Reward Box 1">
+		<!-- Peresent Chest -->
+		<set name="icon" val="icon.etc_pi_gift_box_i00" />
+		<set name="default_action" val="PEEL" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="is_tradable" val="false" />
+		<set name="is_dropable" val="false" />
+		<set name="is_sellable" val="false" />
+		<set name="is_depositable" val="true" />
+		<set name="is_stackable" val="true" />
+		<set name="is_oly_restricted" val="true" />
+		<set name="handler" val="ExtractableItems" />
+		<set name="capsuled_items"
+			val="52016,5,30,20;52003,10,50,20;6622,1,3,1;9627,1,2,0.5;9625,1,2,0.7;9626,1,2,0.7;6673,10,20,100;57,1000000,2500000,100;6392,1,50,100;6393,1,20,100;960,1,3,1.7433922005;730,1,5,2.4407490807;948,1,7,3.486784401;952,1,9,5.2301766015;956,1,12,8.7169610025;959,1,3,1.2203745408;729,1,3,1.9177314210;947,1,5,2.9637667413;951,1,5,3.6611236215;955,1,6,4.1841412781;6578,1,2,0.3486784401;6570,1,4,1.0460353203;6572,1,5,1.7433922005;6574,1,6,3.486784401;6576,1,7,5.2301766015;6577,1,1,0.087169610025;6569,1,2,0.87169610025;6571,1,3,1.3947137604;6573,1,4,2.4407490807;6575,1,5,4.1841412781;12371,1,3,1.7433922005;12370,1,4,3.486784401;12369,1,5,5.2301766015;12368,1,7,6.973568802;12367,1,10,8.7169610025;12366,1,2,0.87169610025;12365,1,2,1.7433922005;12364,1,3,2.6150883008;12363,1,4,3.486784401;12362,1,6,4.3625805013;9174,1,2,3.486784401;9172,1,2,3.486784401;9176,1,2,3.486784401;9173,1,2,3.486784401;9171,1,2,3.486784401;9175,1,2,3.486784401;9546,1,6,3.486784401;9547,1,6,3.486784401;9548,1,6,3.486784401;9549,1,6,3.486784401;9550,1,6,3.486784401;9551,1,6,3.486784401;9552,1,3,1.3947137604;9553,1,3,1.3947137604;9554,1,3,1.3947137604;9555,1,3,1.3947137604;9556,1,3,1.3947137604;9557,1,3,1.3947137604;9560,1,1,0.3486784401;9558,1,1,0.3486784401;9563,1,1,0.3486784401;9559,1,1,0.3486784401;9561,1,1,0.3486784401;9562,1,1,0.3486784401;" />
+	</item>
+
+
+</list>

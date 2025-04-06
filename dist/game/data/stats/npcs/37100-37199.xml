@@ -1,0 +1,3626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd">
+	<npc id="37101" level="21" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="376.063268689487" hpRegen="1.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47.919244061454" magical="32.7226319401133" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92.6271011629928" magical="56.1115632895055" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37102" level="24" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="449.397334531729" hpRegen="1.5" mp="245.52" mpRegen="1.5" />
+			<attack physical="60.1968712618897" magical="41.1066597737442" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="101.895537364058" magical="61.7261883679349" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37103" level="27" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="531.808581237041" hpRegen="1.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.9912095047522" magical="51.2092750090322" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="111.783212013997" magical="67.7159351522403" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37104" level="30" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="623.584092631874" hpRegen="1.5" mp="329.4" mpRegen="1.5" />
+			<attack physical="92.6422612424255" magical="63.2626552465637" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="122.288315384748" magical="74.0797073634453" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37105" level="33" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="724.871874675055" hpRegen="1.8" mp="372.96" mpRegen="1.8" />
+			<attack physical="113.490654511985" magical="77.4994052801751" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="133.402537046416" magical="80.8124707220912" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37106" level="36" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="835.657991997797" hpRegen="1.8" mp="417.6" mpRegen="1.8" />
+			<attack physical="137.864667408402" magical="94.1436964941632" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="145.110489684918" magical="87.9049039361612" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37107" level="42" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1084.73699369686" hpRegen="2.1" mp="531.0" mpRegen="2.1" />
+			<attack physical="198.345907305602" magical="135.444543183224" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="170.207642394119" magical="103.108234870087" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37108" level="45" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1222.01933711761" hpRegen="2.1" mp="610.8" mpRegen="2.1" />
+			<attack physical="234.898291890002" magical="160.405083582293" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="183.526457130741" magical="111.176494647742" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37109" level="48" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1366.75562200403" hpRegen="2.1" mp="692.4" mpRegen="2.1" />
+			<attack physical="275.827045436369" magical="188.354116675298" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="197.297661947999" magical="119.518802878289" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37110" level="51" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1517.88115502146" hpRegen="2.4" mp="775.8" mpRegen="2.4" />
+			<attack physical="321.132066836175" magical="219.291573418222" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="211.464580155089" magical="128.100826028764" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37111" level="54" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1674.10665553836" hpRegen="2.4" mp="861.0" mpRegen="2.4" />
+			<attack physical="370.689038937507" magical="253.132561311492" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="225.961874482666" magical="136.882984193537" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37112" level="57" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1833.9283898078" hpRegen="2.4" mp="948.0" mpRegen="2.4" />
+			<attack physical="424.232953977617" magical="289.696114406012" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="240.715739831843" magical="145.820567650029" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37113" level="60" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1995.64566170597" hpRegen="2.4" mp="1036.8" mpRegen="2.4" />
+			<attack physical="481.345512250945" magical="328.696588226919" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="255.644257913984" magical="154.86395213652" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37114" level="63" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2157.38568876994" hpRegen="2.7" mp="1127.4" mpRegen="2.7" />
+			<attack physical="541.447737693314" magical="369.738617174833" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="270.657919510939" magical="163.958914671767" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37115" level="66" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2317.13559141445" hpRegen="2.7" mp="1219.8" mpRegen="2.7" />
+			<attack physical="603.799026906932" magical="412.316465133206" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="285.660316465035" magical="173.047053464993" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37116" level="69" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2472.78090975059" hpRegen="2.7" mp="1314.0" mpRegen="2.7" />
+			<attack physical="667.503610065512" magical="455.818437428996" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="300.549001539213" magical="182.066307912763" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37117" level="72" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2622.14975164374" hpRegen="3" mp="1410.0" mpRegen="3" />
+			<attack physical="731.525056113249" magical="499.536786003261" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="315.216510067462" magical="190.951578227804" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37118" level="75" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2763.06138388172" hpRegen="3" mp="1507.8" mpRegen="3" />
+			<attack physical="794.709014189014" magical="542.683238855925" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="329.551532957763" magical="199.635435691959" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37119" level="78" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2893.37782205212" hpRegen="3" mp="1607.4" mpRegen="3" />
+			<attack physical="855.813872406402" magical="584.409936018261" random="30" critical="4"
+				accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="343.440226241281" magical="208.048916072236" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37120" level="81" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3101.38847262351" hpRegen="3.09" mp="1760.064" mpRegen="3.1003" />
+			<attack physical="967.301634" magical="683.6670250269" random="30" critical="4"
+				accuracy="8.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="374.4526066" magical="226.835561" evasion="4" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37121" level="84" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed High Five -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3301.05636251825" hpRegen="3.18" mp="1920.72" mpRegen="3.18" />
+			<attack physical="1024.61236488433" magical="741.658070600305" random="30" critical="4"
+				accuracy="10.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="391.584384310193" magical="237.213641422467" evasion="6" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="21" />
+			<!-- Extremely Strong M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="3" />
+			<!-- One-handed Sword -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37122" level="21" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="630" sp="29" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364.30351" hpRegen="3.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47.91924" magical="32.72263" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="89.73059" magical="59.7436374813816" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37123" level="24" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="771" sp="38" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="435.34437" hpRegen="3.5" mp="245.52" mpRegen="1.5" />
+			<attack physical="60.19687" magical="41.10666" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="98.70919" magical="65.7216907961494" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37124" level="27" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="918" sp="47" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="515.17856" hpRegen="3.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74.99121" magical="51.20928" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="108.28767" magical="72.0991544841329" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37125" level="30" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="1080" sp="59" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="604.08419" hpRegen="3.5" mp="329.4" mpRegen="1.5" />
+			<attack physical="92.64226" magical="63.26266" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="118.46427" magical="78.8748547991048" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37126" level="33" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="1306" sp="75" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="702.20463" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
+			<attack physical="113.49065" magical="77.49941" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="129.23095" magical="86.043423444366" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37127" level="36" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="1555" sp="94" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="809.52639" hpRegen="4.5" mp="417.6" mpRegen="1.8" />
+			<attack physical="137.86467" magical="94.1437" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="140.57278" magical="93.5949427192352" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37128" level="42" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2116" sp="141" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1050.81652" hpRegen="5.5" mp="531.0" mpRegen="2.1" />
+			<attack physical="198.34591" magical="135.44454" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="164.88513" magical="109.782377202178" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37129" level="45" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2430" sp="169" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1183.80594" hpRegen="5.5" mp="610.8" mpRegen="2.1" />
+			<attack physical="234.89829" magical="160.40508" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="177.78746" magical="118.372898457316" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37130" level="48" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2764" sp="202" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1324.01623" hpRegen="5.5" mp="692.4" mpRegen="2.1" />
+			<attack physical="275.82705" magical="188.35412" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="191.12803" magical="127.255200286259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37131" level="51" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="3121" sp="238" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1470.41596" hpRegen="6.5" mp="775.8" mpRegen="2.4" />
+			<attack physical="321.13207" magical="219.29157" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="204.85194" magical="136.392732777413" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37132" level="54" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="3499" sp="279" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1621.75618" hpRegen="6.5" mp="861.0" mpRegen="2.4" />
+			<attack physical="370.68904" magical="253.13256" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="218.89589" magical="145.743350252286" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37133" level="57" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="3898" sp="324" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1776.58018" hpRegen="6.5" mp="948.0" mpRegen="2.4" />
+			<attack physical="424.23295" magical="289.69611" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="233.18839" magical="155.259456846417" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37134" level="60" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="4320" sp="375" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1933.24044" hpRegen="6.5" mp="1036.8" mpRegen="2.4" />
+			<attack physical="481.34551" magical="328.69659" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="247.65008" magical="164.888215781956" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37135" level="63" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="4762" sp="430" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2089.92274" hpRegen="7.5" mp="1127.4" mpRegen="2.7" />
+			<attack physical="541.44774" magical="369.73862" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="262.19426" magical="174.571895122369" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37136" level="66" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="5227" sp="492" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2244.67715" hpRegen="7.5" mp="1219.8" mpRegen="2.7" />
+			<attack physical="603.79903" magical="412.31647" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="276.72752" magical="184.248304515217" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37137" level="69" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="5713" sp="559" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2395.45533" hpRegen="7.5" mp="1314.0" mpRegen="2.7" />
+			<attack physical="667.50361" magical="455.81844" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="291.15063" magical="193.851368417065" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37138" level="72" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="6220" sp="632" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540.15331" hpRegen="8.5" mp="1410.0" mpRegen="3" />
+			<attack physical="731.52506" magical="499.53679" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="305.35947" magical="203.311781207645" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+			<skill id="4789" level="2" />
+			<!-- NPC High Level -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37139" level="75" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="6750" sp="712" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676.65854" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794.70901" magical="542.68324" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="319.24623" magical="212.557735094503" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+			<skill id="4789" level="4" />
+			<!-- NPC High Level -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37140" level="78" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="7300" sp="799" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2802.89989" hpRegen="8.5" mp="1607.4" mpRegen="3" />
+			<attack physical="855.81387" magical="584.40994" random="50" critical="1" accuracy="9"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="332.70061" magical="221.515820894982" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+			<skill id="4789" level="5" />
+			<!-- NPC High Level -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37141" level="78" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="7873" sp="894" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3004.4059082" hpRegen="8.755" mp="1760.064" mpRegen="3.09" />
+			<attack physical="940.9565" magical="661.831856" random="50" critical="1" accuracy="12"
+				attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="355.9783" magical="237.312" evasion="4" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+			<skill id="4789" level="7" />
+			<!-- NPC High Level -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+	<npc id="37142" level="80" type="Chest" name="Treasure Chest" usingServerSideName="true">
+		<!-- Confirmed CT2.5 -->
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="8467" sp="996" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3137.4936216" hpRegen="8.84" mp="1884.48" mpRegen="3.12" />
+			<attack physical="1005.2800576" magical="713.935000064" random="50" critical="1"
+				accuracy="17" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="372.1819192" magical="247.802921663855" evasion="4" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" />
+			<!-- Resist Full Magic Attack -->
+			<skill id="4408" level="1" />
+			<!-- HP Increase (1x) -->
+			<skill id="4409" level="1" />
+			<!-- MP Increase (1x) -->
+			<skill id="4410" level="11" />
+			<!-- Average P. Atk. -->
+			<skill id="4411" level="11" />
+			<!-- Average M. Atk. -->
+			<skill id="4412" level="11" />
+			<!-- Average P. Def. -->
+			<skill id="4413" level="11" />
+			<!-- Average M. Def. -->
+			<skill id="4414" level="2" />
+			<!-- Standard Type -->
+			<skill id="4415" level="5" />
+			<!-- Blunt Weapons -->
+			<skill id="4416" level="2" />
+			<!-- Magic Creatures -->
+			<skill id="4789" level="8" />
+			<!-- NPC High Level -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="300" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="9170" min="2" max="8" chance="1" />
+					<!-- Magic Reagents -->
+				</group>
+				<group chance="100">
+					<item id="9168" min="1" max="5" chance="1" />
+					<!-- Philosopher's Stone Ore -->
+				</group>
+				<group chance="100">
+					<item id="9169" min="1" max="2" chance="1" />
+					<!-- Philosopher's Stone Conversion Formula -->
+				</group>
+				<group chance="100">
+					<item id="9162" min="1" max="1" chance="1" />
+					<!-- Red Philosopher's Stone Transmutation Circle -->
+					<item id="9163" min="1" max="1" chance="1" />
+					<!-- Blue Philosopher's Stone Transmutation Circle -->
+					<item id="9164" min="1" max="1" chance="1" />
+					<!-- Orange Philosopher's Stone Transmutation Circle -->
+					<item id="9165" min="1" max="1" chance="1" />
+					<!-- Black Philosopher's Stone Transmutation Circle -->
+					<item id="9166" min="1" max="1" chance="1" />
+					<!-- White Philosopher's Stone Transmutation Circle -->
+					<item id="9167" min="1" max="1" chance="1" />
+					<!-- Green Philosopher's Stone Transmutation Circle -->
+				</group>
+			</drop>
+			<spoil>
+				<item id="9169" min="1" max="2" chance="3" />
+				<!-- Philosopher's Stone Conversion Formula -->
+				<item id="9170" min="1" max="6" chance="3" />
+				<!-- Magic Reagents -->
+				<item id="9168" min="1" max="4" chance="3" />
+				<!-- Philosopher's Stone Ore -->
+			</spoil>
+		</dropLists>
+	</npc>
+</list>

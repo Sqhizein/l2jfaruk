@@ -1,0 +1,10 @@
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (1, 'NormalRoot', 0, 0, 0, 1, 0);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (2, 'ClanRoot', 0, 0, 0, 0, 0);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (3, 'MemoRoot', 0, 0, 0, 0, 0);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (4, 'MailRoot', 0, 0, 0, 0, 0);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (5, 'Camelot', 2, 0, 2, 2, 268580782);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (6, 'InterNation', 2, 0, 2, 2, 268538897);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (7, 'Night', 2, 0, 2, 2, 268784513);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (8, 'Podemos', 2, 0, 2, 2, 268529827);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (9, 'Emre', 2, 0, 2, 2, 268956619);
+INSERT INTO `forums` (`forum_id`, `forum_name`, `forum_parent`, `forum_post`, `forum_type`, `forum_perm`, `forum_owner_id`) VALUES (10, 'IDC', 2, 0, 2, 2, 268568598);

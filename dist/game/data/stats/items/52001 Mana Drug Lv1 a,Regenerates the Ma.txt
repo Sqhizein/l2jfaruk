@@ -1,0 +1,31 @@
+52001	Mana Drug 	Lv1	a,Regenerates the Mana Point with slight amound for 15 seconds. \\nIt can be purchased from Grocery Shop\0	-1	0	0						a,	0	0		a,	0	0	0	0	0	0	0	0	0	0	a,	1
+52002	Mana Potion 	Lv2	a,Regenerates the Mana Point with moderate amound for 15 seconds. \\nIt can be dropped from mobs or purchased from Prime Shop\0	-1	0	0						a,	0	0		a,	0	0	0	0	0	0	0	0	0	0	a,	1
+52003	Enchanted Mana Potion 	Lv3	a,Regenerates the Mana Point with high amound for 15 seconds. \\nIt can be crafted via Recipe or purchased from Prime Shop\0	-1	0	0						a,	0	0		a,	0	0	0	0	0	0	0	0	0	0	a,	1
+
+2	52001	0	3	2	5	0	dropitems.drop_test_tube_m00			dropitemstex.drop_test_tube_black_t00				0	0	0	0	0	1	0	0	icon.etc_potion_blue_i00					-1	180	53	0	1281618	0							1		1			1					ItemSound.itemdrop_potion		2	3	0
+2	52002	0	3	2	5	0	dropitems.drop_test_tube_m00			dropitemstex.drop_test_tube_black_t00				0	0	0	0	0	1	0	0	icon.etc_reagent_blue_i00					-1	180	53	0	1281618	0							1		1			1					ItemSound.itemdrop_potion		2	3	0
+2	52003	0	3	2	5	0	dropitems.drop_test_tube_m00			dropitemstex.drop_test_tube_black_t00				0	0	0	0	0	1	0	0	icon.etc_int_hena_i02					-1	180	53	0	1281618	0							1		1			1					ItemSound.itemdrop_potion		2	3	0
+
+52001	1	a,Mana Drug\0	a,Regenerates the Mana Point with slight amound for 15 seconds.\0	a,Level 1\0	a,Effect 1.\0
+52002	1	a,Mana Potion\0	a,Regenerates the Mana Point with moderate amound for 15 seconds.\0	a,Level 2\0	a,Effect 2.\0
+52003	1	a,Enchanted Mana Potion\0	a,Regenerates the Mana Point with high amound for 15 seconds.\0	a,Level 3\0	a,Effect 3.\0
+
+52001	1	5	1	0	4294967295	0	0.00000000	0		726	icon.etc_potion_blue_i00		0	0	0	a,none\0	0	-1	10	0	a,none\0
+52002	1	5	1	0	4294967295	0	0.00000000	0		726	icon.etc_reagent_blue_i00		0	0	0	a,none\0	0	-1	10	0	a,none\0
+52003	1	5	1	0	4294967295	0	0.00000000	0		726	icon.etc_int_hena_i02		0	0	0	a,none\0	0	-1	10	0	a,none\0
+
+
+52001	101	a,Mana Drug\0	a,Regenerates the Mana Point with slight amound for 15 seconds.\0	a,Level 1\0	a,Effect 1.\0
+52002	101	a,Mana Potion\0	a,Regenerates the Mana Point with moderate amound for 15 seconds.\0	a,Level 2\0	a,Effect 2.\0
+52003	101	a,Enchanted Mana Potion\0	a,Regenerates the Mana Point with high amound for 15 seconds.\0	a,Level 3\0	a,Effect 3.\0
+
+
+52001	101	2	1	48	400	1	4.00000000	1		52001	icon.etc_potion_blue_i00		0	1	1	a,time\0	0	8	10	0	a,none\0
+52002	101	2	1	48	400	1	4.00000000	1		52002	icon.etc_reagent_blue_i00		0	1	2	a,time\0	0	8	10	0	a,none\0
+52003	101	2	1	48	400	1	4.00000000	1		52003	icon.etc_int_hena_i02		0	1	3	a,time\0	0	8	10	0	a,none\0
+
+
+52001	101	5	1	0	4294967295	0	0.00000000	0		52001	icon.etc_potion_blue_i00		0	0	1	a,time\0	0	-1	10	0	a,none\0
+52002	101	5	1	0	4294967295	0	0.00000000	0		52002	icon.etc_reagent_blue_i00		0	0	2	a,time\0	0	-1	10	0	a,none\0
+52003	101	5	1	0	4294967295	0	0.00000000	0		52003	icon.etc_int_hena_i02		0	0	3	a,time\0	0	-1	10	0	a,none\0
+

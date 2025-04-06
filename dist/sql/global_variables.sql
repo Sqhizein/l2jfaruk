@@ -1,0 +1,15 @@
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('Core_Attacked', 'false');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('fishChampionshipEnd', '1744128000802');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('HBLevel', '11');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('HBTrust', '4000000');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('nextTWStartDate', '1743966000603');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('QueenShyeedRespawn', '1741591602014');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('SeedBuffsList', '5');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('SeedNextStatusChange', '1744020000593');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('SoDLSCDate', '1734039506985');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('SoDState', '1');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('SoDTiatKilled', '0');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('UC_START_TIME', '1743876000000');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('UC_STOP_TIME', '1743883200000');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('VarangkaRespawn', '0');
+INSERT INTO `global_variables` (`var`, `value`) VALUES ('VenomStatus', '0');

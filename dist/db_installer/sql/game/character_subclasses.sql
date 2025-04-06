@@ -1,0 +1,12 @@
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268528671, 13, 72163506, 6046811, 55, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268531865, 13, 45963676, 1732332, 51, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268535270, 24, 15422929, 0, 40, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268548847, 43, 32237872, 2278398, 47, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268574200, 3, 946397160, 87914884, 76, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268574200, 40, 21956885, 2354386, 43, 3);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268574200, 116, 1523436062, 84906788, 78, 2);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268609017, 131, 6276650897, 433563298, 82, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268609180, 34, 15422929, 0, 40, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268616550, 117, 1167103869, 90458984, 77, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268656814, 89, 3087310036, 245926153, 80, 1);
+INSERT INTO `character_subclasses` (`charId`, `class_id`, `exp`, `sp`, `level`, `class_index`) VALUES (268685571, 97, 4196622646, 263573569, 80, 1);

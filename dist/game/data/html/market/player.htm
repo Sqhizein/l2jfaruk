@@ -1,0 +1,44 @@
+<html><title>Fake Market Vendor</title><body>
+<center>
+<br>
+<font color="LEVEL">Market Vendor: %npcname%</font><br><br>
+
+<button action="bypass -h .market" value="Back to Market" width=120 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"><br><br>
+
+<!-- Items for Sale -->
+<table width="270" border="0" bgcolor="000000">
+	<tr>
+		<td width="160"><font color="LEVEL">Item</font></td>
+		<td width="50"><font color="LEVEL">Count</font></td>
+		<td width="60"><font color="LEVEL">Action</font></td>
+	</tr>
+</table>
+<br>
+
+<table width="270" border="0">
+%items%
+</table>
+<br><br>
+
+<!-- Sell Items -->
+<table width="270" border="0" bgcolor="000000">
+	<tr>
+		<td colspan="3"><font color="LEVEL">Sell Items</font></td>
+	</tr>
+</table>
+
+<table width="270" border="0">
+	<tr>
+		<td width="60">ItemID:</td>
+		<td><edit var="itemid" width=50></td>
+	</tr>
+	<tr>
+		<td>Count:</td>
+		<td><edit var="count" width=50></td>
+	</tr>
+</table>
+<br>
+<button action="bypass -h .marketsell %npcid% $itemid $count" value="Sell Item" width=85 height=20 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF">
+
+</center>
+</body></html>
