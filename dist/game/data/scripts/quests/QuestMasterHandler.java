@@ -484,6 +484,7 @@ import quests.Q00726_LightWithinTheDarkness.Q00726_LightWithinTheDarkness;
 import quests.Q00727_HopeWithinTheDarkness.Q00727_HopeWithinTheDarkness;
 import quests.Q00800_DailyRewardQuest.Q00800_DailyRewardQuest;
 import quests.Q00801_MonsterHunterSpecialization.Q00801_MonsterHunterSpecialization;
+import quests.Q00802_ticaretyapanPcTrade.Q00802_ticaretyapanPcTrade;
 import quests.Q00901_HowLavasaurusesAreMade.Q00901_HowLavasaurusesAreMade;
 import quests.Q00902_ReclaimOurEra.Q00902_ReclaimOurEra;
 import quests.Q00903_TheCallOfAntharas.Q00903_TheCallOfAntharas;
@@ -1003,6 +1004,7 @@ public class QuestMasterHandler
 		Q00727_HopeWithinTheDarkness.class,
 		Q00800_DailyRewardQuest.class,
 		Q00801_MonsterHunterSpecialization.class,
+		Q00802_ticaretyapanPcTrade.class,
 		Q00901_HowLavasaurusesAreMade.class,
 		Q00902_ReclaimOurEra.class,
 		Q00903_TheCallOfAntharas.class,
