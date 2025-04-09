@@ -87,8 +87,10 @@ public class Q00802_ticaretyapanPcTrade extends Quest
     private static final Map<Integer, PlayerTrader> ACTIVE_TRADERS = new ConcurrentHashMap<>();
     // Update this to point directly to the game item directory
     private static final String GAME_ITEMS_PATH = "data/stats/items/";
+    private static final String RECIPES_FILE_PATH = "data/Recipes.xml";
     private static final List<ItemData> ITEM_DATABASE = new ArrayList<>();
     private static final List<ItemData> ITEM_BUY_DATABASE = new ArrayList<>();
+    private static final List<RecipeData> RECIPE_DATABASE = new ArrayList<>();
     private static ScheduledFuture<?> _traderUpdateTask = null;
     
     // Random names for traders
@@ -114,15 +116,15 @@ public class Q00802_ticaretyapanPcTrade extends Quest
     {
         // Sell mode configs
         static boolean ALLOW_SELL_NON_TRADABLE = true; // Allow selling normally non-tradable items
-        static final int MIN_SELL_ITEM_TYPES = 5; // Minimum number of different items a seller can offer
-        static final int MAX_SELL_ITEM_TYPES = 40; // Maximum number of different items a seller can offer
+        static final int MIN_SELL_ITEM_TYPES = 3; // Minimum number of different items a seller can offer
+        static final int MAX_SELL_ITEM_TYPES = 10; // Maximum number of different items a seller can offer
         static final int MIN_SELL_ITEM_COUNT = 1; // Minimum quantity of a specific item
         static final int MAX_SELL_ITEM_COUNT = 100; // Maximum quantity of a specific item
         
         // Buy mode configs
         static final boolean ENABLE_BUY_MODE = true; // Enable traders in buy mode
         static final int MIN_BUY_ITEM_TYPES = 5; // Minimum number of different items a buyer can request
-        static final int MAX_BUY_ITEM_TYPES = 40; // Maximum number of different items a buyer can request
+        static final int MAX_BUY_ITEM_TYPES = 10; // Maximum number of different items a buyer can request
         static final int MIN_BUY_ITEM_COUNT = 1; // Minimum quantity of a specific item
         static final int MAX_BUY_ITEM_COUNT = 100; // Maximum quantity of a specific item
         
@@ -139,8 +141,8 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         static boolean TRADER_AUTO_REFRESH = true; // Whether to automatically refresh traders
         
         // Initial trader counts (separate for buy and sell modes)
-        static final int INITIAL_TRADER_COUNT_SELL = 500; // Number of sell traders to spawn initially
-        static final int INITIAL_TRADER_COUNT_BUY = 200; // Number of buy traders to spawn initially
+        static final int INITIAL_TRADER_COUNT_SELL = 150; // Number of sell traders to spawn initially
+        static final int INITIAL_TRADER_COUNT_BUY = 150; // Number of buy traders to spawn initially
         
         // Specialized traders configs - Trader type distribution (percentage)
         static final int WEAPON_TRADER_PERCENTAGE = 25; // Weapon-specialized traders
@@ -338,9 +340,9 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         // Item type distribution
         static final Map<String, Integer> ITEM_TYPE_DISTRIBUTION = new HashMap<>();
         static {
-            ITEM_TYPE_DISTRIBUTION.put("Weapon", 30);
-            ITEM_TYPE_DISTRIBUTION.put("Armor", 30);
-            ITEM_TYPE_DISTRIBUTION.put("EtcItem", 40);
+            ITEM_TYPE_DISTRIBUTION.put("Weapon", 80);
+            ITEM_TYPE_DISTRIBUTION.put("Armor", 10);
+            ITEM_TYPE_DISTRIBUTION.put("EtcItem", 10);
         }
         
         // Weapon type distribution
@@ -364,10 +366,10 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         // Armor type distribution
         static final Map<String, Integer> ARMOR_TYPE_DISTRIBUTION = new HashMap<>();
         static {
-            ARMOR_TYPE_DISTRIBUTION.put("LIGHT", 30);
-            ARMOR_TYPE_DISTRIBUTION.put("HEAVY", 30);
-            ARMOR_TYPE_DISTRIBUTION.put("MAGIC", 30);
-            ARMOR_TYPE_DISTRIBUTION.put("SIGIL", 10);
+            ARMOR_TYPE_DISTRIBUTION.put("LIGHT", 33);
+            ARMOR_TYPE_DISTRIBUTION.put("HEAVY", 33);
+            ARMOR_TYPE_DISTRIBUTION.put("MAGIC", 33);
+            ARMOR_TYPE_DISTRIBUTION.put("SIGIL", 1);
         }
         
         // Body part distribution
@@ -410,7 +412,61 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         static final boolean SELL_SELLABLE_ONLY = true;
         static final boolean SELL_DEPOSITABLE_ONLY = true;
         static final boolean SELL_QUEST_ITEMS = false;
-    }
+        
+        // Specialized crafter configs - Trader type distribution (percentage)
+        static final int INITIAL_CRAFTER_TRADER_COUNT = 250; // Number of Craft CRAFTER to spawn initially
+        
+        static final int CRAFTER_MIN_CRAFT_NON_STACKABLE_ITEM_TYPES = 1; // Minimum number of different items a seller can offer
+        static final int CRAFTER_MAX_CRAFT_NON_STACKABLE_ITEM_TYPES = 1; // Maximum number of different items a seller can offer
+        static final int CRAFTER_MIN_CRAFT_NON_STACKABLE_ITEM_COUNT = 1; // Minimum quantity of a specific item
+        static final int CRAFTER_MAX_CRAFT_NON_STACKABLE_ITEM_COUNT = 20; // Maximum quantity of a specific item
+        
+        static final int CRAFTER_MIN_CRAFT_STACKABLE_ITEM_COUNT = 1000; // Minimum quantity of a specific item
+        static final int CRAFTER_MAX_CRAFT_STACKABLE_ITEM_COUNT = 100000; // Maximum quantity of a specific item
+        
+        static final int WEAPON_CRAFTER_PERCENTAGE = 25; // Weapon-specialized CRAFTER
+        static final int ARMOR_CRAFTER_PERCENTAGE = 25; // Armor-specialized CRAFTER
+        static final int ETCITEM_CRAFTER_PERCENTAGE = 25; // Etc item-specialized CRAFTER
+        static final int SOUL_AND_SPIRIT_SHOT_CRAFTER_PERCENTAGE = 25; // Craft item-specialized CRAFTER
+        
+        static final int CRAFTER_PRICE_MULTIPLIER_SOUL_AND_SPIRIT_SHOT = 100; // % of reference price for soul and spirit items
+        static final int CRAFTER_PRICE_MULTIPLIER_MATS = 80; // % of reference price for no-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_NO_GRADE = 80; // % of reference price for no-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_D_GRADE = 70; // % of reference price for D-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_C_GRADE = 60; // % of reference price for C-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_B_GRADE = 50; // % of reference price for B-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_A_GRADE = 45; // % of reference price for A-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_S_GRADE = 40; // % of reference price for S-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_S80_GRADE = 35; // % of reference price for S80-grade items
+        static final int CRAFTER_PRICE_MULTIPLIER_S84_GRADE = 30; // % of reference price for S84-grade items
+        
+        // Exception recipes with custom prices
+        static final Map<Integer, Integer> EXCEPTION_RECIPE_PRICE = new HashMap<>();
+        static {
+            // Add recipe ID and custom price multiplier (percentage)
+            // Soul shots and spirit shots can be added here with custom price multipliers
+        }
+        
+        // Soul shot and spirit shot recipe IDs
+        static final Set<Integer> SOUL_SPIRIT_SHOT_RECIPES = new HashSet<>();
+        static {
+            // D-grade
+            SOUL_SPIRIT_SHOT_RECIPES.add(1804); // Soulshot D
+            SOUL_SPIRIT_SHOT_RECIPES.add(3953); // Blessed Spiritshot D
+            // C-grade
+            SOUL_SPIRIT_SHOT_RECIPES.add(1805); // Soulshot C
+            SOUL_SPIRIT_SHOT_RECIPES.add(3954); // Blessed Spiritshot C
+            // B-grade
+            SOUL_SPIRIT_SHOT_RECIPES.add(1806); // Soulshot B
+            SOUL_SPIRIT_SHOT_RECIPES.add(3955); // Blessed Spiritshot B
+            // A-grade
+            SOUL_SPIRIT_SHOT_RECIPES.add(1807); // Soulshot A
+            SOUL_SPIRIT_SHOT_RECIPES.add(3956); // Blessed Spiritshot A
+            // S-grade
+            SOUL_SPIRIT_SHOT_RECIPES.add(1808); // Soulshot S
+            SOUL_SPIRIT_SHOT_RECIPES.add(3957); // Blessed Spiritshot S
+        }
+           }
 
     // Scheduled task for trade announcements
     private static ScheduledFuture<?> _tradeAnnouncementTask = null;
@@ -468,6 +524,123 @@ public class Q00802_ticaretyapanPcTrade extends Quest
     }
     
     /**
+     * Class to store recipe data from the Recipes.xml file
+     */
+    private static class RecipeData
+    {
+        private final int recipeId;
+        private final int itemId;
+        private final String name;
+        private final int craftLevel;
+        private final String type;
+        private final int successRate;
+        private final List<int[]> ingredients = new ArrayList<>(); // [itemId, count]
+        private int price; // Calculated price for crafting
+        private final int itemType; // 0 = weapon, 1 = armor, 2 = etc
+        private boolean isCustom; // Whether this is a custom recipe
+        
+        public RecipeData(int recipeId, int itemId, String name, int craftLevel, String type, int successRate)
+        {
+            this.recipeId = recipeId;
+            this.itemId = itemId;
+            this.name = name;
+            this.craftLevel = craftLevel;
+            this.type = type;
+            this.successRate = successRate;
+            this.itemType = determineItemType(itemId);
+            this.isCustom = false;
+        }
+        
+        private int determineItemType(int itemId) {
+            ItemTemplate template = org.l2jmobius.gameserver.data.xml.ItemData.getInstance().getTemplate(itemId);
+            if (template == null) {
+                return 2; // Default to EtcItem if template not found
+            }
+            
+            if (template instanceof Weapon) {
+                return 0; // Weapon
+            } else if (template instanceof Armor) {
+                return 1; // Armor
+            } else {
+                return 2; // EtcItem
+            }
+        }
+        
+        public void addIngredient(int itemId, int count)
+        {
+            ingredients.add(new int[] {itemId, count});
+        }
+        
+        public int getRecipeId()
+        {
+            return recipeId;
+        }
+        
+        public int getItemId()
+        {
+            return itemId;
+        }
+        
+        @SuppressWarnings("unused")
+        public String getName()
+        {
+            return name;
+        }
+        
+        @SuppressWarnings("unused")
+        public int getCraftLevel()
+        {
+            return craftLevel;
+        }
+        
+        @SuppressWarnings("unused")
+        public String getType()
+        {
+            return type;
+        }
+        
+        @SuppressWarnings("unused")
+        public int getSuccessRate()
+        {
+            return successRate;
+        }
+        
+        @SuppressWarnings("unused")
+        public List<int[]> getIngredients()
+        {
+            return ingredients;
+        }
+        
+        public int getPrice()
+        {
+            return price;
+        }
+        
+        public void setPrice(int price)
+        {
+            this.price = price;
+        }
+        
+        public int getItemType()
+        {
+            return itemType;
+        }
+        
+        public boolean isSoulOrSpiritShot()
+        {
+            return Config.SOUL_SPIRIT_SHOT_RECIPES.contains(recipeId);
+        }
+        
+        public boolean isCustom() {
+            return isCustom;
+        }
+        
+        public void setCustom(boolean isCustom) {
+            this.isCustom = isCustom;
+        }
+    }
+    
+    /**
      * Class to represent our player-like traders
      */
     private static class PlayerTrader
@@ -481,11 +654,13 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         private final Location location;
         private final String title;
         private final boolean buyMode; // Is this trader in buy mode?
+        private final boolean craftMode; // Is this trader a crafter?
         private Player fakePc;
         private List<ItemData> selectedItems; // Store selected items
+        private List<RecipeData> selectedRecipes; // Store selected recipes
         private long lastAnnouncementTime = 0;
         
-        public PlayerTrader(int objectId, String name, TradeList tradeList, int classId, Race race, boolean isFemale, Location location, String title, boolean buyMode)
+        public PlayerTrader(int objectId, String name, TradeList tradeList, int classId, Race race, boolean isFemale, Location location, String title, boolean buyMode, boolean craftMode)
         {
             this.objectId = objectId;
             this.name = name;
@@ -496,8 +671,16 @@ public class Q00802_ticaretyapanPcTrade extends Quest
             this.location = location;
             this.title = title;
             this.buyMode = buyMode;
+            this.craftMode = craftMode;
             this.fakePc = null;
             this.selectedItems = new ArrayList<>();
+            this.selectedRecipes = new ArrayList<>();
+        }
+        
+        // Add this constructor and update existing constructor calls
+        public PlayerTrader(int objectId, String name, TradeList tradeList, int classId, Race race, boolean isFemale, Location location, String title, boolean buyMode)
+        {
+            this(objectId, name, tradeList, classId, race, isFemale, location, title, buyMode, false);
         }
         
         public int getObjectId()
@@ -540,6 +723,11 @@ public class Q00802_ticaretyapanPcTrade extends Quest
             return buyMode;
         }
         
+        public boolean isCraftMode()
+        {
+            return craftMode;
+        }
+        
         public Player getFakePc()
         {
             return fakePc;
@@ -558,6 +746,16 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         public void setSelectedItems(List<ItemData> selectedItems)
         {
             this.selectedItems = selectedItems;
+        }
+        
+        public List<RecipeData> getSelectedRecipes()
+        {
+            return selectedRecipes;
+        }
+        
+        public void setSelectedRecipes(List<RecipeData> selectedRecipes)
+        {
+            this.selectedRecipes = selectedRecipes;
         }
         
         public long getLastAnnouncementTime()
@@ -589,6 +787,9 @@ public class Q00802_ticaretyapanPcTrade extends Quest
         
         // Load items directly from game files
         loadItemsFromGameXML();
+        
+        // Load recipe data from Recipes.xml
+        loadRecipesFromXML();
         
         // Load fake player names
         loadFakePlayerNames();
@@ -671,13 +872,147 @@ public class Q00802_ticaretyapanPcTrade extends Quest
             buyItemsAdded++;
             
             // Limit to a reasonable number of items
-            if (sellItemsAdded >= 1000)
+            if (sellItemsAdded >= 55284)
             {
                 break;
             }
         }
         
         LOGGER.info("Loaded " + sellItemsAdded + " sell items and " + buyItemsAdded + " buy items from game XML files.");
+    }
+    
+    /**
+     * Load recipe data from Recipes.xml
+     */
+    private void loadRecipesFromXML()
+    {
+        LOGGER.info("Loading recipe data from Recipes.xml...");
+        
+        try {
+            File recipesFile = new File(org.l2jmobius.Config.DATAPACK_ROOT, RECIPES_FILE_PATH);
+            if (!recipesFile.exists())
+            {
+                LOGGER.warning("Recipes.xml file not found: " + recipesFile.getAbsolutePath());
+                return;
+            }
+            
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+            factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
+            DocumentBuilder builder = factory.newDocumentBuilder();
+            Document doc = builder.parse(recipesFile);
+            
+            NodeList recipeNodes = doc.getElementsByTagName("item");
+            int skippedRecipes = 0;
+            int loadedRecipes = 0;
+            int gameVerifiedRecipes = 0;
+            
+            for (int i = 0; i < recipeNodes.getLength(); i++)
+            {
+                Element recipeElement = (Element) recipeNodes.item(i);
+                
+                try {
+                    // CRITICAL FIX: Use recipeId attribute instead of id attribute
+                    // This is the key change - we need to use the recipeId from the XML
+                    int recipeId = Integer.parseInt(recipeElement.getAttribute("recipeId"));
+                    
+                    // Check if the recipe exists in the game data using the recipeId attribute
+                    boolean recipeExistsInGame = org.l2jmobius.gameserver.data.xml.RecipeData.getInstance().getRecipeList(recipeId) != null;
+            
+                    
+                    if (recipeExistsInGame) {
+                        gameVerifiedRecipes++;
+                        LOGGER.warning("Verified game recipe ID " + recipeId + " exists in the game");
+                    }
+                    
+                    String name = recipeElement.getAttribute("name");
+                    int craftLevel = Integer.parseInt(recipeElement.getAttribute("craftLevel"));
+                    String type = recipeElement.getAttribute("type");
+                    int successRate = Integer.parseInt(recipeElement.getAttribute("successRate"));
+                    
+                    // Find production element to get the item ID
+                    NodeList productionNodes = recipeElement.getElementsByTagName("production");
+                    if (productionNodes.getLength() == 0)
+                    {
+                        LOGGER.warning("Skipping recipe ID " + recipeId + " - no production element found");
+                        skippedRecipes++;
+                        continue; // Skip recipes without production
+                    }
+                    
+                    Element productionElement = (Element) productionNodes.item(0);
+                    int itemId = Integer.parseInt(productionElement.getAttribute("id"));
+                    
+                    // Verify itemId exists in ItemData
+                    ItemTemplate itemTemplate = org.l2jmobius.gameserver.data.xml.ItemData.getInstance().getTemplate(itemId);
+                    if (itemTemplate == null) {
+                        LOGGER.warning("Recipe ID " + recipeId + " produces item ID " + itemId + " not found in ItemData - skipping");
+                        skippedRecipes++;
+                        continue;
+                    }
+                    
+                    // Create recipe data with the actual recipeId, not the internal XML id
+                    RecipeData recipeData = new RecipeData(recipeId, itemId, name, craftLevel, type, successRate);
+                    recipeData.setCustom(!recipeExistsInGame);
+                    
+                    // Add ingredients
+                    NodeList ingredientNodes = recipeElement.getElementsByTagName("ingredient");
+                    for (int j = 0; j < ingredientNodes.getLength(); j++)
+                    {
+                        Element ingredientElement = (Element) ingredientNodes.item(j);
+                        int ingredientId = Integer.parseInt(ingredientElement.getAttribute("id"));
+                        int count = Integer.parseInt(ingredientElement.getAttribute("count"));
+                        recipeData.addIngredient(ingredientId, count);
+                    }
+                    
+                    // Calculate price based on the produced item's price
+                    int basePrice = itemTemplate.getReferencePrice();
+                    
+                    // Calculate price based on success rate
+                    int price;
+                    if (successRate == 100)
+                    {
+                        // 100% success rate - half the item price
+                        price = basePrice / 2;
+                    }
+                    else
+                    {
+                        // Lower success rate - quarter of the item price
+                        price = basePrice / 4;
+                    }
+                    
+                    // Apply crystal type multiplier
+                    int multiplier = getCrafterPriceMultiplier(itemTemplate.getCrystalType().toString(), recipeData.isSoulOrSpiritShot());
+                    price = (int) (price * (multiplier / 100.0));
+                    
+                    // Check for exception recipes
+                    if (Config.EXCEPTION_RECIPE_PRICE.containsKey(recipeId))
+                    {
+                        int exceptionMultiplier = Config.EXCEPTION_RECIPE_PRICE.get(recipeId);
+                        price = (int) (basePrice * (exceptionMultiplier / 100.0));
+                    }
+                    
+                    // Ensure a minimum price
+                    recipeData.setPrice(Math.max(price, 100)); // Minimum price of 100
+                    
+                    RECIPE_DATABASE.add(recipeData);
+                    loadedRecipes++;
+                    
+                    // Debug output for important recipes
+                    LOGGER.warning("Loaded recipe: ID=" + recipeId + ", name=" + name + ", production=" + itemId + ", itemName=" + itemTemplate.getName());
+                }
+                catch (Exception e)
+                {
+                    LOGGER.warning("Error parsing recipe data: " + e.getMessage());
+                    e.printStackTrace();
+                }
+            }
+            
+            LOGGER.info("Loaded " + loadedRecipes + " recipes from Recipes.xml (" + gameVerifiedRecipes + " verified in game, skipped " + skippedRecipes + " recipes)");
+        }
+        catch (Exception e)
+        {
+            LOGGER.warning("Error loading Recipes.xml: " + e.getMessage());
+            e.printStackTrace();
+        }
     }
     
     /**
@@ -1014,6 +1349,40 @@ public class Q00802_ticaretyapanPcTrade extends Quest
             
             // Craft traders
             createCraftTrader(true); // Buy mode
+        }
+        
+        // Initialize crafters
+        for (int i = 0; i < Config.INITIAL_CRAFTER_TRADER_COUNT; i++) {
+            // Decide crafter type
+            int typeRoll = Rnd.get(100);
+            
+            int runningTotal = 0;
+            
+            // Weapon crafters
+            runningTotal += Config.WEAPON_CRAFTER_PERCENTAGE;
+            if (typeRoll < runningTotal) {
+                createWeaponCrafter();
+                continue;
+            }
+            
+            // Armor crafters
+            runningTotal += Config.ARMOR_CRAFTER_PERCENTAGE;
+            if (typeRoll < runningTotal) {
+                createArmorCrafter();
+                continue;
+            }
+            
+            // EtcItem crafters
+            runningTotal += Config.ETCITEM_CRAFTER_PERCENTAGE;
+            if (typeRoll < runningTotal) {
+                createEtcItemCrafter();
+                continue;
+            }
+            
+            // Soul/Spirit Shot crafters - properly using the SOUL_AND_SPIRIT_SHOT_CRAFTER_PERCENTAGE
+            if (typeRoll < runningTotal + Config.SOUL_AND_SPIRIT_SHOT_CRAFTER_PERCENTAGE) {
+                createSoulSpiritShotCrafter();
+            }
         }
         
         // Schedule regular updates to refresh traders
@@ -1356,7 +1725,7 @@ public class Q00802_ticaretyapanPcTrade extends Quest
                 ps.setString(1, accountName); // account_name
                 ps.setInt(2, fakePc.getObjectId()); // charId
                 ps.setString(3, trader.getName()); // char_name
-                ps.setInt(4, 80); // level
+                ps.setInt(4, 85); // level
                 ps.setInt(5, 8000); // maxHp
                 ps.setInt(6, 8000); // curHp
                 ps.setInt(7, 4000); // maxCp
@@ -1446,7 +1815,7 @@ public class Q00802_ticaretyapanPcTrade extends Quest
                 // Set up character_offline_trade first
                 try (PreparedStatement ps = con.prepareStatement("INSERT INTO character_offline_trade (charId, time, type, title) VALUES (?, ?, ?, ?)"))
                 {
-                    ps.setInt(1, fakePc.getObjectId());
+                    ps.setInt(1, fakePc.getObjectId()); // charId
                     ps.setLong(2, System.currentTimeMillis());
                     
                     if (trader.isBuyMode()) {
@@ -2546,6 +2915,109 @@ public class Q00802_ticaretyapanPcTrade extends Quest
     }
     
     /**
+     * Create a crafter specializing in weapons
+     */
+    private void createWeaponCrafter() {
+        List<RecipeData> weaponRecipes = getRecipesByType(0);
+        if (weaponRecipes.isEmpty()) {
+            LOGGER.warning("No weapon recipes found. Creating a random crafter instead.");
+            createRandomCrafter();
+            return;
+        }
+        
+        createCrafterWithRecipes(weaponRecipes, "Weapon Crafter");
+    }
+    
+    /**
+     * Create a crafter specializing in armor
+     */
+    private void createArmorCrafter() {
+        List<RecipeData> armorRecipes = getRecipesByType(1);
+        if (armorRecipes.isEmpty()) {
+            LOGGER.warning("No armor recipes found. Creating a random crafter instead.");
+            createRandomCrafter();
+            return;
+        }
+        
+        createCrafterWithRecipes(armorRecipes, "Armor Crafter");
+    }
+    
+    /**
+     * Create a crafter specializing in etc items
+     */
+    private void createEtcItemCrafter() {
+        List<RecipeData> etcRecipes = getRecipesByType(2);
+        if (etcRecipes.isEmpty()) {
+            LOGGER.warning("No etc item recipes found. Creating a random crafter instead.");
+            createRandomCrafter();
+            return;
+        }
+        
+        createCrafterWithRecipes(etcRecipes, "Item Crafter");
+    }
+    
+    /**
+     * Create a crafter specializing in soul/spirit shots
+     */
+    private void createSoulSpiritShotCrafter() {
+        List<RecipeData> shotRecipes = new ArrayList<>();
+        
+        // Get all soul/spirit shot recipes
+        for (RecipeData recipe : RECIPE_DATABASE) {
+            if (recipe.isSoulOrSpiritShot()) {
+                shotRecipes.add(recipe);
+            }
+        }
+        
+        if (shotRecipes.isEmpty()) {
+            LOGGER.warning("No soul/spirit shot recipes found. Creating a random crafter instead.");
+            createRandomCrafter();
+            return;
+        }
+        
+        createCrafterWithRecipes(shotRecipes, "Shot Crafter");
+    }
+    
+    /**
+     * Create a random crafter with random recipes
+     */
+    private void createRandomCrafter() {
+        if (RECIPE_DATABASE.isEmpty()) {
+            LOGGER.warning("Recipe database is empty. Cannot create random crafter.");
+            return;
+        }
+        
+        // Select random recipes - Use min/max configs
+        Collections.shuffle(RECIPE_DATABASE);
+        
+        // Use the configured values for max recipes (while respecting the 20 recipe limit)
+        int maxRecipes = Math.min(20, Config.CRAFTER_MAX_CRAFT_NON_STACKABLE_ITEM_COUNT);
+        int minRecipes = Math.min(maxRecipes, Config.CRAFTER_MIN_CRAFT_NON_STACKABLE_ITEM_COUNT);
+        int recipeCount = Math.min(minRecipes + Rnd.get(maxRecipes - minRecipes + 1), RECIPE_DATABASE.size());
+        
+        List<RecipeData> selectedRecipes = RECIPE_DATABASE.subList(0, recipeCount);
+        
+        createCrafterWithRecipes(selectedRecipes, "Master Crafter");
+    }
+    
+    /**
+     * Get recipes by type
+     * @param type 0 = weapon, 1 = armor, 2 = etc
+     * @return List of recipes of the specified type
+     */
+    private List<RecipeData> getRecipesByType(int type) {
+        List<RecipeData> result = new ArrayList<>();
+        
+        for (RecipeData recipe : RECIPE_DATABASE) {
+            if (recipe.getItemType() == type) {
+                result.add(recipe);
+            }
+        }
+        
+        return result;
+    }
+    
+    /**
      * Load trader config from XML file
      */
     private void loadTraderConfig() {
@@ -2762,20 +3234,42 @@ public class Q00802_ticaretyapanPcTrade extends Quest
     {
         StringBuilder sb = new StringBuilder();
         
-        // Format: ItemName1, ItemName2, ItemName3... (no quantities)
-        int itemCount = 0;
-        for (ItemData item : trader.getSelectedItems()) {
-            if (itemCount > 0) {
-                sb.append(", ");
-            }
+        if (trader.isCraftMode()) {
+            // Format for crafters: Crafting ItemName1, ItemName2, ItemName3...
+            sb.append("Crafting ");
             
-            if (itemCount >= 5) {
-                sb.append("...");
-                break;
+            int itemCount = 0;
+            for (RecipeData recipe : trader.getSelectedRecipes()) {
+                if (itemCount > 0) {
+                    sb.append(", ");
+                }
+                
+                if (itemCount >= 5) {
+                    sb.append("...");
+                    break;
+                }
+                
+                // Get the item name
+                ItemTemplate itemTemplate = org.l2jmobius.gameserver.data.xml.ItemData.getInstance().getTemplate(recipe.getItemId());
+                sb.append(itemTemplate != null ? itemTemplate.getName() : "Unknown");
+                itemCount++;
             }
-            
-            sb.append(item.getName());
-            itemCount++;
+        } else {
+            // Existing format for buyers/sellers
+            int itemCount = 0;
+            for (ItemData item : trader.getSelectedItems()) {
+                if (itemCount > 0) {
+                    sb.append(", ");
+                }
+                
+                if (itemCount >= 5) {
+                    sb.append("...");
+                    break;
+                }
+                
+                sb.append(item.getName());
+                itemCount++;
+            }
         }
         
         // No name at the end
@@ -2826,6 +3320,481 @@ public class Q00802_ticaretyapanPcTrade extends Quest
     private boolean isInExclusionZone(int x, int y) {
         return x >= EXCLUSION_MIN_X && x <= EXCLUSION_MAX_X && 
                y >= EXCLUSION_MIN_Y && y <= EXCLUSION_MAX_Y;
+    }
+
+    /**
+     * Get price multiplier for crafting based on item grade
+     * @param grade The crystal type (grade) of the item
+     * @param isSoulOrSpiritShot Whether this is a soul/spirit shot recipe
+     * @return The price multiplier percentage
+     */
+    private int getCrafterPriceMultiplier(String grade, boolean isSoulOrSpiritShot)
+    {
+        // If it's a soul/spirit shot, use special multiplier
+        if (isSoulOrSpiritShot)
+        {
+            return Config.CRAFTER_PRICE_MULTIPLIER_SOUL_AND_SPIRIT_SHOT;
+        }
+        
+        // Otherwise use grade-based multiplier
+        switch (grade)
+        {
+            case "NONE":
+                return Config.CRAFTER_PRICE_MULTIPLIER_NO_GRADE;
+            case "D":
+                return Config.CRAFTER_PRICE_MULTIPLIER_D_GRADE;
+            case "C":
+                return Config.CRAFTER_PRICE_MULTIPLIER_C_GRADE;
+            case "B":
+                return Config.CRAFTER_PRICE_MULTIPLIER_B_GRADE;
+            case "A":
+                return Config.CRAFTER_PRICE_MULTIPLIER_A_GRADE;
+            case "S":
+                return Config.CRAFTER_PRICE_MULTIPLIER_S_GRADE;
+            case "S80":
+                return Config.CRAFTER_PRICE_MULTIPLIER_S80_GRADE;
+            case "S84":
+                return Config.CRAFTER_PRICE_MULTIPLIER_S84_GRADE;
+            default:
+                return Config.CRAFTER_PRICE_MULTIPLIER_MATS;
+        }
+    }
+
+    /**
+     * Set quantity for stackable craft items
+     * @param itemData The item data to set quantities for
+     * @param isStackable Whether this item is stackable
+     */
+    @SuppressWarnings("unused")
+    private void setCrafterItemQuantities(ItemData itemData, boolean isStackable) {
+        if (isStackable) {
+            // Use the correct config fields for stackable items
+            itemData.setMinQuantity(Config.CRAFTER_MIN_CRAFT_STACKABLE_ITEM_COUNT);
+            itemData.setMaxQuantity(Config.CRAFTER_MAX_CRAFT_STACKABLE_ITEM_COUNT);
+        } else {
+            // Use the correct config fields for non-stackable items
+            itemData.setMinQuantity(Config.CRAFTER_MIN_CRAFT_NON_STACKABLE_ITEM_COUNT);
+            itemData.setMaxQuantity(Config.CRAFTER_MAX_CRAFT_NON_STACKABLE_ITEM_COUNT);
+        }
+    }
+
+    /**
+     * Create a crafter with a specific list of recipes
+     * @param availableRecipes List of available recipes to choose from
+     * @param specialization The specialization type of the crafter
+     */
+    private void createCrafterWithRecipes(List<RecipeData> availableRecipes, String specialization) {
+        try {
+            // First, ensure we have any available recipes
+            if (availableRecipes.isEmpty() && !RECIPE_DATABASE.isEmpty()) {
+                LOGGER.warning("No specific recipes available for " + specialization + ". Using recipes from database.");
+                availableRecipes = RECIPE_DATABASE;
+            }
+            
+            // CRITICAL FIX: Filter recipes to ONLY include those that ACTUALLY exist in game's RecipeData
+            // This is essential to ensure the crafter can be loaded after server restart
+            List<RecipeData> validRecipes = new ArrayList<>();
+            for (RecipeData recipe : availableRecipes) {
+                boolean recipeExistsInGame = org.l2jmobius.gameserver.data.xml.RecipeData.getInstance().getRecipeList(recipe.getRecipeId()) != null;
+                
+                if (recipeExistsInGame) {
+                    validRecipes.add(recipe);
+                    LOGGER.warning("Adding verified recipe ID " + recipe.getRecipeId() + " to crafter - exists in game's RecipeData");
+                } else {
+                    LOGGER.warning("Skipping recipe ID " + recipe.getRecipeId() + " - not found in game's RecipeData");
+                }
+            }
+            
+            if (validRecipes.isEmpty()) {
+                LOGGER.warning("No valid recipes found for crafter. Cannot create crafter without valid recipes.");
+                return;
+            }
+            
+            // Shuffle available recipes and limit count
+            Collections.shuffle(validRecipes);
+            
+            // Use configured values: Determine how many different recipe types to include
+            int maxRecipeCount = Math.min(20, Math.max(5, Config.CRAFTER_MAX_CRAFT_NON_STACKABLE_ITEM_TYPES));
+            int minRecipeCount = Math.min(maxRecipeCount, Math.max(1, Config.CRAFTER_MIN_CRAFT_NON_STACKABLE_ITEM_TYPES));
+            int recipeCount = Math.min(minRecipeCount + Rnd.get(maxRecipeCount - minRecipeCount + 1), validRecipes.size());
+            
+            List<RecipeData> selectedRecipes = new ArrayList<>(validRecipes.subList(0, recipeCount));
+            
+            // Generate a random name
+            final boolean isFemale = Rnd.nextBoolean();
+            String name;
+            if (!FAKE_PLAYER_NAMES.isEmpty()) {
+                name = FAKE_PLAYER_NAMES.get(Rnd.get(FAKE_PLAYER_NAMES.size()));
+                
+                // Make sure this name isn't already used
+                boolean nameExists;
+                int attempts = 0;
+                do {
+                    nameExists = false;
+                    for (PlayerTrader existing : ACTIVE_TRADERS.values()) {
+                        if (existing.getName().equals(name)) {
+                            nameExists = true;
+                            name = FAKE_PLAYER_NAMES.get(Rnd.get(FAKE_PLAYER_NAMES.size()));
+                            break;
+                        }
+                    }
+                    attempts++;
+                } while (nameExists && attempts < 10);
+            } else {
+                final String[] namePool = isFemale ? FEMALE_NAMES : MALE_NAMES;
+                name = namePool[Rnd.get(namePool.length)] + " " + LAST_NAMES[Rnd.get(LAST_NAMES.length)];
+            }
+            
+            // Generate a random location
+            final Location location = getRandomTraderLocation(false); // Crafters will use the sell zone
+            
+            // Generate store title based on specialization and recipes
+            StringBuilder titleBuilder = new StringBuilder(specialization);
+            titleBuilder.append(": ");
+            
+            // Add some recipe names
+            int count = 0;
+            for (RecipeData recipe : selectedRecipes) {
+                if (count >= 3) {
+                    break; // Only show 3 recipes in title
+                }
+                
+                if (count > 0) {
+                    titleBuilder.append(", ");
+                }
+                
+                // Get the item name
+                ItemTemplate itemTemplate = org.l2jmobius.gameserver.data.xml.ItemData.getInstance().getTemplate(recipe.getItemId());
+                String itemName = (itemTemplate != null) ? itemTemplate.getName() : "Unknown";
+                
+                // Add to title
+                if (itemName.length() > 12) {
+                    itemName = itemName.substring(0, 12);
+                }
+                titleBuilder.append(itemName);
+                count++;
+            }
+            
+            if (selectedRecipes.size() > 3) {
+                titleBuilder.append("...");
+            }
+            
+            // Ensure title is not longer than the configured length
+            String title = titleBuilder.toString();
+            if (title.length() > Config.MAX_STORE_TITLE_LENGTH) {
+                title = title.substring(0, Config.MAX_STORE_TITLE_LENGTH - 3) + "...";
+            }
+            
+            // Create the trader
+            final int objectId = getNewObjectId();
+            final TradeList tradeList = new TradeList(null);
+            tradeList.setTitle(title);
+            
+            // Always create as Maestro class (118)
+            final PlayerTrader trader = new PlayerTrader(objectId, name, tradeList, 118, Race.DWARF, isFemale, location, title, false, true);
+            trader.setSelectedRecipes(selectedRecipes);
+            
+            // Create and spawn the fake player
+            spawnCrafter(trader);
+            
+            ACTIVE_TRADERS.put(objectId, trader);
+        } catch (Exception e) {
+            LOGGER.warning("Error creating crafter: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+    
+    /**
+     * Spawn a crafter in the game world
+     * @param trader The trader with crafter mode
+     */
+    private void spawnCrafter(PlayerTrader trader) {
+        try {
+            // Add debugging information
+            LOGGER.warning("==============================");
+            LOGGER.warning("SPAWNING CRAFTER: " + trader.getName());
+            LOGGER.warning("ObjectID: " + trader.getObjectId());
+            LOGGER.warning("Title: " + trader.getTitle() + " (Length: " + trader.getTitle().length() + ")");
+            LOGGER.warning("Race: " + trader.getRace());
+            LOGGER.warning("Class ID: 118"); // Now hardcoded to Maestro class ID
+            LOGGER.warning("Location: " + trader.getLocation().getX() + ", " + trader.getLocation().getY() + ", " + trader.getLocation().getZ());
+            LOGGER.warning("Selected recipes: " + trader.getSelectedRecipes().size());
+            LOGGER.warning("==============================");
+            
+            // Create a fake player using the proper constructors
+            // Always use Dwarf Maestro template (class ID 118) for crafters
+            PlayerTemplate playerTemplate = PlayerTemplateData.getInstance().getTemplate(118);
+            PlayerAppearance appearance = new PlayerAppearance((byte) 0, (byte) 0, (byte) 0, trader.isFemale());
+            
+            // Create the player instance
+            final Player fakePc;
+            try {
+                java.lang.reflect.Constructor<Player> constructor = Player.class.getDeclaredConstructor(int.class, PlayerTemplate.class, String.class, PlayerAppearance.class);
+                constructor.setAccessible(true);
+                fakePc = constructor.newInstance(trader.getObjectId(), playerTemplate, trader.getName(), appearance);
+            } catch (Exception e) {
+                LOGGER.warning("Failed to create player via reflection: " + e.getMessage());
+                return;
+            }
+            
+            // Set player properties
+            fakePc.setName(trader.getName());
+            fakePc.setTitle(""); // No title
+            fakePc.setAccessLevel(0);
+            fakePc.setClassId(118); // Always set to Maestro (118)
+            fakePc.setBaseClass(118); // Base class also Maestro
+            fakePc.setHeading(trader.getLocation().getHeading());
+            fakePc.setXYZ(trader.getLocation().getX(), trader.getLocation().getY(), trader.getLocation().getZ());
+            
+            // CRITICAL: First check on title length before database insertion
+            String safeTitle = trader.getTitle();
+            if (safeTitle.length() > 16) {
+                safeTitle = safeTitle.substring(0, 13) + "...";
+                LOGGER.warning("Title truncated for database insertion: " + safeTitle);
+            }
+            
+            // 1. CREATE CHARACTER FIRST - Create character entry in DB
+            try (Connection con = DatabaseFactory.getConnection();
+                PreparedStatement ps = con.prepareStatement("INSERT INTO characters (account_name, charId, char_name, level, maxHp, curHp, maxCp, curCp, maxMp, curMp, face, hairStyle, hairColor, sex, heading, x, y, z, exp, sp, race, classid, base_class, title, title_color, accesslevel, online, lastAccess, cancraft) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)")) {
+                String accountName = "fakeacc" + String.format("%07d", trader.getObjectId());
+                ps.setString(1, accountName); // account_name
+                ps.setInt(2, fakePc.getObjectId()); // charId
+                ps.setString(3, trader.getName()); // char_name
+                ps.setInt(4, 85); // level (set to 85 for crafters)
+                ps.setInt(5, 8000); // maxHp
+                ps.setInt(6, 8000); // curHp
+                ps.setInt(7, 4000); // maxCp
+                ps.setInt(8, 4000); // curCp
+                ps.setInt(9, 1800); // maxMp
+                ps.setInt(10, 1800); // curMp
+                ps.setInt(11, 0); // face
+                ps.setInt(12, 0); // hairStyle
+                ps.setInt(13, 0); // hairColor
+                ps.setInt(14, trader.isFemale() ? 1 : 0); // sex
+                ps.setInt(15, trader.getLocation().getHeading()); // heading
+                ps.setInt(16, trader.getLocation().getX()); // x
+                ps.setInt(17, trader.getLocation().getY()); // y
+                ps.setInt(18, trader.getLocation().getZ()); // z
+                ps.setLong(19, 10000000000L); // exp
+                ps.setLong(20, 1000000000); // sp
+                ps.setInt(21, Race.DWARF.ordinal()); // race - Always DWARF
+                ps.setInt(22, 118); // classid - Always Maestro (118)
+                ps.setInt(23, 118); // base_class - Always Maestro (118)
+                ps.setString(24, safeTitle); // title (using safe truncated version)
+                ps.setInt(25, 0xECF9A2); // title_color
+                ps.setInt(26, 0); // accesslevel
+                ps.setInt(27, 0); // online
+                ps.setLong(28, System.currentTimeMillis()); // lastAccess
+                ps.setInt(29, 1); // cancraft - set to 1 for crafters
+                
+                int characterResult = ps.executeUpdate();
+                LOGGER.warning("Characters table insert result: " + characterResult + " rows affected");
+                
+                // INSERT REQUIRED CRAFTING SKILL - CRITICAL FIX for skill level
+                // The key is to insert the skill with class_index=0 (active class) AND class_index=1 (saved class)
+                // This helps prevent the skill from being reset to level 1
+                try (PreparedStatement skillPs = con.prepareStatement("INSERT INTO character_skills (charId, skill_id, skill_level, class_index) VALUES (?, ?, ?, ?)")) {
+                    // Insert for active class (class_index = 0)
+                    skillPs.setInt(1, fakePc.getObjectId()); // charId
+                    skillPs.setInt(2, 172); // skill_id - Craft skill
+                    skillPs.setInt(3, 10); // skill_level - Max level
+                    skillPs.setInt(4, 0); // class_index - Active class
+                    
+                    int skillResult = skillPs.executeUpdate();
+                    LOGGER.warning("Added crafting skill (172 lvl 10) to crafter " + trader.getName() + " for active class: " + skillResult + " rows affected");
+                    
+                    // Insert again for saved class to prevent reset
+                    skillPs.setInt(1, fakePc.getObjectId()); // charId
+                    skillPs.setInt(2, 172); // skill_id - Craft skill
+                    skillPs.setInt(3, 10); // skill_level - Max level
+                    skillPs.setInt(4, 1); // class_index - Saved class
+                    
+                    int skillResult2 = skillPs.executeUpdate();
+                    LOGGER.warning("Added crafting skill (172 lvl 10) to crafter " + trader.getName() + " for saved class: " + skillResult2 + " rows affected");
+                } catch (SQLException e) {
+                    LOGGER.warning("Error adding crafting skill: " + e.getMessage());
+                }
+                
+            } catch (SQLException e) {
+                LOGGER.warning("Error creating character entry: " + e.getMessage());
+                e.printStackTrace();
+                return; // Don't proceed if character creation failed
+            }
+            
+            // Create account entry
+            try (Connection con = DatabaseFactory.getConnection();
+                PreparedStatement ps = con.prepareStatement("INSERT INTO accounts (login, password, email, created_time, lastactive, accessLevel, lastIP, lastServer, is_active) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)")) {
+                String accountName = "fakeacc" + String.format("%07d", trader.getObjectId());
+                ps.setString(1, accountName);
+                ps.setString(2, "7XDFfXVk6ZTn1fb9aWfOqLNH77w="); // Standard encrypted password
+                ps.setString(3, accountName + "@gmail.com");
+                ps.setString(4, new java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new java.util.Date()));
+                ps.setLong(5, System.currentTimeMillis());
+                ps.setInt(6, 0); // accessLevel
+                ps.setString(7, "127.0.0.1");
+                ps.setInt(8, 1); // lastServer
+                ps.setInt(9, 1); // is_active
+                
+                int accountResult = ps.executeUpdate();
+                LOGGER.warning("Account created for crafter " + trader.getName() + ": " + accountName + ", Result: " + accountResult);
+            } catch (SQLException e) {
+                LOGGER.warning("Error creating account entry: " + e.getMessage());
+                e.printStackTrace();
+            }
+            
+            // Add to world
+            World.getInstance().addObject(fakePc);
+            fakePc.spawnMe();
+            LOGGER.warning("Crafter " + trader.getName() + " added to world successfully");
+            
+            // MANUFACTURING SETUP - Now set up manufacturing in DB
+            try (Connection con = DatabaseFactory.getConnection()) {
+                // CRITICAL CHANGE: Insert recipes to character_recipebook
+                // Only insert recipes that are verified to exist in the game's RecipeData
+                int recipesAdded = 0;
+                for (RecipeData recipe : trader.getSelectedRecipes()) {
+                    // Double-check that recipe exists in game (essential for server restart persistence)
+                    org.l2jmobius.gameserver.model.RecipeList gameRecipe = 
+                        org.l2jmobius.gameserver.data.xml.RecipeData.getInstance().getRecipeList(recipe.getRecipeId());
+                    
+                    if (gameRecipe != null) {
+                        try (PreparedStatement ps = con.prepareStatement(
+                            "INSERT INTO character_recipebook (charId, id, classIndex, type) VALUES (?, ?, ?, ?)")) {
+                            
+                            // Insert for active class
+                            ps.setInt(1, fakePc.getObjectId()); // charId
+                            ps.setInt(2, recipe.getRecipeId()); // id
+                            ps.setInt(3, 0); // classIndex - Active class
+                            ps.setInt(4, recipe.getType().equals("dwarven") ? 1 : 0); // type (1 = dwarven, 0 = common)
+                            ps.executeUpdate();
+                            
+                            // Insert again for saved class to prevent reset
+                            ps.setInt(1, fakePc.getObjectId()); // charId
+                            ps.setInt(2, recipe.getRecipeId()); // id
+                            ps.setInt(3, 1); // classIndex - Saved class
+                            ps.setInt(4, recipe.getType().equals("dwarven") ? 1 : 0); // type (1 = dwarven, 0 = common)
+                            ps.executeUpdate();
+                            
+                            recipesAdded++;
+                            LOGGER.warning("Added verified recipe ID " + recipe.getRecipeId() + 
+                                          " to character_recipebook (both active and saved class)");
+                        } catch (SQLException e) {
+                            LOGGER.warning("Error inserting recipe " + recipe.getRecipeId() + ": " + e.getMessage());
+                        }
+                    } else {
+                        LOGGER.warning("Skipping recipe ID " + recipe.getRecipeId() + 
+                                     " - not found in game's RecipeData, would cause issues after restart");
+                    }
+                }
+                
+                if (recipesAdded == 0) {
+                    LOGGER.warning("No valid recipes added for crafter " + trader.getName() + " - aborting offline trade setup");
+                    return;
+                }
+                
+                LOGGER.warning("Added " + recipesAdded + " verified recipes to character_recipebook for crafter " + trader.getName());
+                
+                // Set up character_offline_trade for manufacturing
+                try (PreparedStatement ps = con.prepareStatement(
+                    "INSERT INTO character_offline_trade (charId, time, type, title) VALUES (?, ?, ?, ?)")) {
+                    ps.setInt(1, fakePc.getObjectId()); // charId
+                    ps.setLong(2, System.currentTimeMillis()); // time
+                    ps.setInt(3, 5); // type (5 for manufacture)
+                    ps.setString(4, trader.getTitle()); // title
+                    
+                    int tradeResult = ps.executeUpdate();
+                    LOGGER.warning("character_offline_trade insert result: " + tradeResult);
+                }
+                
+                // Insert recipes into character_offline_trade_items
+                int tradeItemsAdded = 0;
+                for (RecipeData recipe : trader.getSelectedRecipes()) {
+                    // Only add verified recipes to trade items
+                    if (org.l2jmobius.gameserver.data.xml.RecipeData.getInstance()
+                        .getRecipeList(recipe.getRecipeId()) != null) {
+                        
+                        try (PreparedStatement ps = con.prepareStatement(
+                            "INSERT INTO character_offline_trade_items (charId, item, count, price) VALUES (?, ?, ?, ?)")) {
+                            ps.setInt(1, fakePc.getObjectId()); // charId
+                            ps.setInt(2, recipe.getRecipeId()); // item (recipe ID)
+                            ps.setLong(3, 0); // count (always 0 for manufacturing)
+                            ps.setLong(4, recipe.getPrice()); // price
+                            
+                            int result = ps.executeUpdate();
+                            if (result > 0) {
+                                tradeItemsAdded++;
+                                LOGGER.warning("Added verified recipe ID " + recipe.getRecipeId() + 
+                                             " to trade items with price " + recipe.getPrice());
+                            }
+                        } catch (SQLException e) {
+                            LOGGER.warning("Error inserting recipe " + recipe.getRecipeId() + 
+                                         " to trade items: " + e.getMessage());
+                        }
+                    }
+                }
+                
+                LOGGER.warning("Added " + tradeItemsAdded + " verified recipes to trade items for crafter " + 
+                              trader.getName());
+                
+                if (tradeItemsAdded == 0) {
+                    LOGGER.warning("CRITICAL ERROR: No recipes were added to offline trade items even though " + 
+                                   recipesAdded + " recipes were added to recipe book.");
+                }
+            } catch (SQLException e) {
+                LOGGER.warning("Database error in crafter setup: " + e.getMessage());
+                e.printStackTrace();
+            }
+            
+            // Set private store type to MANUFACTURE (5)
+            fakePc.setPrivateStoreType(PrivateStoreType.MANUFACTURE);
+            fakePc.getSellList().setTitle(trader.getTitle());
+            
+            // Make sure they sit down
+            fakePc.sitDown();
+            LOGGER.warning("Crafter " + trader.getName() + " is now sitting");
+            
+            // Store reference to the fake player
+            trader.setFakePc(fakePc);
+            LOGGER.warning("Crafter " + trader.getName() + " successfully spawned");
+        } catch (Exception e) {
+            LOGGER.warning("Failed to spawn crafter: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+    
+    // Add this method to handle persistent skills for crafters - essential fix
+    public static void refreshSkillsForCrafters() {
+        try (Connection con = DatabaseFactory.getConnection();
+            PreparedStatement ps = con.prepareStatement(
+                "SELECT c.charId FROM characters c " +
+                "JOIN character_offline_trade t ON c.charId = t.charId " +
+                "WHERE t.type = 5 AND c.account_name LIKE 'fakeacc%'")) {
+                
+            try (ResultSet rs = ps.executeQuery()) {
+                while (rs.next()) {
+                    int charId = rs.getInt("charId");
+                    try (PreparedStatement updatePs = con.prepareStatement(
+                        "UPDATE character_skills SET skill_level = 10 " +
+                        "WHERE charId = ? AND skill_id = 172")) {
+                        updatePs.setInt(1, charId);
+                        int updated = updatePs.executeUpdate();
+                        LOGGER.warning("Refreshed craft skill to level 10 for crafter ID " + charId + 
+                                      ", updated " + updated + " rows");
+                    }
+                }
+            }
+        } catch (SQLException e) {
+            LOGGER.warning("Error refreshing crafter skills: " + e.getMessage());
+        }
+    }
+    
+    // A static initializer to register a hook to refresh crafter skills
+    static {
+        // Register a startup hook to fix crafter skills after server loads
+        ThreadPool.schedule(() -> {
+            LOGGER.warning("Running post-startup fix for crafter skills...");
+            refreshSkillsForCrafters();
+        }, 60000); // Run 1 minute after server start
     }
 
 }
