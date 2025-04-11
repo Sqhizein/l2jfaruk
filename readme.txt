@@ -41,3 +41,4 @@ What is done
 -Reworked World, WorldRegion and WorldObject
 -selam
 -tekrar deneme
+-selam bn sqhizein
